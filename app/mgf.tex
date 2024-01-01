@@ -1,0 +1,18 @@
+\begin{enumerate}[label=\thechapter.\arabic*,ref=\thechapter.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item 
+	The $Z$-transform of $p(n)$ is defined as
+\begin{align}
+P(z) = \sum_{n=-\infty}^{\infty}p(n)z^{-n}
+\label{eq:ztrans}
+\end{align}
+\item If 
+\begin{align}
+	p(n) &= p_1(n)* p_2(n),
+	\\
+	P(z)&=P_1(z)P_2(z)
+\end{align}
+The above property follows from Fourier analysis and is fundamental to signal processing. 
+\end{enumerate}
