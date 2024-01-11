@@ -15,4 +15,15 @@ P(z) = \sum_{n=-\infty}^{\infty}p(n)z^{-n}
 	P(z)&=P_1(z)P_2(z)
 \end{align}
 The above property follows from Fourier analysis and is fundamental to signal processing. 
+\item For a Geometric progression defined as follows
+\begin{align}
+	 x\brak{n} =x\brak{0}r^nu\brak{n}
+\end{align}  
+\begin{align}
+               X\brak{z} &= \sum_{n=-\infty}^{\infty}x\brak{n}z^{-n}\\
+               &=\sum_{n=0}^{\infty}x\brak{0}r^nz^{-n}\\
+                &=\sum_{n=0}^{\infty}x\brak{0}\brak{rz^{-1}}^n\\
+               &= \frac{x\brak{0}}{1-rz^{-1}} & \abs{rz^{-1}}<1\\ 
+               ROC &\implies \abs{z}>\abs{r} 
+\end{align}
 \end{enumerate}
