@@ -26,4 +26,20 @@ The above property follows from Fourier analysis and is fundamental to signal pr
                &= \frac{x\brak{0}}{1-rz^{-1}} & \abs{rz^{-1}}<1\\ 
                ROC &\implies \abs{z}>\abs{r} 
 \end{align}
+\item For a given Arithmetic progression defined as follows
+\begin{align}
+	x(n) &= \sbrak{x(0) + nd} u(n)\\
+	X(z) &= \sum_{n = -\infty}^{\infty} x(n) z^{-n}\\ 
+	&= \sum_{n = -\infty}^{\infty} \sbrak{x(0) + nd}u(n)z^{-n}\\
+	&= x(0) \sum_{n = -\infty}^{\infty} u(n)z^{-n} + d \sum_{n = -\infty}^{\infty} nu(n)z^{-n}
+\end{align}
+Let us consider
+\begin{align}
+	U(z) &= \sum_{n = -\infty}^{\infty} u(n) z^{-n} = \frac{1}{1-z^{-1}}
+	\qquad \qquad \text{For } \abs{z} > 1 \\
+	\frac{dU(z)}{dz} &= \frac{-1}{z} \sum_{n = -\infty}^{\infty} nu(n) z^{-n}\\
+	\implies z^{-1}\frac{1}{(1-z^{-1})^{2}} &= \sum_{n = -\infty}^{\infty} nu(n) z^{-n}\\
+	\implies X(z) &= \frac{x(0)}{1-z^{-1}} + \frac{dz^{-1}}{(1-z^{-1})^{2}} 
+	\qquad \qquad \text{For }\abs{z} > 1 
+\end{align}
 \end{enumerate}
