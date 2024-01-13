@@ -23,19 +23,42 @@ The above property follows from Fourier analysis and is fundamental to signal pr
                =\sum_{n=0}^{\infty}x\brak{0}r^nz^{-n}\\
                 &=\sum_{n=0}^{\infty}x\brak{0}\brak{rz^{-1}}^n\\
                &= \frac{x\brak{0}}{1-rz^{-1}}, \quad \abs{z}>\abs{r} 
+	       \label{eq:gpz}
 \end{align}
-\item For a Arithmetic progression
+\item Let 
 \begin{align}
-	x(n) &= \sbrak{x(0) + nd} u(n)\\
-	\implies X(z) &= \sum_{n = -\infty}^{\infty} x(n) z^{-n}\\ 
-	&= \sum_{n = -\infty}^{\infty} \sbrak{x(0) + nd}u(n)z^{-n}\\
-	&= x(0) \sum_{n = -\infty}^{\infty} u(n)z^{-n} + d \sum_{n = -\infty}^{\infty} nu(n)z^{-n}
+	u(n) = 
+	\begin{cases}
+		1 & n \ge 0
+		\\
+		0 & \text{otherwise}
+	\end{cases}
 \end{align}
-Let us consider
+	       Substituting $r = 1$ in \eqref{eq:gpz},
 \begin{align}
-	U(z) &= \sum_{n = -\infty}^{\infty} u(n) z^{-n} = \frac{1}{1-z^{-1}}, \quad \abs{z} > 1 \\
-	\frac{dU(z)}{dz} &= \frac{-1}{z} \sum_{n = -\infty}^{\infty} nu(n) z^{-n}\\
-	\implies z^{-1}\frac{1}{(1-z^{-1})^{2}} &= \sum_{n = -\infty}^{\infty} nu(n) z^{-n}\\
+	u(n) \system{Z}	U(z) = 
+                \frac{1}{1-z^{-1}}, \quad \abs{z}>1
+	       \label{eq:uz}
+\end{align}
+\item From 
+\eqref{eq:ztrans}
+	       and 
+	       \eqref{eq:uz},
+\begin{align}
+	U(z) &= \sum_{n = -\infty}^{\infty} u(n) z^{-n} 
+	\\
+\implies	\frac{dU(z)}{dz} &= -{z}^{-1} \sum_{n = -\infty}^{\infty} nu(n) z^{-n}\\
+\therefore	nu(n) &\system{Z}\frac{z^{-1}}{(1-z^{-1})^{2}}, \quad \abs{z} > 1 
+	       \label{eq:uzder}
+\end{align}
+\item For an AP, 
+\begin{align}
+	x(n) &= \sbrak{x(0) + nd} u(n) = x(0)u(n) + dnu(n)  \\
 	\implies X(z) &= \frac{x(0)}{1-z^{-1}} + \frac{dz^{-1}}{(1-z^{-1})^{2}}, \quad \abs{z} > 1 
+	       \label{eq:apz}
 \end{align}
+upon substituting from 
+	       \eqref{eq:uz}
+	       and
+	       \eqref{eq:uzder}.
 \end{enumerate}

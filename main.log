@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.12.8)  13 JAN 2024 05:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.12.8)  13 JAN 2024 07:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1502,26 +1502,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7])
+ [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10
+
+]
 No file main.ind.
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8CF4821AB204343645B6F7B34B73D311;583.
  ) 
 Here is how much of TeX's memory you used:
- 53240 strings out of 476091
- 1314829 string characters out of 5794081
- 2090061 words of memory out of 5000000
- 72794 multiletter control sequences out of 15000+600000
+ 53256 strings out of 476091
+ 1314977 string characters out of 5794081
+ 2090233 words of memory out of 5000000
+ 72798 multiletter control sequences out of 15000+600000
  523865 words of font info for 76 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,12n,108p,717b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,16n,108p,717b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1534,12 +1551,13 @@ mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on main.pdf (14 pages, 248446 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on main.pdf (16 pages, 261105 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
