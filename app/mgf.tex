@@ -61,4 +61,42 @@ upon substituting from
 	       \eqref{eq:uz}
 	       and
 	       \eqref{eq:uzder}.
+\item General form of GP
+\begin{align}
+	x\brak{n}&=x\brak{0}r^n u\brak{n} \label{eq:appendixGPGeneralform}
+\end{align}
+Let 
+\begin{align}
+	y\brak{n} &=x\brak{n} * u\brak{n} \label{eq:convolutionSum}\\
+	&=\sum _{k=-\infty}^{\infty} x\brak{k} u\brak{n-k}
+\end{align}
+on substituting \eqref{eq:appendixGPGeneralform} in The convolution sum 
+\begin{align}
+	y\brak{n} &= \sum_{k=-\infty}^{\infty} x\brak{0}r^n u\brak{n} u\brak{n-k}\\
+	&= \sum _{k=0}^{n} x\brak{0} r^n
+\end{align}
+Which gives us sum of GP, So On Taking Z-Transform on \eqref{eq:convolutionSum}
+\begin{align}
+	Y\brak{z}&= X\brak{z} U\brak{z}
+\end{align}
+From Z-Transform of a term in GP 
+\begin{align}
+	X\brak{z}&=	\frac{x\brak{0}}{1-rz^{-1}}  \label{eq:GPTransform} \quad \abs{z} > \abs{r}
+\end{align}
+and Z-Transform of unit step is 
+\begin{align}
+	U\brak{z} &=\frac{1}{1-z^{-1}}  \quad \abs{z^{-1}}<1\\
+	\implies Y\brak{z}&=\brak{\frac{x\brak{0}}{1-rz^{-1}}}\brak{\frac{1}{1-z^{-1}}} \quad \abs{z} > \abs{r} \quad \text{and}  \quad \abs{z}>\abs{1}
+\end{align}
+By using Partial Fractions
+\begin{align}
+	Y\brak{z}&=x\brak{0}\brak{\frac{A}{1-rz^{-1}} + \frac{B}{1-z^{-1}}}\\
+	A&=\frac{r}{r-1}\\
+	B&= \frac{-1}{r-1}
+\end{align}
+Using \eqref{eq:GPTransform} and Taking inverse Z-transform 
+\begin{align}
+	y\brak{n}&=\frac{x\brak{0}}{r-1}\brak{r\brak{r^n}-1}u\brak{n}\\
+	&=x\brak{0}\brak{\frac{r^{n+1}-1}{r-1}}u\brak{n}
+\end{align}
 \end{enumerate}
