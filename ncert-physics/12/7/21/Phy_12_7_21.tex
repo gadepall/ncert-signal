@@ -1,4 +1,4 @@
-% \iffalse
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -59,18 +59,19 @@
 Obtain the resonant frequency and Q-factor of a series LCR circuit with $L = 3.0\, H$, $C = 27\, \mu F$, and $R = 7.4\, \Omega$. It is desired to improve the sharpness of the resonance of the circuit by reducing its `full width at half maximum' by a factor of 2. Suggest a suitable way.\\
 
 \solution
+\fi
 Given parameters are:
 \begin{table}[!h]
     \centering
     \resizebox{\columnwidth}{!}{
-    \input{tables/table1}}
+    \input{ncert-physics/12/7/21/table1.tex}}
     \vspace{6 pt}
     \caption{Given Parameters}
     \label{tab:1}
 \end{table}
 \begin{figure}[!h]
  \centering
-    \input{figs/fig1}
+    \input{ncert-physics/12/7/21/fig1.tex}
     \caption{LCR Circuit}
     \label{fig:enter-label}
 \end{figure}
@@ -89,7 +90,7 @@ Using reactances from \figref{fig:2},
 \end{align}
 \begin{figure}[!h]
  \centering
-    \input{figs/fig2}
+    \input{ncert-physics/12/7/21/fig2.tex}
     \caption{LCR Circuit}
     \label{fig:2}
 \end{figure}
@@ -136,9 +137,8 @@ Using \eqref{eq: 4},
 \end{align}
 \begin{figure}[!h]
     \centering
-    \includegraphics[width = \columnwidth]{figs/h_plot.png}
+    \includegraphics[width = \columnwidth]{ncert-physics/12/7/21/h_plot.png}
     \caption{Impedance vs $\omega$ (using values in \tabref{tab:1})}
     \label{fig:h_plot}
 \end{figure}
 \end{enumerate}
-\end{document}
