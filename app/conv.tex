@@ -1,0 +1,31 @@
+\begin{enumerate}[label=\thechapter.\arabic*,ref=\thechapter.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item The convolution sum is defined as
+\begin{align}
+	y(n) &= x(n)* h(n) = \sum_{k=-\infty}^{\infty}x\brak{k}h\brak{n-k}
+	\label{eq:conv}
+\end{align}
+\item The unit step function is defined as
+\begin{align}
+	u(n) = 
+	\begin{cases}
+		1 & n \ge 0
+		\\
+		0 & \text{otherwise}
+	\end{cases}
+	\label{eq:unit-step}
+\end{align}
+\item If 
+\begin{align}
+	x(n) = 0, \quad n < 0, 
+\end{align}
+from 
+	\eqref{eq:conv},
+\begin{align}
+	x(n)*u(n)  = \sum_{k=0}^{n}x\brak{k}
+	\label{eq:conv-sum}
+\end{align}
+\end{enumerate}
