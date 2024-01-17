@@ -38,7 +38,7 @@ plt.legend()
 
 # Adjust layout and save the plot as an image (e.g., PNG)
 plt.tight_layout()
-plt.savefig('ncert-physics/12/7/2/figs.png')
+plt.savefig('ncert-physics/12/7/2/figs/merged_sine_wave_plots.png')
 
 # Show the plots (optional)
 plt.show()
