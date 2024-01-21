@@ -2,8 +2,8 @@
 \contentsline {schapter}{Introduction}{iii}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Analog}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Harmonics}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Filters}{5}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Discrete}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1} Z-transform}{17}{section.2.1}%
-\contentsline {chapter}{\numberline {A} Convolution}{23}{appendix.A}%
-\contentsline {chapter}{\numberline {B} Z-transform}{25}{appendix.B}%
+\contentsline {section}{\numberline {1.2}Filters}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Discrete}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1} Z-transform}{19}{section.2.1}%
+\contentsline {chapter}{\numberline {A} Convolution}{25}{appendix.A}%
+\contentsline {chapter}{\numberline {B} Z-transform}{27}{appendix.B}%
