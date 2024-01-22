@@ -15,6 +15,16 @@ P(z) = \sum_{n=-\infty}^{\infty}p(n)z^{-n}
 	P(z)&=P_1(z)P_2(z)
 \label{eq:prodz}
 \end{align}
+\item 
+\begin{align}
+	nx(n) \system{Z} -zX^{\prime}(z)
+\label{eq:xzder}
+\end{align}
+\item 
+\begin{align}
+	x(n-k) &\system{Z} z^{-k}X(z)
+\label{eq:shiftk}
+\end{align}
 \item For a Geometric progression 
 \begin{align}
 	       \label{eq:gpn}
@@ -33,14 +43,11 @@ P(z) = \sum_{n=-\infty}^{\infty}p(n)z^{-n}
 	       \label{eq:uz}
 \end{align}
 \item From 
-\eqref{eq:ztrans}
+\eqref{eq:xzder}
 	       and 
 	       \eqref{eq:uz},
 \begin{align}
-	U(z) &= \sum_{n = -\infty}^{\infty} u(n) z^{-n} 
-	\\
-\implies	\frac{dU(z)}{dz} &= -{z}^{-1} \sum_{n = -\infty}^{\infty} nu(n) z^{-n}\\
-\therefore	nu(n) &\system{Z}\frac{z^{-1}}{(1-z^{-1})^{2}}, \quad \abs{z} > 1 
+nu(n) &\system{Z}\frac{z^{-1}}{(1-z^{-1})^{2}}, \quad \abs{z} > 1 
 	       \label{eq:uzder}
 \end{align}
 \item For an AP, 
@@ -83,7 +90,7 @@ y(n) &= \sum_{k=0}^{n} x(k)\\
 \implies y(n) &= \sum_{k=-\infty}^{\infty} x(k) u(n-k)\\
 &= x(n) * u(n)
 \end{align}
-Taking the Z-transform on both sides, and substituting \eqref{eq:apz} and \eqref{eq:uz} (making use of the convolution property of Z-transform),
+Taking the Z-transform on both sides, and substituting \eqref{eq:apz} and \eqref{eq:uz},
 \begin{align}
 Y(z) &= X(z) U(z)\\
 \implies Y(z) &= \brak{\frac{x(0)}{1-z^{-1}} + \frac{dz^{-1}}{(1-z^{-1})^{2}}}\frac{1}{1-z^{-1}} \quad \abs{z} > 1 \\
