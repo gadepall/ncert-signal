@@ -77,4 +77,35 @@ using partial fractions.  Again, from \eqref{eq:gpz} and \eqref{eq:uz}, the inve
 	y\brak{n}
 	&=x\brak{0}\brak{\frac{r^{n+1}-1}{r-1}}u\brak{n}
 \end{align}
+\item For the AP $x(n)$, the sum of first $n+1$ terms can be expressed as
+\begin{align}
+y(n) &= \sum_{k=0}^{n} x(k)\\
+\implies y(n) &= \sum_{k=-\infty}^{\infty} x(k) u(n-k)\\
+&= x(n) * u(n)
+\end{align}
+Taking the Z-transform on both sides, and substituting \eqref{eq:apz} and \eqref{eq:uz} (making use of the convolution property of Z-transform),
+\begin{align}
+Y(z) &= X(z) U(z)\\
+\implies Y(z) &= \brak{\frac{x(0)}{1-z^{-1}} + \frac{dz^{-1}}{(1-z^{-1})^{2}}}\frac{1}{1-z^{-1}} \quad \abs{z} > 1 \\
+&= \frac{x(0)}{({1-z^{-1}})^2} + \frac{dz^{-1}}{(1-z^{-1})^{3}}, \quad \abs{z} > 1 \label{eq:APSum}
+\end{align}
+But
+\begin{align}
+\frac{1}{({1-z^{-1}})^2} &= z\frac{z^{-1}}{({1-z^{-1}})^2}\\
+\text{and w.k.t. } x(n+1) &\system{Z} zX(z), \quad \abs{z} > 1 
+\end{align}
+Using the above property and \eqref{eq:uzder}, 
+\begin{align}
+(n+1) u(n) &\system{Z} \frac{1}{({1-z^{-1}})^2}, \quad \abs{z} > 1
+\end{align}
+Also, w.k.t
+\begin{align}
+nx(n) &\system{Z} -z\frac{d}{dz}X(z)\\
+\therefore \frac{z^{-1}}{(1-z^{-1})^{3}} = -\frac{z}{2}\frac{d}{dz}\sbrak{\frac{1}{(1-z^{-1})^{2}}} &\system{Z} \frac{1}{2}n\sbrak{(n+1)u(n)}
+\end{align}
+Therefore, taking inverse Z-transform of \eqref{eq:APSum}
+\begin{align}
+y(n) &= x(0)\sbrak{(n + 1)u(n)} + \frac{d}{2}\sbrak{n(n + 1)u(n)}\\
+&= \frac{n+1}{2}\brak{2x(0) + nd}u(n)
+\end{align}
 \end{enumerate}
