@@ -96,23 +96,22 @@ Y(z) &= X(z) U(z)\\
 \implies Y(z) &= \brak{\frac{x(0)}{1-z^{-1}} + \frac{dz^{-1}}{(1-z^{-1})^{2}}}\frac{1}{1-z^{-1}} \quad \abs{z} > 1 \\
 &= \frac{x(0)}{({1-z^{-1}})^2} + \frac{dz^{-1}}{(1-z^{-1})^{3}}, \quad \abs{z} > 1 \label{eq:APSum}
 \end{align}
-But
-\begin{align}
-\frac{1}{({1-z^{-1}})^2} &= z\frac{z^{-1}}{({1-z^{-1}})^2}\\
-\text{and w.k.t. } x(n+1) &\system{Z} zX(z), \quad \abs{z} > 1 
-\end{align}
-Using the above property and \eqref{eq:uzder}, 
+\item From 
+\eqref{eq:shiftk} and
+	       \eqref{eq:uzder},
 \begin{align}
 (n+1) u(n) &\system{Z} \frac{1}{({1-z^{-1}})^2}, \quad \abs{z} > 1
+	       \label{eq:uzder-shift},
 \end{align}
-Also, w.k.t
+From  \eqref{eq:uzder-shift} and \eqref{eq:xzder},
 \begin{align}
-nx(n) &\system{Z} -z\frac{d}{dz}X(z)\\
-\therefore \frac{z^{-1}}{(1-z^{-1})^{3}} = -\frac{z}{2}\frac{d}{dz}\sbrak{\frac{1}{(1-z^{-1})^{2}}} &\system{Z} \frac{1}{2}n\sbrak{(n+1)u(n)}
+n(n+1) u(n) &\system{Z} \frac{z^{-1}}{({1-z^{-1}})^3}, \quad \abs{z} > 1
+	       \label{eq:uzder-der},
 \end{align}
-Therefore, taking inverse Z-transform of \eqref{eq:APSum}
+	       
+\item Taking the inverse Z-transform of \eqref{eq:APSum},
 \begin{align}
 y(n) &= x(0)\sbrak{(n + 1)u(n)} + \frac{d}{2}\sbrak{n(n + 1)u(n)}\\
-&= \frac{n+1}{2}\brak{2x(0) + nd}u(n)
+&= \frac{n+1}{2}\cbrak{2x(0) + nd}u(n)
 \end{align}
 \end{enumerate}
