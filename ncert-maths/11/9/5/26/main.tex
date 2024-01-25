@@ -1,0 +1,148 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,enumitem,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref} 
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                              
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                        
+\usepackage{lscape}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{NCERT 11.9.5 26Q}
+\author{EE23BTECH11015 - DHANUSH V NAYAK$^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\theenumi}
+\bibliographystyle{IEEEtran}
+\textbf{\underline{RESULTS AND DERIVATIONS}}
+
+\newpage
+\textbf{Question:} Show that
+\begin{equation}
+    \frac{1\times2^2 + 2\times3^2 + \dots + n\times\brak{n+1}^2}{1^2\times2 + 2^2\times3 +\dots + n^2\times\brak{n+1}}  = \frac{3n+5}{3n+1}\notag
+\end{equation}
+\textbf{Solution:}
+\fi 
+\input{ncert-maths/11/9/5/26/tables/ncert11.9.5.26tab.tex}
+\begin{enumerate}[label=\arabic*.]
+\item \underline {Analysis of Numerator:}\\
+\begin{align}
+ X_1\brak{z} &= \sum_{n=-\infty}^\infty x_1\brak{n}  z^{-n}\\
+             &= \sum_{n=-\infty}^\infty \brak{n^{3} + 5n^{2} + 8n + 4} u\brak{n} z^{-n}
+\end{align}
+Using results of equations \eqref{eq:11.9.5.26.2} to \eqref{eq:11.9.5.26.5} we get:
+\begin{align}
+ \therefore   X_1\brak{z}&= \frac{4+2z^{-1}}{\brak{1-z^{-1}}^4} ,   \abs{z} >1 
+\end{align}
+From \eqref{eq:conv-sum}
+\begin{align}
+y_1\brak{n} &= x_1\brak{n}\ast u\brak{n}\\
+    Y_1\brak{z} &= X_1\brak{z} U\brak{z} \\
+ &= \frac{4+2z^{-1}}{\brak{1-z^{-1}}^5} , \abs{z}> 1 
+\end{align}
+Using partial fractions:
+\begin{align}
+    Y_1(z) &= \frac{22z^{-1}}{\brak{1-z^{-1}}} + \frac{48z^{-2}}{\brak{1-z^{-1}}^2} + \frac{52z^{-3}}{\brak{1-z^{-3}}^3} , \label{eq:11.9.5.26.6}\\
+    &+ \frac{28z^{-4}}{\brak{1-z^{-1}}^4}+\frac{6z^{-5}}{\brak{1-z^{-1}}^5}+4 , \abs{z}>1 \notag 
+\end{align}
+Substituting results of equation \eqref{eq:11.9.5.26.9} to \eqref{eq:11.9.5.26.12} in equation \eqref{eq:11.9.5.26.6}:
+\begin{align}
+    y_1\brak{n} &= \frac{3n^4 + 26n^3 + 81n^2 + 106n + 48}{12}u\brak{n}\\
+    &= \frac{\brak{3n+8}\brak{n+1}\brak{n+2}\brak{n+3}}{12}u\brak{n}
+\end{align}
+\item \underline{Analysis of Denominator:}
+\begin{align}
+    X_2\brak{z} &= \sum_{n=-\infty}^\infty x_2\brak{n} z^{-n}\\
+                &= \sum_{n=-\infty}^\infty \brak{n^{3}+4n^{2}+5n+2} u\brak{n} z^{-n}
+\end{align}
+\text{Using results of equation \eqref{eq:11.9.5.26.2} to \eqref{eq:11.9.5.26.5} we get:}
+\begin{align}
+   \therefore  X_2\brak{z} &= \frac{2+4z^{-1}}{\brak{1-z^{-1}}^4},   \abs{z} >1   
+\end{align}
+From \eqref{eq:conv-sum}
+\begin{align}
+    y_2\brak{n} &= x_2\brak{n}\ast u\brak{n}\\
+    Y_2\brak{z} &= X_2\brak{z} U\brak{z} \\
+ &=\frac{2+4z^{-1}}{\brak{1-z^{-1}}^5} ,   \abs{z} >1 
+\end{align}
+Using partial fractions:
+\begin{align}
+    Y_2\brak{z} &= \frac{14z^{-1}}{\brak{1-z^{-1}}} + \frac{36z^{-2}}{\brak{1-z^{-1}}^2} + \frac{44z^{-3}}{\brak{1-z^{-3}}^3} \label{eq:11.9.5.26.13}\\
+    &+ \frac{26z^{-4}}{\brak{1-z^{-1}}^4}+\frac{6z^{-5}}{\brak{1-z^{-1}}^5}+2 , \abs{z}>1\notag 
+\end{align}
+Substituting results of equation \eqref{eq:11.9.5.26.9} to \eqref{eq:11.9.5.26.12} in equation \eqref{eq:11.9.5.26.13}:
+\begin{align}
+    y_2\brak{n} &=  \frac{3n^4 + 22n^3 + 57n^2 + 62n + 24}{12}u\brak{n}\\
+                &= \frac{\brak{3n+4}\brak{n+1}\brak{n+2}\brak{n+3}}{12}u\brak{n}
+\end{align}
+As the sequence start from $n=0$ , in RHS of question $n$ should be replaced by $n+1$:
+\begin{align}
+    \frac{y_1\brak{n}}{y_2\brak{n}} = \frac{3n+8}{3n+4}
+\end{align}
+Hence Prooved.
+\end{enumerate}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\columnwidth]{ncert-maths/11/9/5/26/figs/x1_plot.png}
+    \caption{Stem Plot of $x_1\brak{n}$}
+    \label{fig:x1}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\columnwidth]{ncert-maths/11/9/5/26/figs/x2_plot.png}
+    \caption{Stem Plot of $x_2\brak{n}$}
+    \label{fig:x2}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\columnwidth]{ncert-maths/11/9/5/26/figs/y1_plot.png}
+    \caption{Stem Plot of $y_1\brak{n}$}
+    \label{fig:y1}
+\end{figure}
+\begin{figure}[h]
+    \includegraphics[width=1\columnwidth]{ncert-maths/11/9/5/26/figs/y2_plot.png}
+    \caption{Stem Plot of $y_2\brak{n}$}
+    \label{fig:y2}
+\end{figure}
+%\end{document}
