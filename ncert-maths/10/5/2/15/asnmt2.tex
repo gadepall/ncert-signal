@@ -46,52 +46,54 @@
 \bibliographystyle{IEEEtran}
 \vspace{3cm}
 
-\title{NCERT Discrete - 10.5.2.2}
-\author{EE23BTECH11058 - Sindam Ananya$^{*}$% <-this % stops a space
+\title{NCERT Discrete 10.5.2 -15}
+\author{EE23BTECH11057 - Shakunaveti Sai Sri Ram Varun$^{}$% &lt;-this % stops a space
 }
 \maketitle
 \newpage
 \bigskip
 
-\renewcommand{\thefigure}{\theenumi}
-\renewcommand{\thetable}{\theenumi}
-
-\vspace{3cm}
-\textbf{Question 10.5.2.2:} 
-\begin{enumerate}
-\item 30th term of the AP: 10, 7, 4, $\ldots$ is 
-\item 11th term of the AP: $-3, -\frac{1}{2}, 2, \ldots$ is
-\end{enumerate}
-\solution
+\vspace{2cm}
+\textbf{Question: }
+For what value of $ n$, are the $ nth$ terms of two A.Ps: 63, 65, 67,\dots and 3, 10, 17,\dots equal?\\
+\vspace{0.5cm}
+\textbf{Solution}:
 \fi
-\begin{table}[h!]
-    \centering
-    \input{ncert-maths/10/5/2/2/tables/table1.tex}
-    \caption{Input Parameters}
-    \label{tab:table10.5.2.2}
-    \end{table}
-\begin{equation}
-    x_i(n) = \sbrak{x_i(0) + nd_i} u(n)
-    \label{eq:eq1.10.5.2.2}
-\end{equation}
+\begin{table}[htbp] 
+\centering
+\input{ncert-maths/10/5/2/15/tables/table1.tex}
+\caption{input values}
+\label{tab: tab10.5.2.15}
+\end{table}
+\begin{align}
+x_i\brak{n} &= x\brak{0}u\brak{n} + dnu\brak{n}\\
+X\brak{z} &= \frac{x\brak{0}}{1-z^{-1}} + \frac{dz^{-1}}{\brak{1-z^{-1}}^{2}} \quad |z|>1
+\end{align}
 \begin{enumerate}
-\item From \eqref{eq:eq1.10.5.2.2} \tabref{tab:table10.5.2.2} :
+\item
 \begin{align}
-x_1(n) &= \sbrak{10 -3n}u(n)\\
-x_1(29) &= -77\\
-X_1(z) &= \frac{10 - 13z^{-1}}{(1-z^{-1})^2} \quad \abs{z} > 1
+x_1\brak{n} &= 63u\brak{n} + 2nu\brak{n}\\
+%To find $ X_1\brak{z}$:
+X_1\brak{z} &= \frac{63}{1-z^{-1}} + \frac{2z^{-1}}{\brak{1-z^{-1}}^{2}}  \quad |z|>1
 \end{align}
-\item From \eqref{eq:eq1.10.5.2.2} and \tabref{tab:table10.5.2.2} :
+\item
 \begin{align}
-x_2(n) &= \sbrak{-3 + \frac{5}{2}n}u(n)\\
-x_2(10) &= 22\\
-X_2(z) &= \frac{0.5z^{-1}-3}{(1-z^{-1})^2} \quad \abs{z}> 1
+x_2\brak{n} &= 3u\brak{n} + 7nu\brak{n}\\ 
+%To find $ X_2\brak{z}$ :\\
+X_2\brak{z} &= \frac{3}{1-z^{-1}} + \frac{7z^{-1}}{\brak{1-z^{-1}}^{2}} \quad |z|>1
 \end{align}
-\end{enumerate}
+\item
+
+given,
+\begin{align}
+ x_1\brak{n} &= x_2\brak{n}\\
+\therefore 63 + 2n &= 7n+3\\
+\implies n &=12
+\end{align}
 \begin{figure}[h!]
-    \centering
-    \includegraphics[width=\columnwidth]{ncert-maths/10/5/2/2/figs/plot.png}
-    \caption{stem plots of $x_1(n)$ and $x_2(n)$}
-    \label{fig:10.5.2.2}
+    \includegraphics[width = \columnwidth]{ncert-maths/10/5/2/15/figs/Figure_1.png}
+    \caption{Graphs of $ x_1\brak{n}$ and $ x_2\brak{n}$ and both are equal at $ n=12$}
+    \label{fig: fig10.5.2.15}
 \end{figure}
+\end{enumerate}
 %\end{document}
