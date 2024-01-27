@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.2)  26 JAN 2024 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.2)  27 JAN 2024 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1260,20 +1260,16 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) (./table1.tex)
+)
+(./tables/table1.tex)
 Overfull \hbox (26.72816pt too wide) in paragraph at lines 1--65
  [][] 
  []
 
-
-Overfull \hbox (2.3287pt too wide) detected at line 72
-[]
- []
-
-<Figure_1.png, id=7, 461.8053pt x 346.1733pt>
-File: Figure_1.png Graphic file (type png)
-<use Figure_1.png>
-Package pdftex.def Info: Figure_1.png  used on input line 95.
+<figs/Figure_1.png, id=7, 461.8053pt x 346.1733pt>
+File: figs/Figure_1.png Graphic file (type png)
+<use figs/Figure_1.png>
+Package pdftex.def Info: figs/Figure_1.png  used on input line 94.
 (pdftex.def)             Requested size: 252.0pt x 188.90103pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1281,19 +1277,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./Figure_1.png>]
+ <./figs/Figure_1.png>]
 (./asnmt2.aux)
 Package rerunfilecheck Info: File `asnmt2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29582 strings out of 478287
- 582724 string characters out of 5849290
- 848899 words of memory out of 5000000
+ 29584 strings out of 478287
+ 582819 string characters out of 5849290
+ 847899 words of memory out of 5000000
  47119 multiletter control sequences out of 15000+600000
  550156 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,96p,410b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,12n,96p,410b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1303,7 +1299,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on asnmt2.pdf (1 page, 68967 bytes).
+Output written on asnmt2.pdf (1 page, 67690 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
