@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -59,6 +60,7 @@
 \textbf{Question : 11.9.3.12} 
 The sum of the first three terms of a G.P is $39/10$ and their product is $1$. Find the common ratio and the terms.\\
 \solution
+\fi
 \begin{table}[h!]
     \centering
     \input{tables/table2.tex}
@@ -67,9 +69,9 @@ The sum of the first three terms of a G.P is $39/10$ and their product is $1$. F
 \end{table}
 \begin{equation}
 y(n) = x(0)\brak{\frac{r^{n+1}-1}{r-1}}u(n)
-\label{eq:eq1}
+\label{eq:11.9.3.12/eq1}
 \end{equation}
-From \tabref{tab:table1} and \eqref{eq:eq1} :
+From \tabref{tab:table1} and \eqref{eq:11.9.3.12/eq1} :
 \begin{align}
 y(2) &= x(0)\brak{\frac{r^3-1}{r-1}}\\
 \frac{39}{10} &= x(0)\brak{r^2+r+1}\\
@@ -93,5 +95,4 @@ y(2) &= x(0)\brak{\frac{r^3-1}{r-1}}\\
     \caption{stem plots of GP if $r=\frac{5}{2}$}
     \label{fig:1}
 \end{figure}
-\end{document}
 
