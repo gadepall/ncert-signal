@@ -1,0 +1,1346 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.29)  30 JAN 2024 14:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**math.10.5.3.10.tex
+(./math.10.5.3.10.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \begin{table}
+                  [!h]
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.71 \begin{table}
+                  [!h]
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \begin{table}[
+                   !h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+! LaTeX Error: File `ncert-maths/10/5/3/10/tables/table1.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74     \caption
+                 {Given parameters}
+? 
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76     \end{table}
+                    
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 71--77
+[]
+ []
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.78     \item From equation \eqref
+                                   {eq:APSum}
+? 
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79     \begin{align}
+                      
+? 
+Missing character: There is no X in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Misplaced alignment tab character &.
+l.80         X(z) &
+                   = \frac{3}{1-z^{-1}} + \frac{4.z^{-1}}{(1-z^{-1})^2} ; |z...
+
+? 
+Missing character: There is no = in font nullfont!
+Missing character: There is no 3 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.80         X(z) &= \frac{3}{1-z^{-1}}
+                                        + \frac{4.z^{-1}}{(1-z^{-1})^2} ; |z...
+
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 80.
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.80         X(z) &= \frac{3}{1-z^{-1}}
+                                        + \frac{4.z^{-1}}{(1-z^{-1})^2} ; |z...
+
+? 
+! Undefined control sequence.
+<recently read> \because 
+                         
+l.81         \because
+                      y(n) &= x(n) * u(n)\\
+? 
+! Misplaced alignment tab character &.
+l.81         \because y(n) &
+                            = x(n) * u(n)\\
+? 
+! Misplaced alignment tab character &.
+l.82         Y(z) &
+                   = X(z)U(z)\\
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.83         &
+              = \sbrak{\frac{3}{\brak{1-z^{-1}}^2} + \frac{4 z^{-1}}{\brak{1...
+
+? 
+! Undefined control sequence.
+l.83         &= \sbrak
+                      {\frac{3}{\brak{1-z^{-1}}^2} + \frac{4 z^{-1}}{\brak{1...
+
+? 
+! Undefined control sequence.
+<argument> \brak 
+                 {1-z^{-1}}^2
+l.83         &= \sbrak{\frac{3}{\brak{1-z^{-1}}^2}
+                                                   + \frac{4 z^{-1}}{\brak{1...
+
+? 
+! Undefined control sequence.
+<argument> \brak 
+                 {1-z^{-1}}^3
+l.83 ...}}^2} + \frac{4 z^{-1}}{\brak{1-z^{-1}}^3}
+                                                  }
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84     \end{align}
+                    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.84     \end{align}
+                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.84     \end{align}
+                    
+? 
+Missing character: There is no U in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86     \begin{align}
+                      
+? 
+Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Misplaced alignment tab character &.
+l.87         y(14) &
+                    = \frac{1}{2\pi j}\int Y(z) z^{13} dz \\
+? 
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.87         y(14) &= \frac{1}{2\pi j}
+                                      \int Y(z) z^{13} dz \\
+? 
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.87         y(14) &= \frac{1}{2\pi j}
+                                      \int Y(z) z^{13} dz \\
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.88          &
+               = \frac{1}{2\pi j}\int \frac{3.z^{15}}{(z-1)^{2}} dz + \frac{...
+
+? 
+! Undefined control sequence.
+<recently read> \because 
+                         
+l.89         \because
+                      R&=\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^{...
+
+? 
+! Misplaced alignment tab character &.
+l.89         \because R&
+                        =\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^{...
+
+? 
+! Undefined control sequence.
+<argument> \brak 
+                 {m-1}!
+l.89         \because R&=\frac{1}{\brak {m-1}!}
+                                               \lim\limits_{z\to a}\frac{d^{...
+
+? 
+! Undefined control sequence.
+l.89 ...mits_{z\to a}\frac{d^{m-1}}{dz^{m-1}}\brak
+                                                   {{(z-a)}^{m}f\brak z}\\
+? 
+! Undefined control sequence.
+l.89 ...d^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak
+                                                   z}\\
+? 
+! Misplaced alignment tab character &.
+l.90         R_1 &
+                  =\frac{1}{1!}\lim\limits_{z\to 1}\frac{d}{dz}\brak {(z-1)^...
+
+? 
+! Undefined control sequence.
+l.90 ...}{1!}\lim\limits_{z\to 1}\frac{d}{dz}\brak
+                                                   {(z-1)^2.\frac{3.z^{15}}{...
+
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.91         &
+              = 45\\
+? 
+! Misplaced alignment tab character &.
+l.92         R_2 &
+                  =\frac{1}{2!}\lim\limits_{z\to 1}\frac{d^2}{dz^2}\brak {(z...
+
+? 
+! Undefined control sequence.
+l.92 ...}\lim\limits_{z\to 1}\frac{d^2}{dz^2}\brak
+                                                   {(z-1)^3.\frac{4.z^{15}}{...
+
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.93         &
+              = 420\\
+? 
+! Undefined control sequence.
+<recently read> \implies 
+                         
+l.94         \implies
+                      y(14) &= R_1 + R_2 \\
+? 
+! Misplaced alignment tab character &.
+l.94         \implies y(14) &
+                             = R_1 + R_2 \\
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.95         &
+              = 465
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96     \end{align}
+                    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.96     \end{align}
+                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.96     \end{align}
+                    
+? 
+
+Overfull \hbox (269.78696pt too wide) in paragraph at lines 78--97
+[]$
+ []
+
+
+Overfull \hbox (601.06679pt too wide) in paragraph at lines 78--97
+[]$ 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98     \begin{figure}
+                       [!h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.100     \includegraphics
+                          [width=\columnwidth]{ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.100     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.100     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 ...width]{ncert-maths/10/5/3/10/figs/signal_
+                                                  x1.png}
+? 
+! Extra }, or forgotten $.
+l.100 ...ncert-maths/10/5/3/10/figs/signal_x1.png}
+                                                  
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101     \caption
+                  {$x_1(n)=(3+4n)u(n)$}
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.101     \caption{$
+                    x_1(n)=(3+4n)u(n)$}
+? 
+Missing character: There is no x in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.101     \caption{$x_
+                      1(n)=(3+4n)u(n)$}
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103     \end{figure}
+                      
+? 
+
+Overfull \hbox (57.79639pt too wide) in paragraph at lines 98--104
+[]\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :png[]$$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ n\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 98--104
+\OT1/cmr/m/n/10 (3 +
+ []
+
+
+Overfull \hbox (34.396pt too wide) in paragraph at lines 98--104
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 u\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105     \begin{figure}
+                        [!h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.107     \includegraphics
+                          [width=\columnwidth]{ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.107     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.107     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.107 ...width]{ncert-maths/10/5/3/10/figs/signal_
+                                                  y1.png}
+? 
+! Extra }, or forgotten $.
+l.107 ...ncert-maths/10/5/3/10/figs/signal_y1.png}
+                                                  
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108     \caption
+                  {$x_1(n)=(2n^2+5n+3)u(n)$}
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.108     \caption{$
+                    x_1(n)=(2n^2+5n+3)u(n)$}
+? 
+Missing character: There is no x in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.108     \caption{$x_
+                      1(n)=(2n^2+5n+3)u(n)$}
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110     \end{figure}
+                      
+? 
+
+Overfull \hbox (57.5684pt too wide) in paragraph at lines 105--111
+[]\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :png[]$$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ n\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (27.1552pt too wide) in paragraph at lines 105--111
+\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (18.78017pt too wide) in paragraph at lines 105--111
+\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (28.39365pt too wide) in paragraph at lines 105--111
+\OT1/cmr/m/n/10 3)\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr
+/m/n/10 )$
+ []
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.112     \item From equation  \eqref
+                                     {eq:APSum}
+? 
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113     \begin{align}
+                       
+? 
+Missing character: There is no X in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Misplaced alignment tab character &.
+l.114          X(z) &
+                     = \frac{9}{1-z^{-1}} - \frac{5.z^{-1}}{(1-z^{-1})^2} ; ...
+
+? 
+Missing character: There is no = in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114          X(z) &= \frac{9}{1-z^{-1}}
+                                          - \frac{5.z^{-1}}{(1-z^{-1})^2} ; ...
+
+? 
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.114          X(z) &= \frac{9}{1-z^{-1}}
+                                          - \frac{5.z^{-1}}{(1-z^{-1})^2} ; ...
+
+? 
+! Undefined control sequence.
+<recently read> \because 
+                         
+l.115         \because
+                       y(n) &= x(n) * u(n)\\
+? 
+! Misplaced alignment tab character &.
+l.115         \because y(n) &
+                             = x(n) * u(n)\\
+? 
+! Misplaced alignment tab character &.
+l.116         Y(z) &
+                    = X(z)U(z)\\
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.117          &
+                = \sbrak{\frac{9}{\brak{1-z^{-1}}^2} - \frac{5 z^{-1}}{\brak...
+
+? 
+! Undefined control sequence.
+l.117          &= \sbrak
+                        {\frac{9}{\brak{1-z^{-1}}^2} - \frac{5 z^{-1}}{\brak...
+
+? 
+! Undefined control sequence.
+<argument> \brak 
+                 {1-z^{-1}}^2
+l.117 ...    &= \sbrak{\frac{9}{\brak{1-z^{-1}}^2}
+                                                   - \frac{5 z^{-1}}{\brak{1...
+
+? 
+! Undefined control sequence.
+<argument> \brak 
+                 {1-z^{-1}}^3
+l.117 ...}^2} - \frac{5 z^{-1}}{\brak{1-z^{-1}}^3}
+                                                  }
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118     \end{align}
+                     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.118     \end{align}
+                     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.118     \end{align}
+                     
+? 
+Missing character: There is no U in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120     \begin{align}
+                       
+? 
+Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Misplaced alignment tab character &.
+l.121        y(14) &
+                    = \frac{1}{2\pi j}\int Y(z) z^{13} dz \\
+? 
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.121        y(14) &= \frac{1}{2\pi j}
+                                      \int Y(z) z^{13} dz \\
+? 
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.121        y(14) &= \frac{1}{2\pi j}
+                                      \int Y(z) z^{13} dz \\
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.122          &
+                = \frac{1}{2\pi j}\int \frac{9.z^{15}}{(z-1)^{2}} dz - \frac...
+
+? 
+! Undefined control sequence.
+<recently read> \because 
+                         
+l.123         \because
+                       R&=\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^...
+
+? 
+! Misplaced alignment tab character &.
+l.123         \because R&
+                         =\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^...
+
+? 
+! Undefined control sequence.
+<argument> \brak 
+                 {m-1}!
+l.123         \because R&=\frac{1}{\brak {m-1}!}
+                                                \lim\limits_{z\to a}\frac{d^...
+
+? 
+! Undefined control sequence.
+l.123 ...its_{z\to a}\frac{d^{m-1}}{dz^{m-1}}\brak
+                                                   {{(z-a)}^{m}f\brak z}\\
+? 
+! Undefined control sequence.
+l.123 ...^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak
+                                                   z}\\
+? 
+! Misplaced alignment tab character &.
+l.124         R_1 &
+                   =\frac{1}{1!}\lim\limits_{z\to 1}\frac{d}{dz}\brak {(z-1)...
+
+? 
+! Undefined control sequence.
+l.124 ...{1!}\lim\limits_{z\to 1}\frac{d}{dz}\brak
+                                                   {(z-1)^2.\frac{9.z^{15}}{...
+
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.125          &
+                = 135\\
+? 
+! Misplaced alignment tab character &.
+l.126         R_2 &
+                   =\frac{1}{2!}\lim\limits_{z\to 1}\frac{d^2}{dz^2}\brak {(...
+
+? 
+! Undefined control sequence.
+l.126 ...\lim\limits_{z\to 1}\frac{d^2}{dz^2}\brak
+                                                   {(z-1)^3.\frac{5.z^{15}}{...
+
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.127          &
+                = 525\\
+? 
+! Undefined control sequence.
+<recently read> \implies 
+                         
+l.128         \implies
+                       y(14) &= R_1 - R_2 \\
+? 
+! Misplaced alignment tab character &.
+l.128         \implies y(14) &
+                              = R_1 - R_2 \\
+? 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.129         &
+               = -390
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130     \end{align}
+                     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.130     \end{align}
+                     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.130     \end{align}
+                     
+? 
+
+Overfull \hbox (270.00916pt too wide) in paragraph at lines 112--131
+[]$
+ []
+
+
+Overfull \hbox (611.52513pt too wide) in paragraph at lines 112--131
+[]$ 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132     \begin{figure}
+                        [!h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.134     \includegraphics
+                          [width=\columnwidth]{ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.134     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.134     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.134 ...width]{ncert-maths/10/5/3/10/figs/signal_
+                                                  x2.png}
+? 
+! Extra }, or forgotten $.
+l.134 ...ncert-maths/10/5/3/10/figs/signal_x2.png}
+                                                  
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135     \caption
+                  {$x_2(n)=(9-5n)u(n)$}
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.135     \caption{$
+                    x_2(n)=(9-5n)u(n)$}
+? 
+Missing character: There is no x in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.135     \caption{$x_
+                      2(n)=(9-5n)u(n)$}
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137     \end{figure}
+                      
+? 
+
+Overfull \hbox (57.79639pt too wide) in paragraph at lines 132--138
+[]\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :png[]$$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ n\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 132--138
+\OT1/cmr/m/n/10 (9 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.396pt too wide) in paragraph at lines 132--138
+\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 u\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139     \begin{figure}
+                        [!h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.141     \includegraphics
+                          [width=\columnwidth]{ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.141     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.141     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/10/5/3/10/figs/si...
+
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.141 ...width]{ncert-maths/10/5/3/10/figs/signal_
+                                                  y2.png}
+? 
+! Extra }, or forgotten $.
+l.141 ...ncert-maths/10/5/3/10/figs/signal_y2.png}
+                                                  
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142     \caption
+                  {$x_2(n)=(-5n^2+13n+18)u(n)$}
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.142     \caption{$
+                    x_2(n)=(-5n^2+13n+18)u(n)$}
+? 
+Missing character: There is no x in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.142     \caption{$x_
+                      2(n)=(-5n^2+13n+18)u(n)$}
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 77 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144     \end{figure}
+                      
+? 
+
+Overfull \hbox (57.5684pt too wide) in paragraph at lines 139--145
+[]\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :png[]$$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ n\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (34.933pt too wide) in paragraph at lines 139--145
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 n[] \OT1
+/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (23.78018pt too wide) in paragraph at lines 139--145
+\OT1/cmr/m/n/10 13\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (33.39366pt too wide) in paragraph at lines 139--145
+\OT1/cmr/m/n/10 18)\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cm
+r/m/n/10 )$
+ []
+
+)
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Interruption.
+<*> 
+    
+? 
+! Emergency stop.
+<*> 
+    
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 35 strings out of 478287
+ 796 string characters out of 5849289
+ 295005 words of memory out of 5000000
+ 18327 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 19i,5n,26p,146b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
