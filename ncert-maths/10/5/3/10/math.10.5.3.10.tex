@@ -1,0 +1,146 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{amsmath}
+\usepackage{caption}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{NCERT 10.5.3 10Q}
+\author{EE22BTECH11010 - Venkatesh D Bandawar $^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\textbf{Question:} Show that $a_0$ , $a_1$ , $a_2$
+, . . ., $a_n$
+, . . . form an AP where an is defined as below :
+\begin{enumerate}
+    \item $a_n$ = $(3 + 4n)$ 
+    \item $a_n$ = $(9 - 5n)$ 
+\end{enumerate}
+Also find the sum of the first 15 terms in each case.
+
+\textbf{Solution:} 
+\fi
+    \begin{table}[!h] 
+    \centering
+    \input{ncert-maths/10/5/3/10/tables/table1}
+    \caption{Given parameters}
+    \label{given parameters list}
+    \end{table}
+\begin{enumerate} 
+    \item From equation \eqref{eq:APSum}
+    \begin{align}
+        X(z) &= \frac{3}{1-z^{-1}} + \frac{4.z^{-1}}{(1-z^{-1})^2} ; |z|>1\\
+        \because y(n) &= x(n) * u(n)\\
+        Y(z) &= X(z)U(z)\\
+        &= \sbrak{\frac{3}{\brak{1-z^{-1}}^2} + \frac{4 z^{-1}}{\brak{1-z^{-1}}^3}} 
+    \end{align}
+    Using contour integration for inverse Z transformation,
+    \begin{align}
+        y(14) &= \frac{1}{2\pi j}\int Y(z) z^{13} dz \\
+         &= \frac{1}{2\pi j}\int \frac{3.z^{15}}{(z-1)^{2}} dz + \frac{1}{2\pi j}\int \frac{4.z^{15}}{(z-1)^{3}} dz\\
+        \because R&=\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak z}\\
+        R_1 &=\frac{1}{1!}\lim\limits_{z\to 1}\frac{d}{dz}\brak {(z-1)^2.\frac{3.z^{15}}{(z-1)^{2}}}\\
+        &= 45\\
+        R_2 &=\frac{1}{2!}\lim\limits_{z\to 1}\frac{d^2}{dz^2}\brak {(z-1)^3.\frac{4.z^{15}}{(z-1)^{3}}}\\
+        &= 420\\
+        \implies y(14) &= R_1 + R_2 \\
+        &= 465
+    \end{align}
+    
+    \begin{figure}[!h] 
+    \centering
+    \includegraphics[width=\columnwidth]{ncert-maths/10/5/3/10/figs/signal_x1.png}
+    \caption{$x_1(n)=(3+4n)u(n)$}
+    \label{fig:Graph1_math.10.5.3.10}
+    \end{figure}
+
+    \begin{figure}[!h] 
+    \centering
+    \includegraphics[width=\columnwidth]{ncert-maths/10/5/3/10/figs/signal_y1.png}
+    \caption{$x_1(n)=(2n^2+5n+3)u(n)$}
+    \label{fig:Graph2_math.10.5.3.10}
+    \end{figure}
+    
+    \item From equation  \eqref{eq:APSum}
+    \begin{align}
+         X(z) &= \frac{9}{1-z^{-1}} - \frac{5.z^{-1}}{(1-z^{-1})^2} ; |z|>1\\
+        \because y(n) &= x(n) * u(n)\\
+        Y(z) &= X(z)U(z)\\
+         &= \sbrak{\frac{9}{\brak{1-z^{-1}}^2} - \frac{5 z^{-1}}{\brak{1-z^{-1}}^3}}
+    \end{align}
+    Using contour integration for inverse Z transformation,
+    \begin{align}
+       y(14) &= \frac{1}{2\pi j}\int Y(z) z^{13} dz \\
+         &= \frac{1}{2\pi j}\int \frac{9.z^{15}}{(z-1)^{2}} dz - \frac{1}{2\pi j}\int \frac{5.z^{15}}{(z-1)^{3}} dz\\
+        \because R&=\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak z}\\
+        R_1 &=\frac{1}{1!}\lim\limits_{z\to 1}\frac{d}{dz}\brak {(z-1)^2.\frac{9.z^{15}}{(z-1)^{2}}}\\
+         &= 135\\
+        R_2 &=\frac{1}{2!}\lim\limits_{z\to 1}\frac{d^2}{dz^2}\brak {(z-1)^3.\frac{5.z^{15}}{(z-1)^{3}}}\\
+         &= 525\\
+        \implies y(14) &= R_1 - R_2 \\
+        &= -390
+    \end{align}
+    
+    \begin{figure}[!h] 
+    \centering
+    \includegraphics[width=\columnwidth]{ncert-maths/10/5/3/10/figs/signal_x2.png}
+    \caption{$x_2(n)=(9-5n)u(n)$}
+    \label{fig:Graph3_math.10.5.3.10}
+    \end{figure}
+
+    \begin{figure}[!h] 
+    \centering
+    \includegraphics[width=\columnwidth]{ncert-maths/10/5/3/10/figs/signal_y2.png}
+    \caption{$x_2(n)=(-5n^2+13n+18)u(n)$}
+    \label{fig:Graph4_math.10.5.3.10}
+    \end{figure}
+
+\end{enumerate} 
