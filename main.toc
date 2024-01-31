@@ -7,6 +7,6 @@
 \contentsline {section}{\numberline {2.1} Z-transform}{23}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Sequences}{33}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Contour Integration}{63}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Laplace Transform}{75}{chapter.4}%
-\contentsline {chapter}{\numberline {A} Convolution}{81}{appendix.A}%
-\contentsline {chapter}{\numberline {B} Z-transform}{83}{appendix.B}%
+\contentsline {chapter}{\numberline {4}Laplace Transform}{79}{chapter.4}%
+\contentsline {chapter}{\numberline {A} Convolution}{85}{appendix.A}%
+\contentsline {chapter}{\numberline {B} Z-transform}{87}{appendix.B}%
