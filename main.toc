@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {2}Discrete}{23}{chapter.2}%
 \contentsline {section}{\numberline {2.1} Z-transform}{23}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Sequences}{33}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Contour Integration}{63}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Laplace Transform}{79}{chapter.4}%
-\contentsline {chapter}{\numberline {A} Convolution}{85}{appendix.A}%
-\contentsline {chapter}{\numberline {B} Z-transform}{87}{appendix.B}%
+\contentsline {chapter}{\numberline {3}Contour Integration}{65}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Laplace Transform}{81}{chapter.4}%
+\contentsline {chapter}{\numberline {A} Convolution}{87}{appendix.A}%
+\contentsline {chapter}{\numberline {B} Z-transform}{89}{appendix.B}%
