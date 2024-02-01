@@ -46,7 +46,7 @@
 \bibliographystyle{IEEEtran}
 \vspace{3cm}
 
-\title{NCERT Discrete - 10.5.2.2}
+\title{NCERT Discrete - 11.9.3.12}
 \author{EE23BTECH11058 - Sindam Ananya$^{*}$% <-this % stops a space
 }
 \maketitle
@@ -57,41 +57,43 @@
 \renewcommand{\thetable}{\theenumi}
 
 \vspace{3cm}
-\textbf{Question 10.5.2.2:} 
-\begin{enumerate}
-\item 30th term of the AP: 10, 7, 4, $\ldots$ is 
-\item 11th term of the AP: $-3, -\frac{1}{2}, 2, \ldots$ is
-\end{enumerate}
+\textbf{Question : 11.9.3.12} 
+The sum of the first three terms of a G.P is $39/10$ and their product is $1$. Find the common ratio and the terms.\\
 \solution
 \fi
 \begin{table}[h!]
     \centering
-    \input{ncert-maths/10/5/2/2/tables/table1.tex}
+    \input{ncert-maths/11/9/3/12/tables/11.9.3.12.table2.tex}
     \caption{Input Parameters}
-    \label{tab:table1}
-    \end{table}
+    \label{tab:11.9.3.12table1}
+\end{table}
 \begin{equation}
-    x_i(n) = \sbrak{x_i(0) + nd_i} u(n)
-    \label{eq:eq1}
+y(n) = x(0)\brak{\frac{r^{n+1}-1}{r-1}}u(n)
+\label{eq:11.9.3.12eq1}
 \end{equation}
+From \tabref{tab:11.9.3.12table1} and \eqref{eq:11.9.3.12eq1} :
+\begin{align}
+y(2) &= x(0)\brak{\frac{r^3-1}{r-1}}\\
+\frac{39}{10} &= x(0)\brak{r^2+r+1}\\
+\implies \frac{39r}{10} &= r^2+r+1 \quad \brak{\because x(0)r = 1}\\
+\implies (2r-5)(5r-2) &=0\\
+\implies r &= \frac{2}{5} \quad or \quad \frac{5}{2}
+\end{align}
 \begin{enumerate}
-\item From \eqref{eq:eq1} \tabref{tab:table1} :
-\begin{align}
-x_1(n) &= \sbrak{10 -3n}u(n)\\
-x_1(29) &= -77\\
-X_1(z) &= \frac{10 - 13z^{-1}}{(1-z^{-1})^2} \quad \abs{z} > 1
-\end{align}
-\item From \eqref{eq:eq1} and \tabref{tab:table1} :
-\begin{align}
-x_2(n) &= \sbrak{-3 + \frac{5}{2}n}u(n)\\
-x_2(10) &= 22\\
-X_2(z) &= \frac{5.5z^{-1}-3}{(1-z^{-1})^2} \quad \abs{z}> 1
-\end{align}
+      \item If $r = \frac{2}{5}$, then terms are $\frac{5}{2}$, $1$, $\frac{2}{5}$.
+      \item If $r = \frac{5}{2}$, then terms are $\frac{2}{5}$, $1$, $\frac{5}{2}$.
 \end{enumerate}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{ncert-maths/10/5/2/2/figs/plot.png}
-    \caption{stem plots of $x_1(n)$ and $x_2(n)$}
-    \label{fig:1}
+    \includegraphics[width=\columnwidth]{ncert-maths/11/9/3/12/figs/graph1.png}
+    \caption{stem plots of GP if $r=\frac{2}{5}$}
+    \label{fig:11.9.3.12_1}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth]{ncert-maths/11/9/3/12/figs/graph2.png}
+    \caption{stem plots of GP if $r=\frac{5}{2}$}
+    \label{fig:11.9.3.12_2}
 \end{figure}
 %\end{document}
+
