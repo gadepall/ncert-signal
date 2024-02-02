@@ -5,9 +5,9 @@
 \contentsline {section}{\numberline {1.2}Filters}{17}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Discrete}{23}{chapter.2}%
 \contentsline {section}{\numberline {2.1} Z-transform}{23}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Sequences}{34}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Contour Integration}{65}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Laplace Transform}{83}{chapter.4}%
-\contentsline {chapter}{\numberline {A} Convolution}{89}{appendix.A}%
-\contentsline {chapter}{\numberline {B} Z-transform}{91}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Contour Integration}{97}{appendix.C}%
+\contentsline {section}{\numberline {2.2}Sequences}{38}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Contour Integration}{69}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Laplace Transform}{87}{chapter.4}%
+\contentsline {chapter}{\numberline {A} Convolution}{93}{appendix.A}%
+\contentsline {chapter}{\numberline {B} Z-transform}{95}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Contour Integration}{101}{appendix.C}%
