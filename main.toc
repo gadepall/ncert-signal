@@ -3,9 +3,9 @@
 \contentsline {chapter}{\numberline {1}Harmonics}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Filters}{17}{section.1.1}%
 \contentsline {chapter}{\numberline {2} Z-transform}{23}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Sequences}{41}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Contour Integration}{73}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Laplace Transform}{97}{chapter.5}%
-\contentsline {chapter}{\numberline {A} Convolution}{103}{appendix.A}%
-\contentsline {chapter}{\numberline {B} Z-transform}{105}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Contour Integration}{111}{appendix.C}%
+\contentsline {chapter}{\numberline {3}Sequences}{43}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Contour Integration}{75}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Laplace Transform}{99}{chapter.5}%
+\contentsline {chapter}{\numberline {A} Convolution}{105}{appendix.A}%
+\contentsline {chapter}{\numberline {B} Z-transform}{107}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Contour Integration}{113}{appendix.C}%
