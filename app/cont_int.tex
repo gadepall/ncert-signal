@@ -62,5 +62,56 @@ Finally,
     s\brak{n}&=x\brak{0}\brak{n+1}u\brak{n}+d\brak{\dfrac{{n\brak{n+1}}}{2}}u\brak{n}\\
     &=\dfrac{n+1}{2}\brak{2x\brak{0}+nd}u\brak{n}
 \end{align}
-
+\item
+Question: Find the sum of n terms of GP where common ratio is $r$ using Contour Integration. \\
+\solution\\
+\begin{tabular}{|p{2cm}|p{2.80cm}|p{2.70cm}|}
+    \hline
+    Symbol&Value&Description\\ \hline
+    $$x(n)$$&$$x(0)r^{n}u(n)$$&$$n^{th}$$ $n^{th}$ term of gp G.P\\ \hline
+    $$x(0)$$&$$x(0)$$&$1^{st}$ term of the G.P\\ \hline
+    $$d$$&$$r$$&Common ratio\\ \hline
+    $$s(n)$$&$$\sum_{k=0}^{n} x \brak{k}$$&Sum of n terms of GP\\ \hline
+\end{tabular}
+\begin{align}
+X\brak{z} &= \sum_{n=-\infty}^{\infty} x\brak{n} z^{-n} \\
+          &= \sum_{n=-\infty}^{\infty} x(0)r^{n}u(n)z^{-n} \\
+          &= \sum_{n=0}^{\infty} x(0)r^{n}z^{-n} \\
+          &= \frac{x(0)}{1-rz^{-1}} \\
+U\brak{z} &= \frac{1}{1-z^{-1}}, |z|>1 \\
+S\brak{z} &= \sum_{n=-\infty}^{\infty} s(n)z^{-n} \\
+s\brak{n} &= x\brak{n} \ast u\brak{n} \\
+S\brak{z} &= X\brak{z}U\brak{z} \\
+          &= \brak{\frac{x(0)}{1-rz^{-1}}}\brak{\frac{1}{1-z^{-1}}}, |z|>1
+\end{align}
+Now we will perform inverse Z transform on S\brak{z} using contour integration to find s\brak{n}
+\begin{align}
+s(n) &= \frac{1}{2\pi j}\oint_{C}S(z)\;z^{n-1} \;dz \\
+     &= \frac{1}{2\pi j}\oint_{C} \frac{x(0)z^{n-1}}{(1-rz^{-1})(1-z^{-1})} \;dz \\
+     &= \frac{1}{2\pi j}\oint_{C} \frac{x(0)z^{n+1}}{(z-r)(z-1)} \;dz \\
+     &= \frac{x(0)}{r-1}\brak{\frac{1}{2\pi j}\oint_{C} \frac{z^{n+1}}{z-r} \;dz - \frac{1}{2\pi j}\oint_{C} \frac{z^{n+1}}{z-1}} \;dz      
+\end{align}
+we already know;
+\begin{align}
+R &= \frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak z}
+\end{align}
+Now for first contour integral,
+\begin{align}
+R_1 &= \frac{1}{\brak {1-1}!}\lim\limits_{z\to a}\brak {{(z-a)}f\brak{z}} \\
+    &= \lim\limits_{z\to r}\brak{(z-r) \frac{z^{n+1}}{z-r}} \\
+    &= \lim\limits_{z\to r}\brak{z^{n+1}} \\
+    &= r^{n+1} 
+\end{align}
+for second contour integral,
+\begin{align}
+R_2 &= \frac{1}{\brak {1-1}!}\lim\limits_{z\to a}\brak {{(z-a)}f\brak{z}} \\
+    &= \lim\limits_{z\to 1}\brak{(z-1) \frac{z^{n+1}}{z-1}} \\
+    &= \lim\limits_{z\to 1}\brak{z^{n+1}} \\
+    &= 1
+\end{align}
+So finally the sum of n terms of the GP is given by:
+\begin{align}
+s(n) &= \frac{x(0)}{r-1}\brak{R_1-R_2} \\
+     &= \frac{x(0)}{r-1}\brak{r^{n+1}-1}
+\end{align}
 \end{enumerate}
