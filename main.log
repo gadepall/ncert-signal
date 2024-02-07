@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.29)  7 FEB 2024 09:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.28)  7 FEB 2024 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3222,13 +3222,58 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109])
+ [109]
+(./ncert-maths/11/9/3/15/ncert_11_9_3_15.tex
+(./ncert-maths/11/9/3/15/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+<ncert-maths/11/9/3/15/figs/Figure_1.png, id=1443, 462.528pt x 346.896pt>
+File: ncert-maths/11/9/3/15/figs/Figure_1.png Graphic file (type png)
+<use ncert-maths/11/9/3/15/figs/Figure_1.png>
+Package pdftex.def Info: ncert-maths/11/9/3/15/figs/Figure_1.png  used on input
+ line 111.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+<ncert-maths/11/9/3/15/figs/Figure_2.png, id=1444, 462.528pt x 346.896pt>
+File: ncert-maths/11/9/3/15/figs/Figure_2.png Graphic file (type png)
+<use ncert-maths/11/9/3/15/figs/Figure_2.png>
+Package pdftex.def Info: ncert-maths/11/9/3/15/figs/Figure_2.png  used on input
+ line 118.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112 <./ncert-maths/11/9/3/15/figs/Figure_1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113 <./ncert-maths/11/9/3/15/figs/Figure_2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114
 
 ]
 Chapter 5.
@@ -3243,8 +3288,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111]
-<ncert-physics/11/14/figs/11_14_21_fbd.pdf, id=1435, 482.24065pt x 789.54073pt>
+ [115]
+<ncert-physics/11/14/figs/11_14_21_fbd.pdf, id=1483, 482.24065pt x 789.54073pt>
 
 File: ncert-physics/11/14/figs/11_14_21_fbd.pdf Graphic file (type pdf)
 <use ncert-physics/11/14/figs/11_14_21_fbd.pdf>
@@ -3264,7 +3309,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112]
+ [116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3273,8 +3318,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113 <./ncert-physics/11/14/figs/11_14_21_fbd.pdf>]
-<ncert-physics/11/14/figs/11.14.21_plot.png, id=1486, 462.528pt x 346.896pt>
+ [117 <./ncert-physics/11/14/figs/11_14_21_fbd.pdf>]
+<ncert-physics/11/14/figs/11.14.21_plot.png, id=1533, 462.528pt x 346.896pt>
 File: ncert-physics/11/14/figs/11.14.21_plot.png Graphic file (type png)
 <use ncert-physics/11/14/figs/11.14.21_plot.png>
 Package pdftex.def Info: ncert-physics/11/14/figs/11.14.21_plot.png  used on in
@@ -3289,7 +3334,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114])
+ [118])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3298,13 +3343,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115 <./ncert-physics/11/14/figs/11.14.21_plot.png>])
+ [119 <./ncert-physics/11/14/figs/11.14.21_plot.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116
+ [120
 
 ]
 Appendix A.
@@ -3314,13 +3359,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
+ [121]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118
+ [122
 
 ]
 Appendix B.
@@ -3333,46 +3378,46 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [119]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [120]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [121]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [122])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [123]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [124
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128
 
 ]
 Appendix C.
@@ -3385,7 +3430,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125]
+ [129]
 Underfull \vbox (badness 2443) has occurred while \output is active []
 
 
@@ -3394,7 +3439,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [130]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3403,7 +3448,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
+ [131]
 Overfull \vbox (148.08226pt too high) has occurred while \output is active []
 
 
@@ -3412,7 +3457,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128]
+ [132]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3421,49 +3466,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129])
+ [133])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130]
+ [134]
 No file main.ind.
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1C10DDAFB936345F2BFDF1426DEB575A;1104.
  ) 
 Here is how much of TeX's memory you used:
- 53940 strings out of 478287
- 1326758 string characters out of 5849289
- 1986573 words of memory out of 5000000
- 70089 multiletter control sequences out of 15000+600000
+ 53993 strings out of 480171
+ 1328206 string characters out of 5894489
+ 1982207 words of memory out of 5000000
+ 69870 multiletter control sequences out of 15000+600000
  486106 words of font info for 95 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
+ 62 hyphenation exceptions out of 8191
  109i,20n,108p,717b,1171s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm0800.pfb>
-Output written on main.pdf (136 pages, 2192435 bytes).
+ </home/kaustubh/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.
+600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (140 pages, 2223734 bytes).
 PDF statistics:
- 1952 PDF objects out of 2073 (max. 8388607)
- 1595 compressed objects within 16 object streams
- 859 named destinations out of 1000 (max. 500000)
- 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2004 PDF objects out of 2073 (max. 8388607)
+ 1639 compressed objects within 17 object streams
+ 879 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
