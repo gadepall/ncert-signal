@@ -104,4 +104,31 @@ where $x$ and $y$ are in cm and $t$ in s. The positive direction of $x$ is from 
 \solution
 \pagebreak
 
+\item The given figure shows a series LCR circuit connected to a variable
+frequency 230 V source. \\
+L = 5.0 H, C = 80 $\mu$F, R = 40 $\Omega$.
+
+\begin{figure}[h!]
+\begin{center}
+\begin{circuitikz}[american voltages]
+      \draw (0,0)
+      to[sV, l=$\varepsilon$] (0,2) 
+      to[R, l=$R$, v=$V_R$] (4,2) 
+      to[C, l=$C$, v=$V_C$] (4,0)
+      to[L, l=$L$, v=$V_L$] (0,0);
+\end{circuitikz}
+\end{center}
+\end{figure}
+
+\begin{enumerate}
+    \item Determine the source frequency which drives the circuit in resonance.
+    \item Obtain the impedance of the circuit and the amplitude of current
+at the resonating frequency.
+    \item Determine the rms potential drops across the three elements of
+the circuit. Show that the potential drop across the LC
+combination is zero at the resonating frequency.\\
+\end{enumerate}
+\solution
+\pagebreak
+
 \end{enumerate}
