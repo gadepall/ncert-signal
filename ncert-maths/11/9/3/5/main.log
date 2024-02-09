@@ -1,0 +1,1694 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.3)  28 JAN 2024 12:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex
+(/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:71: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 F
+      or a general GP series and $k > 0$,
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 71.
+Missing character: There is no , in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:72: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \begin{align}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no x in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:73: Undefined control sequence.
+l.73     x\brak
+               {k} &= x\brak{0}r^k \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no k in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:73: Misplaced alignment tab character &.
+l.73     x\brak{k} &
+                    = x\brak{0}r^k \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no x in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:73: Undefined control sequence.
+l.73     x\brak{k} &= x\brak
+                            {0}r^k \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no r in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:73: Missing $ inserted.
+<inserted text> 
+                $
+l.73     x\brak{k} &= x\brak{0}r^
+                                 k \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:74: Undefined control sequence.
+<recently read> \therefore 
+                           
+l.74     \therefore
+                    k &= \log_r{\frac{x\brak{k}}{x\brak{0}}} \label{eq:gsoln}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:74: Misplaced alignment tab character &.
+l.74     \therefore k &
+                       = \log_r{\frac{x\brak{k}}{x\brak{0}}} \label{eq:gsoln}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:74: Undefined control sequence.
+<argument> x\brak 
+                  {k}
+l.74 ...re k &= \log_r{\frac{x\brak{k}}{x\brak{0}}
+                                                  } \label{eq:gsoln}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:74: Undefined control sequence.
+<argument> x\brak 
+                  {0}
+l.74 ...re k &= \log_r{\frac{x\brak{k}}{x\brak{0}}
+                                                  } \label{eq:gsoln}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:75: LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:75: Missing $ inserted.
+<inserted text> 
+                $
+l.75 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:76: Undefined control sequence.
+l.76 And the Z-transform $X\brak
+                                {z}$:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no : in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:77: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \begin{align}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no X in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:78: Undefined control sequence.
+l.78     X\brak
+               {z} &= \frac{x\brak{0}}{1 - rz^{-1}} \quad {\abs{z} > \abs{r}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no z in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:78: Misplaced alignment tab character &.
+l.78     X\brak{z} &
+                    = \frac{x\brak{0}}{1 - rz^{-1}} \quad {\abs{z} > \abs{r}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no x in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:78: Undefined control sequence.
+<argument> x\brak 
+                  {0}
+l.78 ...X\brak{z} &= \frac{x\brak{0}}{1 - rz^{-1}}
+                                                   \quad {\abs{z} > \abs{r}}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:78: Missing $ inserted.
+<inserted text> 
+                $
+l.78 ...X\brak{z} &= \frac{x\brak{0}}{1 - rz^{-1}}
+                                                   \quad {\abs{z} > \abs{r}}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:78: Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.78 ...X\brak{z} &= \frac{x\brak{0}}{1 - rz^{-1}}
+                                                   \quad {\abs{z} > \abs{r}}...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:78: Undefined control sequence.
+l.78 ... \frac{x\brak{0}}{1 - rz^{-1}} \quad {\abs
+                                                  {z} > \abs{r}} \label{eq:z...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:78: Undefined control sequence.
+l.78 ...rak{0}}{1 - rz^{-1}} \quad {\abs{z} > \abs
+                                                  {r}} \label{eq:zresult}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:79: LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:79: Missing $ inserted.
+<inserted text> 
+                $
+l.79 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:79: Missing } inserted.
+<inserted text> 
+                }
+l.79 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 71--80
+[]
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 71--80
+\OML/cmm/m/it/10 k >
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 71--80
+\OT1/cmr/m/n/10 0$
+ []
+
+
+Overfull \hbox (4.92017pt too wide) in paragraph at lines 71--80
+[][] 
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 71--80
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (30.36646pt too wide) in paragraph at lines 71--80
+[][] [][]$
+ []
+
+
+Overfull \hbox (14.15973pt too wide) in paragraph at lines 71--80
+\OML/cmm/m/it/10 Xz$
+ []
+
+
+Overfull \hbox (44.27759pt too wide) in paragraph at lines 71--80
+[]$ 
+ []
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:81: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \begin{enumerate}
+                      [label=(\alph*)]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 81--81
+[] 
+ []
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:81: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \begin{enumerate}[
+                       label=(\alph*)]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no ( in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:81: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.81 \begin{enumerate}[label=(\alph*
+                                    )]
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:82: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \item B
+            y \tabref{Table:1}, \eqref{eq:gsoln} and \tabref{Table:1}: % prob:a
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:82: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \item B
+            y \tabref{Table:1}, \eqref{eq:gsoln} and \tabref{Table:1}: % prob:a
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:82: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \item B
+            y \tabref{Table:1}, \eqref{eq:gsoln} and \tabref{Table:1}: % prob:a
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no y in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:82: Undefined control sequence.
+l.82 \item By \tabref
+                     {Table:1}, \eqref{eq:gsoln} and \tabref{Table:1}: % prob:a
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:82: Undefined control sequence.
+l.82 \item By \tabref{Table:1}, \eqref
+                                      {eq:gsoln} and \tabref{Table:1}: % prob:a
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:82: Undefined control sequence.
+l.82 ...ref{Table:1}, \eqref{eq:gsoln} and \tabref
+                                                  {Table:1}: % prob:a
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:83: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 \begin{align}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no x in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:84: Missing $ inserted.
+<inserted text> 
+                $
+l.84     x_
+           1\brak{n} &= x_1\brak{0} r_1^nu\brak{n} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:84: Undefined control sequence.
+l.84     x_1\brak
+                 {n} &= x_1\brak{0} r_1^nu\brak{n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:84: Misplaced alignment tab character &.
+l.84     x_1\brak{n} &
+                      = x_1\brak{0} r_1^nu\brak{n} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:84: Undefined control sequence.
+l.84     x_1\brak{n} &= x_1\brak
+                                {0} r_1^nu\brak{n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:84: Undefined control sequence.
+l.84     x_1\brak{n} &= x_1\brak{0} r_1^nu\brak
+                                               {n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:85: Misplaced alignment tab character &.
+l.85     k_1 &
+              = \log_{r_1}{\frac{128}{x_1\brak{0}}} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:85: Undefined control sequence.
+<argument> x_1\brak 
+                    {0}
+l.85     k_1 &= \log_{r_1}{\frac{128}{x_1\brak{0}}
+                                                  } \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:86: Undefined control sequence.
+<recently read> \therefore 
+                           
+l.86     \therefore
+                    k_1 &= 12 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:86: Misplaced alignment tab character &.
+l.86     \therefore k_1 &
+                         = 12 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:87: Undefined control sequence.
+l.87 	X_1\brak
+              {z} &= \frac{2}{1 - \sqrt{2}z^{-1}} \quad \abs{z} > \sqrt{2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:87: Misplaced alignment tab character &.
+l.87 	X_1\brak{z} &
+                   = \frac{2}{1 - \sqrt{2}z^{-1}} \quad \abs{z} > \sqrt{2}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:87: Undefined control sequence.
+l.87 ...&= \frac{2}{1 - \sqrt{2}z^{-1}} \quad \abs
+                                                  {z} > \sqrt{2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:88: LaTeX Error: \begin{enumerate} on input line 81 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:88: Missing $ inserted.
+<inserted text> 
+                $
+l.88 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:90: LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 \begin{figure}
+                   [h!]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:91: LaTeX Error: Command \thefigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91     \renewcommand\thefigure
+                                {1}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:93: Undefined control sequence.
+l.93     \includegraphics
+                         [width=\columnwidth]{ncert-maths/11/9/3/5/figs/a.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:93: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.93     \includegraphics[width=\columnwidth]
+                                             {ncert-maths/11/9/3/5/figs/a.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:93: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.93     \includegraphics[width=\columnwidth]
+                                             {ncert-maths/11/9/3/5/figs/a.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:94: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94     \caption
+                 [short]{Plot of $x_1$\brak{n} vs n. See \tabref{Table:1}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:94: Undefined control sequence.
+l.94     \caption[short]{Plot of $x_1$\brak
+                                           {n} vs n. See \tabref{Table:1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:94: Undefined control sequence.
+l.94 ...t]{Plot of $x_1$\brak{n} vs n. See \tabref
+                                                  {Table:1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:96: LaTeX Error: \begin{enumerate} on input line 81 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:100: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \item B
+             y \eqref{eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:100: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \item B
+             y \eqref{eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:100: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \item B
+             y \eqref{eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no y in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:100: Undefined control sequence.
+l.100 \item By \eqref
+                     {eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:100: Undefined control sequence.
+l.100 \item By \eqref{eq:gsoln}, \eqref
+                                       {eq:zresult} and \tabref{Table:1}: % ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:100: Undefined control sequence.
+l.100 ...eq:gsoln}, \eqref{eq:zresult} and \tabref
+                                                  {Table:1}: % prob:b
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:101: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \begin{align}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no x in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:102: Missing $ inserted.
+<inserted text> 
+                $
+l.102     x_
+            2\brak{n} &= x_2\brak{0} r_2^nu\brak{n} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:102: Undefined control sequence.
+l.102     x_2\brak
+                  {n} &= x_2\brak{0} r_2^nu\brak{n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:102: Misplaced alignment tab character &.
+l.102     x_2\brak{n} &
+                       = x_2\brak{0} r_2^nu\brak{n} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:102: Undefined control sequence.
+l.102     x_2\brak{n} &= x_2\brak
+                                 {0} r_2^nu\brak{n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:102: Undefined control sequence.
+l.102     x_2\brak{n} &= x_2\brak{0} r_2^nu\brak
+                                                {n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:103: Misplaced alignment tab character &.
+l.103     k_2 &
+               = \log_{r_2}{\frac{729}{x_2\brak{0}}} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:103: Undefined control sequence.
+<argument> x_2\brak 
+                    {0}
+l.103 ...k_2 &= \log_{r_2}{\frac{729}{x_2\brak{0}}
+                                                  } \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:104: Undefined control sequence.
+<recently read> \therefore 
+                           
+l.104     \therefore
+                     k_2 &= 11 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:104: Misplaced alignment tab character &.
+l.104     \therefore k_2 &
+                          = 11 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:105: Undefined control sequence.
+l.105     X_2\brak
+                  {z} &= \frac{\sqrt{3}}{1 - \sqrt{3}z^{-1}} \quad \abs{z} >...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:105: Misplaced alignment tab character &.
+l.105     X_2\brak{z} &
+                       = \frac{\sqrt{3}}{1 - \sqrt{3}z^{-1}} \quad \abs{z} >...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:105: Undefined control sequence.
+l.105 ...{\sqrt{3}}{1 - \sqrt{3}z^{-1}} \quad \abs
+                                                  {z} > \sqrt{3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:106: LaTeX Error: \begin{enumerate} on input line 81 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:106: Missing $ inserted.
+<inserted text> 
+                $
+l.106 \end{align}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:108: LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 \begin{figure}
+                    [h!]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:109: LaTeX Error: Command \thefigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109     \renewcommand\thefigure
+                                 {2}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:111: Undefined control sequence.
+l.111     \includegraphics
+                          [width=\columnwidth]{ncert-maths/11/9/3/5/figs/b.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:111: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.111     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/11/9/3/5/figs/b.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:111: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.111     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/11/9/3/5/figs/b.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:112: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112     \caption
+                  [short]{Plot of $x_2$\brak{n} vs n. See \tabref{Table:1}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:112: Undefined control sequence.
+l.112     \caption[short]{Plot of $x_2$\brak
+                                            {n} vs n. See \tabref{Table:1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:112: Undefined control sequence.
+l.112 ...]{Plot of $x_2$\brak{n} vs n. See \tabref
+                                                  {Table:1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:114: LaTeX Error: \begin{enumerate} on input line 81 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:116: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \item B
+             y \eqref{eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:116: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \item B
+             y \eqref{eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:116: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \item B
+             y \eqref{eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no y in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:116: Undefined control sequence.
+l.116 \item By \eqref
+                     {eq:gsoln}, \eqref{eq:zresult} and \tabref{Table:1}: % ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:116: Undefined control sequence.
+l.116 \item By \eqref{eq:gsoln}, \eqref
+                                       {eq:zresult} and \tabref{Table:1}: % ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:116: Undefined control sequence.
+l.116 ...eq:gsoln}, \eqref{eq:zresult} and \tabref
+                                                  {Table:1}: % prob:c
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:117: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 \begin{align}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no x in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:118: Missing $ inserted.
+<inserted text> 
+                $
+l.118     x_
+            3\brak{n} &= x_3\brak{0} r_3^nu\brak{n} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:118: Undefined control sequence.
+l.118     x_3\brak
+                  {n} &= x_3\brak{0} r_3^nu\brak{n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:118: Misplaced alignment tab character &.
+l.118     x_3\brak{n} &
+                       = x_3\brak{0} r_3^nu\brak{n} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:118: Undefined control sequence.
+l.118     x_3\brak{n} &= x_3\brak
+                                 {0} r_3^nu\brak{n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:118: Undefined control sequence.
+l.118     x_3\brak{n} &= x_3\brak{0} r_3^nu\brak
+                                                {n} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:119: Misplaced alignment tab character &.
+l.119     k_3 &
+               = \log_{r_3}{\frac{1}{19683 x_3\brak{0}}} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:119: Undefined control sequence.
+<argument> 19683 x_3\brak 
+                          {0}
+l.119 ...&= \log_{r_3}{\frac{1}{19683 x_3\brak{0}}
+                                                  } \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:120: Undefined control sequence.
+<recently read> \therefore 
+                           
+l.120     \therefore
+                     k_3 &= 8 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:120: Misplaced alignment tab character &.
+l.120     \therefore k_3 &
+                          = 8 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:121: Undefined control sequence.
+l.121     X_3\brak
+                  {z} &= \frac{1}{3 - z^{-1}} \quad \abs{z} > \frac{1}{3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:121: Misplaced alignment tab character &.
+l.121     X_3\brak{z} &
+                       = \frac{1}{3 - z^{-1}} \quad \abs{z} > \frac{1}{3}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:121: Undefined control sequence.
+l.121 ...rak{z} &= \frac{1}{3 - z^{-1}} \quad \abs
+                                                  {z} > \frac{1}{3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:122: LaTeX Error: \begin{enumerate} on input line 81 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:122: Missing $ inserted.
+<inserted text> 
+                $
+l.122 \end{align}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:124: LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \begin{figure}
+                    [h!]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:125: LaTeX Error: Command \thefigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125     \renewcommand\thefigure
+                                 {3}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:127: Undefined control sequence.
+l.127     \includegraphics
+                          [width=\columnwidth]{ncert-maths/11/9/3/5/figs/c.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:127: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.127     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/11/9/3/5/figs/c.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:127: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.127     \includegraphics[width=\columnwidth]
+                                              {ncert-maths/11/9/3/5/figs/c.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:128: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128     \caption
+                  [short]{Plot of $x_3$\brak{n} vs n. See \tabref{Table:1}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:128: Undefined control sequence.
+l.128     \caption[short]{Plot of $x_3$\brak
+                                            {n} vs n. See \tabref{Table:1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:128: Undefined control sequence.
+l.128 ...]{Plot of $x_3$\brak{n} vs n. See \tabref
+                                                  {Table:1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:130: LaTeX Error: \begin{enumerate} on input line 81 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:132: LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \begin{table}
+                   [ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+! LaTeX Error: File `ncert-maths/11/9/3/5/tables/table.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:133: Emergency stop.
+<read *> 
+         
+l.133 ...ut{ncert-maths/11/9/3/5/tables/table.tex}
+                                                  ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 31 strings out of 478287
+ 751 string characters out of 5849290
+ 292006 words of memory out of 5000000
+ 18325 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,4n,26p,160b,102s stack positions out of 5000i,500n,10000p,200000b,80000s
+/home/sanji/Uni/gvv/ncert-signal/ncert-maths/11/9/3/5/main.tex:133:  ==> Fatal error occurred, no output PDF file produced!
