@@ -1,0 +1,84 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{gvv}
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\title{Maths Assignment}
+\author{Abhignya Gogula\\
+        EE23BTECH11023}
+\maketitle
+\section*{Problem Statement}
+A G.P consists of an even number of terms. If the sum of all terms is 5 times the sum of terms occupying odd places, then find its common ratio.
+\section*{Solution}
+\begin{table}[h!]
+\centering
+\input{tables/table.tex}
+\caption{Input Parameters}
+\label{11.9.5.11tab1}
+\end{table}
+Solving the Question in time domain:
+\begin{align}
+x(n) &= x(0)r^{n} \\
+y(n) &= x(0)\brak{\frac{r^{n+1}-1}{r-1}}u(n)
+\label{eq:11.9.5.11eq1}
+\end{align}
+The sum of terms in odd places:
+\begin{align}
+x_o(n) &= x(0)r^{2n}
+\end{align}
+\begin{equation}
+y_o(n)= x(0)\brak{\frac{r^{n+1}-1}{r^2-1}}u(n)
+\label{eq:11.9.5.11eq2}
+\end{equation}
+Then from \eqref{eq:11.9.5.11eq1} and \eqref{eq:11.9.5.11eq2}
+\begin{align}
+x(0)\brak{\frac{r^{N}-1}{r-1}}u(n) &= 5\brak{x(0)\brak{\frac{r^{2M}-1}{r^2-1}}u(n)}\\
+\frac{r^2-1}{r-1} &= 5\\
+\text{as } r \neq 1, \quad \text{hence } r &= 4\\
+\end{align}
+X,Y,Xo,Yo are frequency counterparts of the above GP
+\begin{align}
+X(z) &= \frac{x(0)}{1-rz^{-1}} \quad \abs{z} > \abs{r}\\ 
+X_o(z) &= \frac{x(0)}{1-r^{2}z^{-1}}\\
+Y(z) &= \frac{x(0)}{\brak{1-rz^{-1}}\brak{1-z^{-1}}}\\
+Y_o(z) &= \frac{x(0)}{\brak{1-rz^{\frac{-1}{2}}}\brak{1-z^{-1}}}
+\end{align}
+\end{document}
+
