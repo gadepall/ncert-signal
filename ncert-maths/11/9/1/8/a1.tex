@@ -1,3 +1,5 @@
+
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -62,13 +64,14 @@
 \end{enumerate}
 
 \textbf{Solution: }
+\fi
 \begin{align}
  x(n) &= \frac{(n+1)^2}{2^{(n+1)}}u(n)
 \end{align}
 
 \begin{table}[h!]
     \centering
-    \input{tables/table1.tex}
+    \input{ncert-maths/11/9/1/8/tables/table1.tex}
     \caption{Input Parameters}
     \label{tab:table_9.8.1}
 \end{table}
@@ -118,9 +121,9 @@ X(z) &= \frac{1 + (2z)^{-1}}{2(1 - (2z)^{-1})^3}, \quad \lvert z \rvert > \frac{
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{figs/plot.png}
+    \includegraphics[width=\columnwidth]{ncert-maths/11/9/1/8/figs/plot.png}
     \caption{Stem plot of $x(n)$}
     \label{fig:1}
 \end{figure}
 
-\end{document}
+%\end{document}
