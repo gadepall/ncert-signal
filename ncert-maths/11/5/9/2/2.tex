@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -62,20 +63,21 @@
 The sum of three numbers in an arithmetic progression (AP) is $24$ and the product of those three numbers is $440$, find the values of the three numbers.
 
 \solution
+\fi
 The following information is provided in the question:
 \begin{table}[h]
  	\centering
  	\resizebox{6 cm}{!}{
- 		\input{tables/table1.tex}
+ 		\input{ncert-maths/11/5/9/2/tables/table1.tex}
  	}
  	\vspace{6 pt}
  	\caption{Parameters}
- 	\label{tab:my_label} 
+ 	\label{tab:tab11.5.9.2} 
  \end{table}
 \newline
 Let the three numbers in the arithmetic progression be denoted as $x(0)$, $x(1)$, and $x(2)$.
 \newline
-From Table \ref{tab:my_label}
+From Table \ref{tab:tab11.5.9.2}
 \begin{align}
   x(0) + x(1) + x(2) &= 24 \\
    \brak{x(1) - d} + x(1) + \brak{x(1) + d} &= 24 \\
@@ -100,9 +102,8 @@ From Table \ref{tab:my_label}
 Therefore, the required three numbers in AP are $5$, $8$, and $11$.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\columnwidth]{figs/stem_plot.png} 
-  \label{fig:1}
+  \includegraphics[width=\columnwidth]{ncert-maths/11/5/9/2/figs/stem_plot.png} 
   \caption{stem plots of x(n)}
 \end{figure}
-\end{document}
+%\end{document}
 
