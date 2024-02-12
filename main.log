@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.12)  12 FEB 2024 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2024.1.4)  12 FEB 2024 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21>
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-12-17>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
@@ -22,45 +22,45 @@ File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
+\bibindent=\dimen140
 ) (./gvv-book.sty
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count194
 \Gm@cntv=\count195
 \c@Gm@tempcnt=\count196
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-01-21 L3 programming layer (loader) 
+Package: expl3 2022-12-17 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count197
-\l__pdf_internal_box=\box50
+\l__pdf_internal_box=\box51
 ))
-Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2022-12-17 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count198
@@ -69,16 +69,16 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box51
-\UL@hyphenbox=\box52
+\UL@box=\box52
+\UL@hyphenbox=\box53
 \UL@skip=\skip49
 \UL@hook=\toks18
-\UL@height=\dimen147
+\UL@height=\dimen149
 \UL@pe=\count267
-\UL@pixel=\dimen148
-\ULC@box=\box53
+\UL@pixel=\dimen150
+\ULC@box=\box54
 Package: ulem 2019/11/18
-\ULdepth=\dimen149
+\ULdepth=\dimen151
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 2021/01/29 v2.0g defines alltt environment
@@ -90,7 +90,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -101,45 +101,47 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count268
 \rotFPtop=\skip50
 \rotFPbot=\skip51
-\rot@float@box=\box54
+\rot@float@box=\box55
 \rot@mess@toks=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
-Package: pstricks 2021/08/23 v0.71 LaTeX wrapper for `PSTricks' (RN,HV)
+Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
@@ -162,43 +164,49 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pstFP@regs=\count277
 \pstFP@times=\count278
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen152
-\pgfutil@tempdimb=\dimen153
+\pgfutil@tempdima=\dimen154
+\pgfutil@tempdimb=\dimen155
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks23
 \pgfkeys@temptoks=\toks24
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
 \pgfkeys@tmptoks=\toks25
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Loading pgffor.code.tex
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
-\pgf@x=\dimen154
-\pgf@xa=\dimen155
-\pgf@xb=\dimen156
-\pgf@xc=\dimen157
-\pgf@y=\dimen158
-\pgf@ya=\dimen159
-\pgf@yb=\dimen160
-\pgf@yc=\dimen161
+\pgf@x=\dimen156
+\pgf@xa=\dimen157
+\pgf@xb=\dimen158
+\pgf@xc=\dimen159
+\pgf@y=\dimen160
+\pgf@ya=\dimen161
+\pgf@yb=\dimen162
+\pgf@yc=\dimen163
 \c@pgf@counta=\count279
 \c@pgf@countb=\count280
 \c@pgf@countc=\count281
 \c@pgf@countd=\count282
-\pgfutil@tempcnta=\count283
-\pgfutil@tempcntb=\count284
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen162
-\pgfmath@count=\count285
-\pgfmath@box=\box55
+\pgfmath@dimen=\dimen164
+\pgfmath@count=\count283
+\pgfmath@box=\box57
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
 \pgfmath@stack@operation=\toks28
@@ -221,83 +229,87 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count286
-))
-\pgffor@iter=\dimen163
-\pgffor@skip=\dimen164
+\c@pgfmathroundto@lastzeros=\count284
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen165
+\pgffor@skip=\dimen166
 \pgffor@stack=\toks29
 \pgffor@toks=\toks30
-)
-\psLoopIndex=\count287
+))
+\psLoopIndex=\count285
 
-`PSTricks' v3.13  <2022/01/09> (tvz,hv)
-\pst@dima=\dimen165
-\pst@dimb=\dimen166
-\pst@dimc=\dimen167
-\pst@dimd=\dimen168
-\pst@dimg=\dimen169
-\pst@dimh=\dimen170
-\pst@dimm=\dimen171
-\pst@dimn=\dimen172
-\pst@dimo=\dimen173
-\pst@dimp=\dimen174
-\pst@hbox=\box56
-\pst@ibox=\box57
-\pst@boxg=\box58
-\pst@cnta=\count288
-\pst@cntb=\count289
-\pst@cntc=\count290
-\pst@cntd=\count291
-\pst@cntg=\count292
-\pst@cnth=\count293
-\pst@cntm=\count294
-\pst@cntn=\count295
-\pst@cnto=\count296
-\pst@cntp=\count297
-\@zero=\count298
+`PSTricks' v3.18  <2022/11/28> (tvz,hv)
+\pst@dima=\dimen167
+\pst@dimb=\dimen168
+\pst@dimc=\dimen169
+\pst@dimd=\dimen170
+\pst@dimg=\dimen171
+\pst@dimh=\dimen172
+\pst@dimm=\dimen173
+\pst@dimn=\dimen174
+\pst@dimo=\dimen175
+\pst@dimp=\dimen176
+\pst@hbox=\box58
+\pst@ibox=\box59
+\pst@boxg=\box60
+\pst@cnta=\count286
+\pst@cntb=\count287
+\pst@cntc=\count288
+\pst@cntd=\count289
+\pst@cntg=\count290
+\pst@cnth=\count291
+\pst@cntm=\count292
+\pst@cntn=\count293
+\pst@cnto=\count294
+\pst@cntp=\count295
+\@zero=\count296
 \pst@toks=\toks31
 --- We are running latex or xelatex ---
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
-\psunit=\dimen175
-\psxunit=\dimen176
-\psyunit=\dimen177
-\pst@C@@rType=\count299
-\pslinewidth=\dimen178
-\psk@startLW=\dimen179
-\psk@endLW=\dimen180
+\psunit=\dimen177
+\psxunit=\dimen178
+\psyunit=\dimen179
+\pst@C@@rType=\count297
+\pslinewidth=\dimen180
+\psk@startLW=\dimen181
+\psk@endLW=\dimen182
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
-\pshooklength=\dimen181
-\pshookwidth=\dimen182
+\pshooklength=\dimen183
+\pshookwidth=\dimen184
 )
 \pst@customdefs=\toks32
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
-\pslinearc=\dimen183
-\pst@symbolStep=\dimen184
-\pst@symbolWidth=\dimen185
-\pst@symbolLinewidth=\dimen186
+\pslinearc=\dimen185
+\pst@symbolStep=\dimen186
+\pst@symbolWidth=\dimen187
+\pst@symbolLinewidth=\dimen188
 \everypsbox=\toks33
-\psframesep=\dimen187
-\pslabelsep=\dimen188
-\sh@wgridXunit=\dimen189
-\sh@wgridYunit=\dimen190
-\pst@shift=\dimen191
-\ps@imagectr=\count300
+\psframesep=\dimen189
+\pslabelsep=\dimen190
+\sh@wgridXunit=\dimen191
+\sh@wgridYunit=\dimen192
+\pst@shift=\dimen193
+\ps@imagectr=\count298
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
-File: pstricks.tex 2022/01/09 v3.13 `PSTricks' (tvz,hv)
+File: pstricks.tex 2022/11/28 v3.18 `PSTricks' (tvz,hv)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv))
 File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen192
-\WF@size=\dimen193
-\c@WF@wrappedlines=\count301
-\WF@box=\box59
+\wrapoverhang=\dimen194
+\WF@size=\dimen195
+\c@WF@wrappedlines=\count299
+\WF@box=\box61
 \WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
 )
@@ -319,7 +331,7 @@ Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
 File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
@@ -329,31 +341,31 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip52
-\enit@outerparindent=\dimen194
+\enit@outerparindent=\dimen196
 \enit@toks=\toks35
-\enit@inbox=\box60
-\enit@count@id=\count302
-\enitdp@description=\count303
+\enit@inbox=\box62
+\enit@count@id=\count300
+\enitdp@description=\count301
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count304
-\lst@gtempboxa=\box61
+\lst@mode=\count302
+\lst@gtempboxa=\box63
 \lst@token=\toks36
-\lst@length=\count305
-\lst@currlwidth=\dimen195
-\lst@column=\count306
-\lst@pos=\count307
-\lst@lostspace=\dimen196
-\lst@width=\dimen197
-\lst@newlines=\count308
-\lst@lineno=\count309
-\lst@maxwidth=\dimen198
+\lst@length=\count303
+\lst@currlwidth=\dimen197
+\lst@column=\count304
+\lst@pos=\count305
+\lst@lostspace=\dimen198
+\lst@width=\dimen199
+\lst@newlines=\count306
+\lst@lineno=\count307
+\lst@maxwidth=\dimen256
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count310
-\lst@skipnumbers=\count311
-\lst@framebox=\box62
+\c@lstnumber=\count308
+\lst@skipnumbers=\count309
+\lst@framebox=\box64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -361,14 +373,14 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen199
-\ar@mcellbox=\box63
-\extrarowheight=\dimen256
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen257
+\ar@mcellbox=\box65
+\extrarowheight=\dimen258
 \NC@list=\toks37
 \extratabsurround=\skip53
 \backup@length=\skip54
-\ar@cellbox=\box64
+\ar@cellbox=\box66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
@@ -376,41 +388,41 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip56
 \LTpre=\skip57
 \LTpost=\skip58
-\LTchunksize=\count312
-\LTcapwidth=\dimen257
-\LT@head=\box65
-\LT@firsthead=\box66
-\LT@foot=\box67
-\LT@lastfoot=\box68
-\LT@gbox=\box69
-\LT@cols=\count313
-\LT@rows=\count314
-\c@LT@tables=\count315
-\c@LT@chunks=\count316
+\LTchunksize=\count310
+\LTcapwidth=\dimen259
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
+\LT@gbox=\box71
+\LT@cols=\count311
+\LT@rows=\count312
+\c@LT@tables=\count313
+\c@LT@chunks=\count314
 \LT@p@ftn=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count317
-\calc@Bcount=\count318
-\calc@Adimen=\dimen258
-\calc@Bdimen=\dimen259
+\calc@Acount=\count315
+\calc@Bcount=\count316
+\calc@Adimen=\dimen260
+\calc@Bdimen=\dimen261
 \calc@Askip=\skip59
 \calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count319
+\calc@Ccount=\count317
 \calc@Cskip=\skip61
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip62
-\multirow@cntb=\count320
+\multirow@cntb=\count318
 \multirow@dima=\skip63
-\bigstrutjot=\dimen260
+\bigstrutjot=\dimen262
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2022-01-12 L3 Experimental document command parser
+Package: xparse 2022-12-17 L3 Experimental document command parser
 )
 (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
@@ -419,24 +431,11 @@ Package: import 2020/04/01  v 6.2
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2021/12/06{} The CircuiTikz circuit drawing package version
- 1.4.5
+Package: circuitikz 2022/12/10{} The CircuiTikz circuit drawing package version
+ 1.6.0
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks39
-\pgfutil@tempdima=\dimen261
-\pgfutil@tempdimb=\dimen262
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box70
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-))
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
@@ -457,14 +456,14 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen272
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count321
-\c@pgf@countb=\count322
-\c@pgf@countc=\count323
-\c@pgf@countd=\count324
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count325
+\c@pgf@counta=\count319
+\c@pgf@countb=\count320
+\c@pgf@countc=\count321
+\c@pgf@countd=\count322
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count323
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -481,8 +480,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count326
-\pgfsyssoftpath@bigbuffer@items=\count327
+\pgfsyssoftpath@smallbuffer@items=\count324
+\pgfsyssoftpath@bigbuffer@items=\count325
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -526,10 +525,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box71
-\pgf@hbox=\box72
-\pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count328
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count326
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -562,8 +561,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen296
-\pgf@sys@shading@range@num=\count329
-\pgf@shadingcount=\count330
+\pgf@sys@shading@range@num=\count327
+\pgf@shadingcount=\count328
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -571,7 +570,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box74
+\pgfexternal@startupbox=\box75
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -590,7 +589,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box76
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -603,19 +602,6 @@ Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen299
-\pgffor@skip=\dimen300
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
@@ -623,33 +609,33 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count331
-\pgfplotmarksize=\dimen301
+\pgf@plot@mark@count=\count329
+\pgfplotmarksize=\dimen299
 )
-\tikz@lastx=\dimen302
-\tikz@lasty=\dimen303
-\tikz@lastxsaved=\dimen304
-\tikz@lastysaved=\dimen305
-\tikz@lastmovetox=\dimen306
-\tikz@lastmovetoy=\dimen307
-\tikzleveldistance=\dimen308
-\tikzsiblingdistance=\dimen309
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count332
-\tikznumberofchildren=\count333
-\tikznumberofcurrentchild=\count334
-\tikz@fig@count=\count335
+\tikz@lastx=\dimen300
+\tikz@lasty=\dimen301
+\tikz@lastxsaved=\dimen302
+\tikz@lastysaved=\dimen303
+\tikz@lastmovetox=\dimen304
+\tikz@lastmovetoy=\dimen305
+\tikzleveldistance=\dimen306
+\tikzsiblingdistance=\dimen307
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count330
+\tikznumberofchildren=\count331
+\tikznumberofcurrentchild=\count332
+\tikz@fig@count=\count333
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count336
-\pgfmatrixcurrentcolumn=\count337
-\pgf@matrix@numberofcolumns=\count338
+\pgfmatrixcurrentrow=\count334
+\pgfmatrixcurrentcolumn=\count335
+\pgf@matrix@numberofcolumns=\count336
 )
-\tikz@expandcount=\count339
+\tikz@expandcount=\count337
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -662,10 +648,10 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen310
-\pgfarrowlength=\dimen311
-\pgfarrowwidth=\dimen312
-\pgfarrowlinewidth=\dimen313
+\pgfarrowinset=\dimen308
+\pgfarrowlength=\dimen309
+\pgfarrowwidth=\dimen310
+\pgfarrowlinewidth=\dimen311
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybending.code.tex
@@ -678,61 +664,61 @@ File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
 ormations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgftransformnonlinearflatness=\dimen314
+\pgftransformnonlinearflatness=\dimen312
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
 code.tex
 File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@curvilinear@time@a=\dimen315
-\pgf@curvilinear@length@a=\dimen316
-\pgf@curvilinear@length@b=\dimen317
-\pgf@curvilinear@length@c=\dimen318
-\pgf@curvilinear@length@d=\dimen319
+\pgf@curvilinear@time@a=\dimen313
+\pgf@curvilinear@length@a=\dimen314
+\pgf@curvilinear@length@b=\dimen315
+\pgf@curvilinear@length@c=\dimen316
+\pgf@curvilinear@length@d=\dimen317
 )
-\pgf@arrows@the@rigidity=\dimen320
+\pgf@arrows@the@rigidity=\dimen318
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryfpu.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count340
-\pgf@circ@count@b=\count341
-\pgf@circ@count@c=\count342
-\pgf@circ@res@up=\dimen321
-\pgf@circ@res@down=\dimen322
-\pgf@circ@res@zero=\dimen323
-\pgf@circ@res@left=\dimen324
-\pgf@circ@res@right=\dimen325
-\pgf@circ@res@other=\dimen326
-\pgf@circ@res@step=\dimen327
-\pgf@circ@res@temp=\dimen328
-\pgf@circ@Rlen=\dimen329
-\pgf@circ@scaled@Rlen=\dimen330
-\pgfstartlinewidth=\dimen331
+\pgf@circ@count@a=\count338
+\pgf@circ@count@b=\count339
+\pgf@circ@count@c=\count340
+\pgf@circ@res@up=\dimen319
+\pgf@circ@res@down=\dimen320
+\pgf@circ@res@zero=\dimen321
+\pgf@circ@res@left=\dimen322
+\pgf@circ@res@right=\dimen323
+\pgf@circ@res@other=\dimen324
+\pgf@circ@res@step=\dimen325
+\pgf@circ@res@temp=\dimen326
+\pgf@circ@Rlen=\dimen327
+\pgf@circ@scaled@Rlen=\dimen328
+\pgfstartlinewidth=\dimen329
 )
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
-\ctikz@scratchbox=\box80
+\ctikz@scratchbox=\box81
 )
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count343
+\pgf@circ@res@count=\count341
 )
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen332
+\pgfcirc@labelshift=\dimen330
 )
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
-Package: gensymb 2003/07/02 v1.0 (WaS)
+(/usr/share/texlive/texmf-dist/tex/latex/gensymb/gensymb.sty
+Package: gensymb 2022/10/17 v1.0.2 (KJH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -740,12 +726,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks45
-\t@pgfplots@tokb=\toks46
-\t@pgfplots@tokc=\toks47
-\pgfplots@tmpa=\dimen333
-\c@pgfplots@coordindex=\count344
-\c@pgfplots@scanlineindex=\count345
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
+\pgfplots@tmpa=\dimen331
+\c@pgfplots@coordindex=\count342
+\c@pgfplots@scanlineindex=\count343
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -760,14 +746,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count346
+\c@pgfplotsarray@tmp=\count344
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count347
-\t@pgfplotstable@a=\toks48
+\c@pgfplotstable@counta=\count345
+\t@pgfplotstable@a=\toks45
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -779,7 +765,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count348
+\c@pgfplotslibrarysurf@no=\count346
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -806,16 +792,16 @@ e.tex)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen334
-\pgfdecoratedremainingdistance=\dimen335
-\pgfdecoratedinputsegmentcompleteddistance=\dimen336
-\pgfdecoratedinputsegmentremainingdistance=\dimen337
-\pgf@decorate@distancetomove=\dimen338
-\pgf@decorate@repeatstate=\count349
-\pgfdecorationsegmentamplitude=\dimen339
-\pgfdecorationsegmentlength=\dimen340
+\pgfdecoratedcompleteddistance=\dimen332
+\pgfdecoratedremainingdistance=\dimen333
+\pgfdecoratedinputsegmentcompleteddistance=\dimen334
+\pgfdecoratedinputsegmentremainingdistance=\dimen335
+\pgf@decorate@distancetomove=\dimen336
+\pgf@decorate@repeatstate=\count347
+\pgfdecorationsegmentamplitude=\dimen337
+\pgfdecorationsegmentlength=\dimen338
 )
-\tikz@lib@dec@box=\box81
+\tikz@lib@dec@box=\box82
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -827,13 +813,13 @@ zlibrarydecorations.pathreplacing.code.tex
 decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count350
-\pgfplots@xmin@reg=\dimen341
-\pgfplots@xmax@reg=\dimen342
-\pgfplots@ymin@reg=\dimen343
-\pgfplots@ymax@reg=\dimen344
-\pgfplots@zmin@reg=\dimen345
-\pgfplots@zmax@reg=\dimen346
+\pgfplots@numplots=\count348
+\pgfplots@xmin@reg=\dimen339
+\pgfplots@xmax@reg=\dimen340
+\pgfplots@ymin@reg=\dimen341
+\pgfplots@ymax@reg=\dimen342
+\pgfplots@zmin@reg=\dimen343
+\pgfplots@zmax@reg=\dimen344
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -843,11 +829,11 @@ File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 de.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-\hsizevalue=\dimen347
-\vsizevalue=\dimen348
-\c@temp=\count351
+\hsizevalue=\dimen345
+\vsizevalue=\dimen346
+\c@temp=\count349
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip64
 
 For additional information on amsmath, use the `?' option.
@@ -856,77 +842,87 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks49
-\ex@=\dimen349
+\@emptytoks=\toks46
+\ex@=\dimen347
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen350
+\pmbraise@=\dimen348
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count352
+\inf@bad=\count350
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count353
-\leftroot@=\count354
+\uproot@=\count351
+\leftroot@=\count352
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count355
-\DOTSCASE@=\count356
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count353
+\DOTSCASE@=\count354
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box82
-\strutbox@=\box83
-\big@size=\dimen351
+\Mathstrutbox@=\box83
+\strutbox@=\box84
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen349
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count357
-\c@MaxMatrixCols=\count358
+\macc@depth=\count355
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count356
 \dotsspace@=\muskip16
-\c@parentequation=\count359
-\dspbrk@lvl=\count360
-\tag@help=\toks50
-\row@=\count361
-\column@=\count362
-\maxfields@=\count363
-\andhelp@=\toks51
-\eqnshift@=\dimen352
-\alignsep@=\dimen353
-\tagshift@=\dimen354
-\tagwidth@=\dimen355
-\totwidth@=\dimen356
-\lineht@=\dimen357
-\@envbody=\toks52
+\c@parentequation=\count357
+\dspbrk@lvl=\count358
+\tag@help=\toks47
+\row@=\count359
+\column@=\count360
+\maxfields@=\count361
+\andhelp@=\toks48
+\eqnshift@=\dimen350
+\alignsep@=\dimen351
+\tagshift@=\dimen352
+\tagwidth@=\dimen353
+\totwidth@=\dimen354
+\lineht@=\dimen355
+\@envbody=\toks49
 \multlinegap=\skip65
 \multlinetaggap=\skip66
-\mathdisplay@stack=\toks53
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+\mathdisplay@stack=\toks50
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count364
-\float@exts=\toks54
-\float@box=\box84
-\@float@everytoks=\toks55
-\@floatcapt=\box85
+\c@float@type=\count362
+\float@exts=\toks51
+\float@box=\box85
+\@float@everytoks=\toks52
+\@floatcapt=\box86
 )
 (/usr/share/texlive/texmf-dist/tex/latex/boites/boites.sty
 File: boites.sty 
 Package: boites 2013/11/21 v1.1 Colored, framed and breakable across pages boxe
 s
-\bk@bxb=\box86
-\bk@bxa=\box87
-\bk@lcnt=\count365
+\bk@bxb=\box87
+\bk@bxa=\box88
+\bk@lcnt=\count363
 )
 (/usr/share/texlive/texmf-dist/tex/latex/boites/boites_exemples.sty
 File: boites_exemples.sty 
 Package: boites_exemples 
-\bk@hauteurcourrante=\dimen358
-\bk@hauteursuivante=\dimen359
-\bk@tempdim=\dimen360
+\bk@hauteurcourrante=\dimen356
+\bk@hauteursuivante=\dimen357
+\bk@tempdim=\dimen358
 \bk@fboxsep=\skip67
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
@@ -936,22 +932,22 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count366
-\l_MT_multwidth_dim=\dimen361
+\g_MT_multlinerow_int=\count364
+\l_MT_multwidth_dim=\dimen359
 \origjot=\skip68
-\l_MT_shortvdotswithinadjustabove_dim=\dimen362
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen363
-\l_MT_above_intertext_sep=\dimen364
-\l_MT_below_intertext_sep=\dimen365
-\l_MT_above_shortintertext_sep=\dimen366
-\l_MT_below_shortintertext_sep=\dimen367
-\xmathstrut@box=\box88
-\xmathstrut@dim=\dimen368
+\l_MT_shortvdotswithinadjustabove_dim=\dimen360
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen361
+\l_MT_above_intertext_sep=\dimen362
+\l_MT_below_intertext_sep=\dimen363
+\l_MT_above_shortintertext_sep=\dimen364
+\l_MT_below_shortintertext_sep=\dimen365
+\xmathstrut@box=\box89
+\xmathstrut@dim=\dimen366
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -966,15 +962,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks56
-\thm@bodyfont=\toks57
-\thm@headfont=\toks58
-\thm@notefont=\toks59
-\thm@headpunct=\toks60
+\thm@style=\toks53
+\thm@bodyfont=\toks54
+\thm@headfont=\toks55
+\thm@notefont=\toks56
+\thm@headpunct=\toks57
 \thm@preskip=\skip69
 \thm@postskip=\skip70
 \thm@headsep=\skip71
-\dth@everypar=\toks61
+\dth@everypar=\toks58
 )
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -984,19 +980,19 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks62
-\verbatim@line=\toks63
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks59
+\verbatim@line=\toks60
 \verbatim@in@stream=\read3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
-\tab@position=\count367
-\tab@size=\count368
-\listing@line=\count369
+\tab@position=\count365
+\tab@size=\count366
+\listing@line=\count367
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -1012,8 +1008,8 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -1030,21 +1026,28 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\@linkdim=\dimen369
-\Hy@linkcounter=\count370
-\Hy@pagecounter=\count371
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count368
+)
+\@linkdim=\dimen367
+\Hy@linkcounter=\count369
+\Hy@pagecounter=\count370
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
 )
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -1052,28 +1055,28 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count372
+\Hy@SavedSpaceFactor=\count371
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count373
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count372
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen370
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen368
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1082,48 +1085,46 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count374
-\Field@Width=\dimen371
-\Fld@charsize=\dimen372
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring OFF on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
+\Fld@menulength=\count373
+\Field@Width=\dimen369
+\Fld@charsize=\dimen370
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count375
-\c@Item=\count376
-\c@Hfootnote=\count377
+\Hy@abspage=\count374
+\c@Item=\count375
+\c@Hfootnote=\count376
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count378
-\c@bookmark@seq@number=\count379
+\Fld@listcount=\count377
+\c@bookmark@seq@number=\count378
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+85.
 )
 \Hy@SectionHShift=\skip72
 )
@@ -1143,50 +1144,50 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 
 )
 \outermargin=\skip73
-\emailcount=\count380
-\punctcount=\count381
-\aucount=\count382
-\corrauthcount=\count383
-\c@affn=\count384
-\addcount=\count385
+\emailcount=\count379
+\punctcount=\count380
+\aucount=\count381
+\corrauthcount=\count382
+\c@affn=\count383
+\addcount=\count384
 \adjtitleskip=\skip74
 \QELftRghtDimen=\skip75
-\featuretitcnt=\count386
-\c@scheme=\count387
-\c@theorem=\count388
-\c@lemma=\count389
-\c@corollary=\count390
-\c@example=\count391
-\c@definition=\count392
-\c@remark=\count393
-\c@exer=\count394
-\tabbodybox=\box89
-\chktabbodywdbox=\box90
+\featuretitcnt=\count385
+\c@scheme=\count386
+\c@theorem=\count387
+\c@lemma=\count388
+\c@corollary=\count389
+\c@example=\count390
+\c@definition=\count391
+\c@remark=\count392
+\c@exer=\count393
+\tabbodybox=\box90
+\chktabbodywdbox=\box91
 \eqnarraycolsep=\skip76
-\safetymargin=\dimen373
-\safetypaperheight=\dimen374
-\safetypaperwidth=\dimen375
+\safetymargin=\dimen371
+\safetypaperheight=\dimen372
+\safetypaperwidth=\dimen373
 \blrlwd=\skip77
-\bleed=\dimen376
+\bleed=\dimen374
 \bleedruleht=\skip78
 \brlmvdn=\skip79
 \cropraisedimen=\skip80
-\margwidth=\dimen377
-\pagecntcntr=\count395
+\margwidth=\dimen375
+\pagecntcntr=\count394
 LaTeX Info: Redefining \emph on input line 1718.
-\temQEcnt=\count396
-\authhsize=\dimen378
-\QueryCnt=\count397
-\aqadjdim=\dimen379
-\LASTPAGENO=\count398
-\TmpCnt=\count399
+\temQEcnt=\count395
+\authhsize=\dimen376
+\QueryCnt=\count396
+\aqadjdim=\dimen377
+\LASTPAGENO=\count397
+\TmpCnt=\count398
 \iletterskip=\skip81
 ) (./gvv.sty) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip82
 \bibsep=\skip83
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count400
+\c@NAT@ctr=\count399
 )
 \@indexfile=\write4
 \openout4 = `main.idx'.
@@ -1251,17 +1252,17 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count401
-\scratchdimen=\dimen380
-\scratchbox=\box91
-\nofMPsegments=\count402
-\nofMParguments=\count403
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count404
-\MPscratchDim=\dimen381
-\MPnumerator=\count405
-\makeMPintoPDFobject=\count406
-\everyMPtoPDFconversion=\toks65
+\scratchcounter=\count400
+\scratchdimen=\dimen378
+\scratchbox=\box92
+\nofMPsegments=\count401
+\nofMParguments=\count402
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count403
+\MPscratchDim=\dimen379
+\MPnumerator=\count404
+\makeMPintoPDFobject=\count405
+\everyMPtoPDFconversion=\toks62
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1279,7 +1280,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count407
+\c@lstlisting=\count406
 LaTeX Info: Redefining \celsius on input line 26.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
 
@@ -1299,26 +1300,11 @@ your preamble.
  on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
+Package: setspace 2022/12/04 v6.7b set line spacing
 )
 Package hyperref Info: Link coloring OFF on input line 26.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count408
-)
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
-
-(./main.out) (./main.out)
+ (./main.out)
+(./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1371,6 +1357,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1383,6 +1370,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
@@ -1948,9 +1936,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
+\absvshift=\dimen380
+\absvshift=\dimen381
 \absvshift=\dimen382
-\absvshift=\dimen383
-\absvshift=\dimen384
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
@@ -2001,7 +1989,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30])
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32
+
+]
 Chapter 2.
 (./ncert-physics/analog-filters.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2012,9 +2017,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31
-
-]
+ [33]
 (./ncert-physics/12/7/21/Phy_12_7_21.tex (./ncert-physics/12/7/21/table1.tex)
 (./ncert-physics/12/7/21/fig1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2022,14 +2025,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [34]
 (./ncert-physics/12/7/21/fig2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2038,8 +2041,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-<ncert-physics/12/7/21/h_plot.png.jpg, id=401, 1606.0pt x 1237.62375pt>
+ [36]
+<ncert-physics/12/7/21/h_plot.png.jpg, id=410, 1606.0pt x 1237.62375pt>
 File: ncert-physics/12/7/21/h_plot.png.jpg Graphic file (type jpg)
 <use ncert-physics/12/7/21/h_plot.png.jpg>
 Package pdftex.def Info: ncert-physics/12/7/21/h_plot.png.jpg  used on input li
@@ -2054,7 +2057,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./ncert-physics/12/7/21/h_plot.png.jpg>]
+ [37 <./ncert-physics/12/7/21/h_plot.png.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2063,7 +2066,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36])
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40
+
+]
 Chapter 3.
 (./ncert-maths/z-transform.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -2080,10 +2100,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
-
-]
-<ncert-maths/11/9/3/4/figs/stemplotfinal.jpeg, id=429, 462.528pt x 320.1561pt>
+ [41]
+<ncert-maths/11/9/3/4/figs/stemplotfinal.jpeg, id=447, 462.528pt x 320.1561pt>
 File: ncert-maths/11/9/3/4/figs/stemplotfinal.jpeg Graphic file (type jpg)
 <use ncert-maths/11/9/3/4/figs/stemplotfinal.jpeg>
 Package pdftex.def Info: ncert-maths/11/9/3/4/figs/stemplotfinal.jpeg  used on 
@@ -2098,7 +2116,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38 <./ncert-maths/11/9/3/4/figs/stemplotfinal.jpeg>] (./ncert-maths/11/9/5/26
+ [42 <./ncert-maths/11/9/3/4/figs/stemplotfinal.jpeg>] (./ncert-maths/11/9/5/26
 /main.tex
 (./ncert-maths/11/9/5/26/tables/ncert11.9.5.26tab.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
@@ -2114,8 +2132,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39pdfTeX warning (ext4): destination with the same identifier (name{equation.
-3.0.10}) has been already used, duplicate ignored
+ [43
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.0.
+10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.83 \end{align}
@@ -2128,26 +2147,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-<ncert-maths/11/9/5/26/figs/x1_plot.png, id=484, 462.528pt x 346.896pt>
+ [44]
+<ncert-maths/11/9/5/26/figs/x1_plot.png, id=503, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/5/26/figs/x1_plot.png Graphic file (type png)
 <use ncert-maths/11/9/5/26/figs/x1_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/5/26/figs/x1_plot.png  used on input 
 line 127.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<ncert-maths/11/9/5/26/figs/x2_plot.png, id=485, 462.528pt x 346.896pt>
+<ncert-maths/11/9/5/26/figs/x2_plot.png, id=504, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/5/26/figs/x2_plot.png Graphic file (type png)
 <use ncert-maths/11/9/5/26/figs/x2_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/5/26/figs/x2_plot.png  used on input 
 line 133.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<ncert-maths/11/9/5/26/figs/y1_plot.png, id=486, 462.528pt x 346.896pt>
+<ncert-maths/11/9/5/26/figs/y1_plot.png, id=505, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/5/26/figs/y1_plot.png Graphic file (type png)
 <use ncert-maths/11/9/5/26/figs/y1_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/5/26/figs/y1_plot.png  used on input 
 line 139.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<ncert-maths/11/9/5/26/figs/y2_plot.png, id=487, 462.528pt x 346.896pt>
+<ncert-maths/11/9/5/26/figs/y2_plot.png, id=506, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/5/26/figs/y2_plot.png Graphic file (type png)
 <use ncert-maths/11/9/5/26/figs/y2_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/5/26/figs/y2_plot.png  used on input 
@@ -2166,25 +2185,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./ncert-maths/11/9/5/26/figs/x1_plot.png>]
+ [46 <./ncert-maths/11/9/5/26/figs/x1_plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 <./ncert-maths/11/9/5/26/figs/x2_plot.png>]
+ [47 <./ncert-maths/11/9/5/26/figs/x2_plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./ncert-maths/11/9/5/26/figs/y1_plot.png>] (./ncert-maths/11/9/1/12/main.
+ [48 <./ncert-maths/11/9/5/26/figs/y1_plot.png>] (./ncert-maths/11/9/1/12/main.
 tex
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
@@ -2194,8 +2213,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./ncert-maths/11/9/5/26/figs/y2_plot.png>]
-<ncert-maths/11/9/1/12/figs/plot.png, id=528, 462.528pt x 346.896pt>
+ [49 <./ncert-maths/11/9/5/26/figs/y2_plot.png>]
+<ncert-maths/11/9/1/12/figs/plot.png, id=547, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/1/12/figs/plot.png Graphic file (type png)
 <use ncert-maths/11/9/1/12/figs/plot.png>
 Package pdftex.def Info: ncert-maths/11/9/1/12/figs/plot.png  used on input lin
@@ -2211,7 +2230,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [50]
 (./ncert-maths/10/5/2/19/main.tex
 (./ncert-maths/10/5/2/19/tables/parameters.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2222,8 +2241,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./ncert-maths/11/9/1/12/figs/plot.png>]
-<ncert-maths/10/5/2/19/figs/10_5_2_19.png, id=563, 462.528pt x 346.896pt>
+ [51 <./ncert-maths/11/9/1/12/figs/plot.png>]
+<ncert-maths/10/5/2/19/figs/10_5_2_19.png, id=582, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/2/19/figs/10_5_2_19.png Graphic file (type png)
 <use ncert-maths/10/5/2/19/figs/10_5_2_19.png>
 Package pdftex.def Info: ncert-maths/10/5/2/19/figs/10_5_2_19.png  used on inpu
@@ -2238,10 +2257,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <./ncert-maths/10/5/2/19/figs/10_5_2_19.png>]) (./ncert-maths/11/9/1/3/2.t
+ [52 <./ncert-maths/10/5/2/19/figs/10_5_2_19.png>]) (./ncert-maths/11/9/1/3/2.t
 ex
 (./ncert-maths/11/9/1/3/tables/table1.tex)
-<ncert-maths/11/9/1/3/figs/fig1.png, id=575, 462.528pt x 346.896pt>
+<ncert-maths/11/9/1/3/figs/fig1.png, id=594, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/1/3/figs/fig1.png Graphic file (type png)
 <use ncert-maths/11/9/1/3/figs/fig1.png>
 Package pdftex.def Info: ncert-maths/11/9/1/3/figs/fig1.png  used on input line
@@ -2261,7 +2280,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
+ [53])
 (./ncert-maths/10/5/3/9/main.tex (./ncert-maths/10/5/3/9/tables/table.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2275,7 +2294,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./ncert-maths/11/9/1/3/figs/fig1.png>]
+ [54 <./ncert-maths/11/9/1/3/figs/fig1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2284,7 +2303,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2293,8 +2312,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
-<ncert-maths/10/5/3/9/figs/Figure_1.png, id=623, 462.528pt x 346.896pt>
+ [56]
+<ncert-maths/10/5/3/9/figs/Figure_1.png, id=642, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/9/figs/Figure_1.png Graphic file (type png)
 <use ncert-maths/10/5/3/9/figs/Figure_1.png>
 Package pdftex.def Info: ncert-maths/10/5/3/9/figs/Figure_1.png  used on input 
@@ -2314,10 +2333,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <./ncert-maths/10/5/3/9/figs/Figure_1.png>] (./ncert-maths/11/9/1/13/main.
+ [57 <./ncert-maths/10/5/3/9/figs/Figure_1.png>] (./ncert-maths/11/9/1/13/main.
 tex
 (./ncert-maths/11/9/1/13/tables/ncert11.9.1.13.tab.tex)
-<ncert-maths/11/9/1/13/figs/Theory_vs_Simulation.png, id=636, 462.528pt x 346.8
+<ncert-maths/11/9/1/13/figs/Theory_vs_Simulation.png, id=655, 462.528pt x 346.8
 96pt>
 File: ncert-maths/11/9/1/13/figs/Theory_vs_Simulation.png Graphic file (type pn
 g)
@@ -2334,7 +2353,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54])
+ [58])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2343,13 +2362,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55 <./ncert-maths/11/9/1/13/figs/Theory_vs_Simulation.png>]
+ [59 <./ncert-maths/11/9/1/13/figs/Theory_vs_Simulation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 (./ncert-maths/11/9/3/26/asnmt1.tex (./ncert-maths/11/9/3/26/tables/table1.tex)
-<ncert-maths/11/9/3/26/figs/Figure_1.png, id=657, 461.8053pt x 346.1733pt>
+<ncert-maths/11/9/3/26/figs/Figure_1.png, id=675, 461.8053pt x 346.1733pt>
 File: ncert-maths/11/9/3/26/figs/Figure_1.png Graphic file (type png)
 <use ncert-maths/11/9/3/26/figs/Figure_1.png>
 Package pdftex.def Info: ncert-maths/11/9/3/26/figs/Figure_1.png  used on input
@@ -2367,9 +2386,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [60]
 (./ncert-maths/11/9/3/31/main.tex (./ncert-maths/11/9/3/31/tables/table1.tex)
-<ncert-maths/11/9/3/31/figs/Fig1.png, id=671, 462.528pt x 346.896pt>
+<ncert-maths/11/9/3/31/figs/Fig1.png, id=690, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/31/figs/Fig1.png Graphic file (type png)
 <use ncert-maths/11/9/3/31/figs/Fig1.png>
 Package pdftex.def Info: ncert-maths/11/9/3/31/figs/Fig1.png  used on input lin
@@ -2381,7 +2400,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./ncert-maths/11/9/3/26/figs/Figure_1.png>]) (./ncert-maths/10/5/2/17/mai
+ [61 <./ncert-maths/11/9/3/26/figs/Figure_1.png>]) (./ncert-maths/10/5/2/17/mai
 n.tex
 (./ncert-maths/10/5/2/17/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2392,8 +2411,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./ncert-maths/11/9/3/31/figs/Fig1.png>]
-<ncert-maths/10/5/2/17/figs/x(n)_vs_n.png, id=693, 462.528pt x 346.896pt>
+ [62 <./ncert-maths/11/9/3/31/figs/Fig1.png>]
+<ncert-maths/10/5/2/17/figs/x(n)_vs_n.png, id=712, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/2/17/figs/x(n)_vs_n.png Graphic file (type png)
 <use ncert-maths/10/5/2/17/figs/x(n)_vs_n.png>
 Package pdftex.def Info: ncert-maths/10/5/2/17/figs/x(n)_vs_n.png  used on inpu
@@ -2408,7 +2427,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <./ncert-maths/10/5/2/17/figs/x(n)_vs_n.png>]
+ [63 <./ncert-maths/10/5/2/17/figs/x(n)_vs_n.png>]
 (./ncert-maths/11/9/4/8/math.11.9.4.8.tex
 (./ncert-maths/11/9/4/8/tables/table1.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 74--76
@@ -2424,7 +2443,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
+ [64]
 Underfull \hbox (badness 10000) detected at line 95
  []$[]   \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 u []$ [][]  
  []
@@ -2434,7 +2453,7 @@ Underfull \hbox (badness 10000) detected at line 103
  []$[]   \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 u []$ [][]  
  []
 
-<ncert-maths/11/9/4/8/figs/sumplot.png, id=720, 462.528pt x 346.896pt>
+<ncert-maths/11/9/4/8/figs/sumplot.png, id=739, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/4/8/figs/sumplot.png Graphic file (type png)
 <use ncert-maths/11/9/4/8/figs/sumplot.png>
 Package pdftex.def Info: ncert-maths/11/9/4/8/figs/sumplot.png  used on input l
@@ -2452,7 +2471,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [65]
 (./ncert-maths/11/9/1/7/7.tex (./ncert-maths/11/9/1/7/tables/table1.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2466,8 +2485,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62 <./ncert-maths/11/9/4/8/figs/sumplot.png>]
-<ncert-maths/11/9/1/7/figs/a_plot.png, id=739, 412.6617pt x 326.9013pt>
+ [66 <./ncert-maths/11/9/4/8/figs/sumplot.png>]
+<ncert-maths/11/9/1/7/figs/a_plot.png, id=757, 412.6617pt x 326.9013pt>
 File: ncert-maths/11/9/1/7/figs/a_plot.png Graphic file (type png)
 <use ncert-maths/11/9/1/7/figs/a_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/1/7/figs/a_plot.png  used on input li
@@ -2486,7 +2505,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [67]
 (./ncert-maths/11/9/2/18/ass_1.tex (./ncert-maths/11/9/2/18/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2496,7 +2515,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64 <./ncert-maths/11/9/1/7/figs/a_plot.png>]
+ [68 <./ncert-maths/11/9/1/7/figs/a_plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2505,8 +2524,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-<ncert-maths/11/9/2/18/figs/python.1(1).png, id=770, 462.528pt x 346.896pt>
+ [69]
+<ncert-maths/11/9/2/18/figs/python.1(1).png, id=789, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/2/18/figs/python.1(1).png Graphic file (type png)
 <use ncert-maths/11/9/2/18/figs/python.1(1).png>
 Package pdftex.def Info: ncert-maths/11/9/2/18/figs/python.1(1).png  used on in
@@ -2525,7 +2544,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+ [70]
 (./ncert-maths/11/9/3/3/assign1.tex (./ncert-maths/11/9/3/3/tables/tables.tex)
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
@@ -2535,8 +2554,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67 <./ncert-maths/11/9/2/18/figs/python.1(1).png>]
-<ncert-maths/11/9/3/3/figs/figure__plot.png, id=790, 462.528pt x 346.896pt>
+ [71 <./ncert-maths/11/9/2/18/figs/python.1(1).png>]
+<ncert-maths/11/9/3/3/figs/figure__plot.png, id=808, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/3/figs/figure__plot.png Graphic file (type png)
 <use ncert-maths/11/9/3/3/figs/figure__plot.png>
 Package pdftex.def Info: ncert-maths/11/9/3/3/figs/figure__plot.png  used on in
@@ -2555,7 +2574,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [72]
 (./ncert-maths/11/9/5/12/Assignment2.tex
 (./ncert-maths/11/9/5/12/tables/TABLE.tex)
 Underfull \vbox (badness 3439) has occurred while \output is active []
@@ -2566,14 +2585,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./ncert-maths/11/9/3/3/figs/figure__plot.png>]
+ [73 <./ncert-maths/11/9/3/3/figs/figure__plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
-<ncert-maths/11/9/5/12//figs/fig1.png, id=839, 462.528pt x 346.896pt>
+ [74]
+<ncert-maths/11/9/5/12//figs/fig1.png, id=858, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/5/12//figs/fig1.png Graphic file (type png)
 <use ncert-maths/11/9/5/12//figs/fig1.png>
 Package pdftex.def Info: ncert-maths/11/9/5/12//figs/fig1.png  used on input li
@@ -2588,7 +2607,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71 <./ncert-maths/11/9/5/12//figs/fig1.png>] (./ncert-maths/11/9/3/17/A_1.tex
+ [75 <./ncert-maths/11/9/5/12//figs/fig1.png>] (./ncert-maths/11/9/3/17/A_1.tex
 
 (./ncert-maths/11/9/3/17/tables/Table.tex
 Overfull \hbox (6.45354pt too wide) in paragraph at lines 3--3
@@ -2619,8 +2638,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
-<ncert-maths/11/9/3/17/figs/A_1.png, id=862, 462.528pt x 346.896pt>
+ [76]
+<ncert-maths/11/9/3/17/figs/A_1.png, id=881, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/17/figs/A_1.png Graphic file (type png)
 <use ncert-maths/11/9/3/17/figs/A_1.png>
 Package pdftex.def Info: ncert-maths/11/9/3/17/figs/A_1.png  used on input line
@@ -2639,7 +2658,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
+ [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2648,7 +2667,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74 <./ncert-maths/11/9/3/17/figs/A_1.png>] (./ncert-maths/11/9/5/11/firstcorr
+ [78 <./ncert-maths/11/9/3/17/figs/A_1.png>] (./ncert-maths/11/9/5/11/firstcorr
 ection.tex
 (./ncert-maths/11/9/5/11/tables/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2656,7 +2675,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75])
+ [79])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2665,10 +2684,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [80]
 (./ncert-maths/11/9/3/10/11.9.3.Q10.tex
 (./ncert-maths/11/9/3/10/tables/11.9.3.Q10.tab1.tex)
-<ncert-maths/11/9/3/10/figs/plot_2.png, id=916, 462.528pt x 346.896pt>
+<ncert-maths/11/9/3/10/figs/plot_2.png, id=935, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/10/figs/plot_2.png Graphic file (type png)
 <use ncert-maths/11/9/3/10/figs/plot_2.png>
 Package pdftex.def Info: ncert-maths/11/9/3/10/figs/plot_2.png  used on input l
@@ -2683,7 +2702,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+ [81]
 (./ncert-maths/10/5/2/16/1.tex (./ncert-maths/10/5/2/16/tables/tab1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2693,8 +2712,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78 <./ncert-maths/11/9/3/10/figs/plot_2.png>]
-<ncert-maths/10/5/2/16/figs/fig1.png, id=943, 462.528pt x 346.896pt>
+ [82 <./ncert-maths/11/9/3/10/figs/plot_2.png>]
+<ncert-maths/10/5/2/16/figs/fig1.png, id=962, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/2/16/figs/fig1.png Graphic file (type png)
 <use ncert-maths/10/5/2/16/figs/fig1.png>
 Package pdftex.def Info: ncert-maths/10/5/2/16/figs/fig1.png  used on input lin
@@ -2714,7 +2733,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79])
+ [83])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2723,7 +2742,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./ncert-maths/10/5/2/16/figs/fig1.png>] (./ncert-maths/11/9/1/8/a1.tex
+ [84 <./ncert-maths/10/5/2/16/figs/fig1.png>] (./ncert-maths/11/9/1/8/a1.tex
 (./ncert-maths/11/9/1/8/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2733,8 +2752,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
-<ncert-maths/11/9/1/8/figs/plot.png, id=980, 410.0118pt x 312.6882pt>
+ [85]
+<ncert-maths/11/9/1/8/figs/plot.png, id=999, 410.0118pt x 312.6882pt>
 File: ncert-maths/11/9/1/8/figs/plot.png Graphic file (type png)
 <use ncert-maths/11/9/1/8/figs/plot.png>
 Package pdftex.def Info: ncert-maths/11/9/1/8/figs/plot.png  used on input line
@@ -2753,48 +2772,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83 <./ncert-maths/11/9/1/8/figs/plot.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [85]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [86]
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2803,7 +2781,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [87 <./ncert-maths/11/9/1/8/figs/plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2822,13 +2800,54 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
 (./ncert-maths/11/9/3/16/question2.tex
 (./ncert-maths/11/9/3/16/tables/table1.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-<ncert-maths/11/9/3/16/figs/plot1.png, id=1036, 578.16pt x 578.16pt>
+<ncert-maths/11/9/3/16/figs/plot1.png, id=1055, 578.16pt x 578.16pt>
 File: ncert-maths/11/9/3/16/figs/plot1.png Graphic file (type png)
 <use ncert-maths/11/9/3/16/figs/plot1.png>
 Package pdftex.def Info: ncert-maths/11/9/3/16/figs/plot1.png  used on input li
@@ -2837,7 +2856,7 @@ ne 167.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ncert-maths/11/9/3/16/figs/plot2.png, id=1037, 578.16pt x 578.16pt>
+<ncert-maths/11/9/3/16/figs/plot2.png, id=1056, 578.16pt x 578.16pt>
 File: ncert-maths/11/9/3/16/figs/plot2.png Graphic file (type png)
 <use ncert-maths/11/9/3/16/figs/plot2.png>
 Package pdftex.def Info: ncert-maths/11/9/3/16/figs/plot2.png  used on input li
@@ -2852,19 +2871,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90])
+ [94]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91 <./ncert-maths/11/9/3/16/figs/plot1.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92 <./ncert-maths/11/9/3/16/figs/plot2.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97 <./ncert-maths/11/9/3/16/figs/plot1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98 <./ncert-maths/11/9/3/16/figs/plot2.png>]
 Chapter 4.
 (./ncert-maths/sequences.tex (./ncert-maths/10/5/2/5/ncert_10_5_2_5.tex
 (./ncert-maths/10/5/2/5/tables/table1.tex)
@@ -2876,7 +2913,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93
+ [99
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2887,14 +2924,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
-<ncert-maths/10/5/2/5/figs/Figure_1.png, id=1095, 462.528pt x 346.896pt>
+ [100]
+<ncert-maths/10/5/2/5/figs/Figure_1.png, id=1128, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/2/5/figs/Figure_1.png Graphic file (type png)
 <use ncert-maths/10/5/2/5/figs/Figure_1.png>
 Package pdftex.def Info: ncert-maths/10/5/2/5/figs/Figure_1.png  used on input 
 line 121.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<ncert-maths/10/5/2/5/figs/Figure_2.png, id=1096, 462.528pt x 346.896pt>
+<ncert-maths/10/5/2/5/figs/Figure_2.png, id=1129, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/2/5/figs/Figure_2.png Graphic file (type png)
 <use ncert-maths/10/5/2/5/figs/Figure_2.png>
 Package pdftex.def Info: ncert-maths/10/5/2/5/figs/Figure_2.png  used on input 
@@ -2911,7 +2948,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95 <./ncert-maths/10/5/2/5/figs/Figure_1.png>]
+ [101 <./ncert-maths/10/5/2/5/figs/Figure_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2920,8 +2957,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96 <./ncert-maths/10/5/2/5/figs/Figure_2.png>]
-<ncert-maths/10/5/2/15/figs/Figure_1.png, id=1116, 461.8053pt x 346.1733pt>
+ [102 <./ncert-maths/10/5/2/5/figs/Figure_2.png>]
+<ncert-maths/10/5/2/15/figs/Figure_1.png, id=1149, 461.8053pt x 346.1733pt>
 File: ncert-maths/10/5/2/15/figs/Figure_1.png Graphic file (type png)
 <use ncert-maths/10/5/2/15/figs/Figure_1.png>
 Package pdftex.def Info: ncert-maths/10/5/2/15/figs/Figure_1.png  used on input
@@ -2940,7 +2977,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
+ [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2949,9 +2986,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98 <./ncert-maths/10/5/2/15/figs/Figure_1.png>]
+ [104 <./ncert-maths/10/5/2/15/figs/Figure_1.png>]
 (./ncert-maths/10/5/2/12/tables/table1.tex)
-<ncert-maths/10/5/2/12/figs/fig1.png, id=1141, 578.16pt x 433.62pt>
+<ncert-maths/10/5/2/12/figs/fig1.png, id=1174, 578.16pt x 433.62pt>
 File: ncert-maths/10/5/2/12/figs/fig1.png Graphic file (type png)
 <use ncert-maths/10/5/2/12/figs/fig1.png>
 Package pdftex.def Info: ncert-maths/10/5/2/12/figs/fig1.png  used on input lin
@@ -2970,7 +3007,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
+ [105]
 Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
@@ -2981,15 +3018,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100 <./ncert-maths/10/5/2/12/figs/fig1.png>] (./ncert-maths/10/5/2/6/tables/t
+ [106 <./ncert-maths/10/5/2/12/figs/fig1.png>] (./ncert-maths/10/5/2/6/tables/t
 able1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
-<ncert-maths/10/5/2/6/figs/Figure_1.png, id=1171, 990.099pt x 570.933pt>
+ [107]
+<ncert-maths/10/5/2/6/figs/Figure_1.png, id=1205, 990.099pt x 570.933pt>
 File: ncert-maths/10/5/2/6/figs/Figure_1.png Graphic file (type png)
 <use ncert-maths/10/5/2/6/figs/Figure_1.png>
 Package pdftex.def Info: ncert-maths/10/5/2/6/figs/Figure_1.png  used on input 
@@ -3009,12 +3046,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102 <./ncert-maths/10/5/2/6/figs/Figure_1.png>]
+ [108 <./ncert-maths/10/5/2/6/figs/Figure_1.png>]
 Overfull \hbox (15.15532pt too wide) detected at line 145
 []
  []
 
-<ncert-maths/11/9/1/6/figs/plot_from_c.png, id=1184, 462.528pt x 346.896pt>
+<ncert-maths/11/9/1/6/figs/plot_from_c.png, id=1218, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/1/6/figs/plot_from_c.png Graphic file (type png)
 <use ncert-maths/11/9/1/6/figs/plot_from_c.png>
 Package pdftex.def Info: ncert-maths/11/9/1/6/figs/plot_from_c.png  used on inp
@@ -3032,7 +3069,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103]
+ [109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3041,8 +3078,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104 <./ncert-maths/11/9/1/6/figs/plot_from_c.png>]
-<ncert-maths/10/5/2/2/figs/plot.png, id=1216, 462.528pt x 346.896pt>
+ [110 <./ncert-maths/11/9/1/6/figs/plot_from_c.png>]
+<ncert-maths/10/5/2/2/figs/plot.png, id=1249, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/2/2/figs/plot.png Graphic file (type png)
 <use ncert-maths/10/5/2/2/figs/plot.png>
 Package pdftex.def Info: ncert-maths/10/5/2/2/figs/plot.png  used on input line
@@ -3054,8 +3091,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105 <./ncert-maths/10/5/2/2/figs/plot.png>]
-<ncert-maths/11/9/1/4/figs/plot.png, id=1228, 462.528pt x 320.1561pt>
+ [111 <./ncert-maths/10/5/2/2/figs/plot.png>]
+<ncert-maths/11/9/1/4/figs/plot.png, id=1261, 462.528pt x 320.1561pt>
 File: ncert-maths/11/9/1/4/figs/plot.png Graphic file (type png)
 <use ncert-maths/11/9/1/4/figs/plot.png>
 Package pdftex.def Info: ncert-maths/11/9/1/4/figs/plot.png  used on input line
@@ -3073,8 +3110,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106 <./ncert-maths/11/9/1/4/figs/plot.png>]
-<ncert-maths/11/9/3/6/figs/graph1.png, id=1239, 462.528pt x 346.896pt>
+ [112 <./ncert-maths/11/9/1/4/figs/plot.png>]
+<ncert-maths/11/9/3/6/figs/graph1.png, id=1272, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/6/figs/graph1.png Graphic file (type png)
 <use ncert-maths/11/9/3/6/figs/graph1.png>
 Package pdftex.def Info: ncert-maths/11/9/3/6/figs/graph1.png  used on input li
@@ -3085,7 +3122,7 @@ Overfull \hbox (43.36464pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-<ncert-maths/11/9/3/6/figs/graph2.png, id=1240, 462.528pt x 346.896pt>
+<ncert-maths/11/9/3/6/figs/graph2.png, id=1273, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/6/figs/graph2.png Graphic file (type png)
 <use ncert-maths/11/9/3/6/figs/graph2.png>
 Package pdftex.def Info: ncert-maths/11/9/3/6/figs/graph2.png  used on input li
@@ -3109,8 +3146,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
-<ncert-maths/11/9/3/1/figs/stem_plot.png, id=1255, 462.528pt x 346.896pt>
+ [113]
+<ncert-maths/11/9/3/1/figs/stem_plot.png, id=1288, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/1/figs/stem_plot.png Graphic file (type png)
 <use ncert-maths/11/9/3/1/figs/stem_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/3/1/figs/stem_plot.png  used on input
@@ -3123,7 +3160,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108 <./ncert-maths/11/9/3/6/figs/graph1.png>]
+ [114 <./ncert-maths/11/9/3/6/figs/graph1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3132,8 +3169,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109 <./ncert-maths/11/9/3/6/figs/graph2.png>]
-<ncert-maths/11/9/3/5/figs/a.png, id=1277, 462.528pt x 346.896pt>
+ [115 <./ncert-maths/11/9/3/6/figs/graph2.png>]
+<ncert-maths/11/9/3/5/figs/a.png, id=1310, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/5/figs/a.png Graphic file (type png)
 <use ncert-maths/11/9/3/5/figs/a.png>
 Package pdftex.def Info: ncert-maths/11/9/3/5/figs/a.png  used on input line 93
@@ -3152,8 +3189,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110]
-<ncert-maths/11/9/3/5/figs/b.png, id=1293, 462.528pt x 346.896pt>
+ [116]
+<ncert-maths/11/9/3/5/figs/b.png, id=1327, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/5/figs/b.png Graphic file (type png)
 <use ncert-maths/11/9/3/5/figs/b.png>
 Package pdftex.def Info: ncert-maths/11/9/3/5/figs/b.png  used on input line 11
@@ -3172,8 +3209,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111 <./ncert-maths/11/9/3/1/figs/stem_plot.png>]
-<ncert-maths/11/9/3/5/figs/c.png, id=1309, 462.528pt x 346.896pt>
+ [117 <./ncert-maths/11/9/3/1/figs/stem_plot.png>]
+<ncert-maths/11/9/3/5/figs/c.png, id=1343, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/5/figs/c.png Graphic file (type png)
 <use ncert-maths/11/9/3/5/figs/c.png>
 Package pdftex.def Info: ncert-maths/11/9/3/5/figs/c.png  used on input line 12
@@ -3189,21 +3226,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112 <./ncert-maths/11/9/3/5/figs/a.png>]
+ [118 <./ncert-maths/11/9/3/5/figs/a.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113 <./ncert-maths/11/9/3/5/figs/b.png>]
+ [119 <./ncert-maths/11/9/3/5/figs/b.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114 <./ncert-maths/11/9/3/5/figs/c.png>] (./ncert-maths/11/9/3/30/main.tex
+ [120 <./ncert-maths/11/9/3/5/figs/c.png>] (./ncert-maths/11/9/3/30/main.tex
 (./ncert-maths/11/9/3/30/tables/parameters.tex)
-<ncert-maths/11/9/3/30/figs/11_9_3_30.png, id=1336, 462.528pt x 346.896pt>
+<ncert-maths/11/9/3/30/figs/11_9_3_30.png, id=1369, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/30/figs/11_9_3_30.png Graphic file (type png)
 <use ncert-maths/11/9/3/30/figs/11_9_3_30.png>
 Package pdftex.def Info: ncert-maths/11/9/3/30/figs/11_9_3_30.png  used on inpu
@@ -3220,7 +3257,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115
+ [121
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3228,8 +3265,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116 <./ncert-maths/11/9/3/30/figs/11_9_3_30.png>]
-<ncert-maths/10/5/2/20/figs/fig1.png, id=1363, 462.528pt x 346.896pt>
+ [122 <./ncert-maths/11/9/3/30/figs/11_9_3_30.png>]
+<ncert-maths/10/5/2/20/figs/fig1.png, id=1396, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/2/20/figs/fig1.png Graphic file (type png)
 <use ncert-maths/10/5/2/20/figs/fig1.png>
 Package pdftex.def Info: ncert-maths/10/5/2/20/figs/fig1.png  used on input lin
@@ -3265,7 +3302,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117 <./ncert-maths/10/5/2/20/figs/fig1.png>]
+ [123 <./ncert-maths/10/5/2/20/figs/fig1.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3278,14 +3315,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118]
-<ncert-maths/11/9/3/12/figs/graph1.png, id=1392, 462.528pt x 346.896pt>
+ [124]
+<ncert-maths/11/9/3/12/figs/graph1.png, id=1425, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/12/figs/graph1.png Graphic file (type png)
 <use ncert-maths/11/9/3/12/figs/graph1.png>
 Package pdftex.def Info: ncert-maths/11/9/3/12/figs/graph1.png  used on input l
 ine 88.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<ncert-maths/11/9/3/12/figs/graph2.png, id=1393, 462.528pt x 346.896pt>
+<ncert-maths/11/9/3/12/figs/graph2.png, id=1426, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/3/12/figs/graph2.png Graphic file (type png)
 <use ncert-maths/11/9/3/12/figs/graph2.png>
 Package pdftex.def Info: ncert-maths/11/9/3/12/figs/graph2.png  used on input l
@@ -3304,7 +3341,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [119 <./ncert-maths/11/9/3/12/figs/graph1.png>]
+ [125 <./ncert-maths/11/9/3/12/figs/graph1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3313,7 +3350,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120 <./ncert-maths/11/9/3/12/figs/graph2.png>]
+ [126 <./ncert-maths/11/9/3/12/figs/graph2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3322,7 +3359,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121]
+ [127]
 Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
@@ -3332,7 +3369,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
-) (./ncert-maths/10/5/3/20/discrete1.tex
+) (./ncert-maths/11/5/9/2/2.tex (./ncert-maths/11/5/9/2/tables/table1.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+<ncert-maths/11/5/9/2/figs/stem_plot.png, id=1477, 462.528pt x 320.1561pt>
+File: ncert-maths/11/5/9/2/figs/stem_plot.png Graphic file (type png)
+<use ncert-maths/11/5/9/2/figs/stem_plot.png>
+Package pdftex.def Info: ncert-maths/11/5/9/2/figs/stem_plot.png  used on input
+ line 105.
+(pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+(./ncert-maths/10/5/3/20/discrete1.tex
 (./ncert-maths/10/5/3/20/tables/table2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3342,14 +3413,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [122]
-<ncert-maths/10/5/3/20/figs/plot1.png, id=1444, 578.16pt x 289.08pt>
+ [130 <./ncert-maths/11/5/9/2/figs/stem_plot.png>]
+<ncert-maths/10/5/3/20/figs/plot1.png, id=1506, 578.16pt x 289.08pt>
 File: ncert-maths/10/5/3/20/figs/plot1.png Graphic file (type png)
 <use ncert-maths/10/5/3/20/figs/plot1.png>
 Package pdftex.def Info: ncert-maths/10/5/3/20/figs/plot1.png  used on input li
 ne 94.
 (pdftex.def)             Requested size: 433.62001pt x 216.80946pt.
-<ncert-maths/10/5/3/20/figs/plot2.png, id=1445, 578.16pt x 289.08pt>
+<ncert-maths/10/5/3/20/figs/plot2.png, id=1507, 578.16pt x 289.08pt>
 File: ncert-maths/10/5/3/20/figs/plot2.png Graphic file (type png)
 <use ncert-maths/10/5/3/20/figs/plot2.png>
 Package pdftex.def Info: ncert-maths/10/5/3/20/figs/plot2.png  used on input li
@@ -3361,14 +3432,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [123]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [124 <./ncert-maths/10/5/3/20/figs/plot1.png> <./ncert-maths/10/5/3/20/figs/pl
-ot2.png>]
+ [131 <./ncert-maths/10/5/3/20/figs/plot1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3377,7 +3441,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125]
+ [132 <./ncert-maths/10/5/3/20/figs/plot2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3386,7 +3450,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [133]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3395,7 +3459,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
+ [134]
 (./ncert-maths/11/9/5/16/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
@@ -3405,7 +3469,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ncert-maths/11/9/5/16/figs/fig1.png, id=1485, 462.528pt x 346.896pt>
+<ncert-maths/11/9/5/16/figs/fig1.png, id=1540, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/5/16/figs/fig1.png Graphic file (type png)
 <use ncert-maths/11/9/5/16/figs/fig1.png>
 Package pdftex.def Info: ncert-maths/11/9/5/16/figs/fig1.png  used on input lin
@@ -3423,7 +3487,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128]
+ [135]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3432,30 +3496,51 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129 <./ncert-maths/11/9/5/16/figs/fig1.png>])
+ [136 <./ncert-maths/11/9/5/16/figs/fig1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [138])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132
+ [139]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
 Chapter 5.
 (./ncert-maths/contour_integration.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
@@ -3484,7 +3569,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
+ [142]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3493,8 +3578,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
-<ncert-maths/10/5/3/13/figs/a.png, id=1542, 462.528pt x 346.896pt>
+ [143]
+<ncert-maths/10/5/3/13/figs/a.png, id=1609, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/13/figs/a.png Graphic file (type png)
 <use ncert-maths/10/5/3/13/figs/a.png>
 Package pdftex.def Info: ncert-maths/10/5/3/13/figs/a.png  used on input line 9
@@ -3510,9 +3595,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135 <./ncert-maths/10/5/3/13/figs/a.png>] (./ncert-maths/11/9/2/13/tables/tab
+ [144 <./ncert-maths/10/5/3/13/figs/a.png>] (./ncert-maths/11/9/2/13/tables/tab
 le1.tex)
-<ncert-maths/11/9/2/13/figs/Figure_1.png, id=1551, 556.479pt x 581.7735pt>
+<ncert-maths/11/9/2/13/figs/Figure_1.png, id=1618, 556.479pt x 581.7735pt>
 File: ncert-maths/11/9/2/13/figs/Figure_1.png Graphic file (type png)
 <use ncert-maths/11/9/2/13/figs/Figure_1.png>
 Package pdftex.def Info: ncert-maths/11/9/2/13/figs/Figure_1.png  used on input
@@ -3527,13 +3612,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+ [145]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137 <./ncert-maths/11/9/2/13/figs/Figure_1.png>] (./ncert-maths/10/5/3/2/a1.t
+ [146 <./ncert-maths/11/9/2/13/figs/Figure_1.png>] (./ncert-maths/10/5/3/2/a1.t
 ex
 (./ncert-maths/10/5/3/2/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3541,7 +3626,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [138]
+ [147]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3550,8 +3635,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [139]
-<ncert-maths/10/5/3/2/figs//graph_1.png, id=1612, 462.528pt x 320.1561pt>
+ [148]
+<ncert-maths/10/5/3/2/figs//graph_1.png, id=1678, 462.528pt x 320.1561pt>
 File: ncert-maths/10/5/3/2/figs//graph_1.png Graphic file (type png)
 <use ncert-maths/10/5/3/2/figs//graph_1.png>
 Package pdftex.def Info: ncert-maths/10/5/3/2/figs//graph_1.png  used on input 
@@ -3566,7 +3651,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140]
+ [149]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3575,7 +3660,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [141 <./ncert-maths/10/5/3/2/figs//graph_1.png>]
+ [150 <./ncert-maths/10/5/3/2/figs//graph_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3584,8 +3669,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142]
-<ncert-maths/10/5/3/2/figs//graph_2.png, id=1657, 462.528pt x 320.1561pt>
+ [151]
+<ncert-maths/10/5/3/2/figs//graph_2.png, id=1725, 462.528pt x 320.1561pt>
 File: ncert-maths/10/5/3/2/figs//graph_2.png Graphic file (type png)
 <use ncert-maths/10/5/3/2/figs//graph_2.png>
 Package pdftex.def Info: ncert-maths/10/5/3/2/figs//graph_2.png  used on input 
@@ -3597,7 +3682,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143 <./ncert-maths/10/5/3/2/figs//graph_2.png>]
+ [152 <./ncert-maths/10/5/3/2/figs//graph_2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3606,8 +3691,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [144]
-<ncert-maths/10/5/3/2/figs//graph_3.png, id=1693, 462.528pt x 320.1561pt>
+ [153]
+<ncert-maths/10/5/3/2/figs//graph_3.png, id=1760, 462.528pt x 320.1561pt>
 File: ncert-maths/10/5/3/2/figs//graph_3.png Graphic file (type png)
 <use ncert-maths/10/5/3/2/figs//graph_3.png>
 Package pdftex.def Info: ncert-maths/10/5/3/2/figs//graph_3.png  used on input 
@@ -3622,7 +3707,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145]
+ [154]
 (./ncert-maths/10/5/3/10/math.10.5.3.10.tex
 (./ncert-maths/10/5/3/10/tables/table1.tex)
 
@@ -3637,7 +3722,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [146 <./ncert-maths/10/5/3/2/figs//graph_3.png>]
+ [155 <./ncert-maths/10/5/3/2/figs//graph_3.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3646,8 +3731,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [147]
-<ncert-maths/10/5/3/10/figs/signal_x1.png, id=1728, 462.528pt x 346.896pt>
+ [156]
+<ncert-maths/10/5/3/10/figs/signal_x1.png, id=1794, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/10/figs/signal_x1.png Graphic file (type png)
 <use ncert-maths/10/5/3/10/figs/signal_x1.png>
 Package pdftex.def Info: ncert-maths/10/5/3/10/figs/signal_x1.png  used on inpu
@@ -3657,7 +3742,7 @@ t line 100.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ncert-maths/10/5/3/10/figs/signal_y1.png, id=1729, 462.528pt x 346.896pt>
+<ncert-maths/10/5/3/10/figs/signal_y1.png, id=1795, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/10/figs/signal_y1.png Graphic file (type png)
 <use ncert-maths/10/5/3/10/figs/signal_y1.png>
 Package pdftex.def Info: ncert-maths/10/5/3/10/figs/signal_y1.png  used on inpu
@@ -3675,7 +3760,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [148]
+ [157]
 Overfull \vbox (97.00346pt too high) has occurred while \output is active []
 
 
@@ -3684,8 +3769,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [149 <./ncert-maths/10/5/3/10/figs/signal_x1.png>]
-<ncert-maths/10/5/3/10/figs/signal_x2.png, id=1764, 462.528pt x 346.896pt>
+ [158 <./ncert-maths/10/5/3/10/figs/signal_x1.png>]
+<ncert-maths/10/5/3/10/figs/signal_x2.png, id=1832, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/10/figs/signal_x2.png Graphic file (type png)
 <use ncert-maths/10/5/3/10/figs/signal_x2.png>
 Package pdftex.def Info: ncert-maths/10/5/3/10/figs/signal_x2.png  used on inpu
@@ -3695,7 +3780,7 @@ t line 134.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ncert-maths/10/5/3/10/figs/signal_y2.png, id=1765, 462.528pt x 346.896pt>
+<ncert-maths/10/5/3/10/figs/signal_y2.png, id=1833, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/10/figs/signal_y2.png Graphic file (type png)
 <use ncert-maths/10/5/3/10/figs/signal_y2.png>
 Package pdftex.def Info: ncert-maths/10/5/3/10/figs/signal_y2.png  used on inpu
@@ -3714,7 +3799,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [150 <./ncert-maths/10/5/3/10/figs/signal_y1.png>]
+ [159 <./ncert-maths/10/5/3/10/figs/signal_y1.png>]
 Underfull \vbox (badness 1584) has occurred while \output is active []
 
 
@@ -3723,7 +3808,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [151 <./ncert-maths/10/5/3/10/figs/signal_x2.png>]
+ [160 <./ncert-maths/10/5/3/10/figs/signal_x2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3732,7 +3817,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [152 <./ncert-maths/10/5/3/10/figs/signal_y2.png>]
+ [161 <./ncert-maths/10/5/3/10/figs/signal_y2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3741,7 +3826,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [153]
+ [162]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3750,14 +3835,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [154]
-<ncert-maths/11/9/2/8/figs/x_plot.png, id=1828, 462.528pt x 346.896pt>
+ [163]
+<ncert-maths/11/9/2/8/figs/x_plot.png, id=1895, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/2/8/figs/x_plot.png Graphic file (type png)
 <use ncert-maths/11/9/2/8/figs/x_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/2/8/figs/x_plot.png  used on input li
 ne 138.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<ncert-maths/11/9/2/8/figs/y_plot.png, id=1829, 462.528pt x 346.896pt>
+<ncert-maths/11/9/2/8/figs/y_plot.png, id=1896, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/2/8/figs/y_plot.png Graphic file (type png)
 <use ncert-maths/11/9/2/8/figs/y_plot.png>
 Package pdftex.def Info: ncert-maths/11/9/2/8/figs/y_plot.png  used on input li
@@ -3776,7 +3861,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [155 <./ncert-maths/11/9/2/8/figs/x_plot.png>] (./ncert-maths/10/5/3/12/main.t
+ [164 <./ncert-maths/11/9/2/8/figs/x_plot.png>] (./ncert-maths/10/5/3/12/main.t
 ex
 (./ncert-maths/10/5/3/12/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3787,7 +3872,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [156 <./ncert-maths/11/9/2/8/figs/y_plot.png>]
+ [165 <./ncert-maths/11/9/2/8/figs/y_plot.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
@@ -3801,8 +3886,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [157]
-<ncert-maths/10/5/3/12/figs/fig1.png, id=1868, 462.528pt x 346.896pt>
+ [166]
+<ncert-maths/10/5/3/12/figs/fig1.png, id=1934, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/12/figs/fig1.png Graphic file (type png)
 <use ncert-maths/10/5/3/12/figs/fig1.png>
 Package pdftex.def Info: ncert-maths/10/5/3/12/figs/fig1.png  used on input lin
@@ -3814,7 +3899,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [158 <./ncert-maths/10/5/3/12/figs/fig1.png>] (./ncert-maths/11/9/2/6/2.tex
+ [167 <./ncert-maths/10/5/3/12/figs/fig1.png>] (./ncert-maths/11/9/2/6/2.tex
 (./ncert-maths/11/9/2/6/tables/table1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3824,7 +3909,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [159]
+ [168]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3833,8 +3918,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160]
-<ncert-maths/11/9/2/6/figs/stem_plot.pdf, id=1904, 462.52798pt x 346.89601pt>
+ [169]
+<ncert-maths/11/9/2/6/figs/stem_plot.pdf, id=1972, 462.52798pt x 346.89601pt>
 File: ncert-maths/11/9/2/6/figs/stem_plot.pdf Graphic file (type pdf)
 <use ncert-maths/11/9/2/6/figs/stem_plot.pdf>
 Package pdftex.def Info: ncert-maths/11/9/2/6/figs/stem_plot.pdf  used on input
@@ -3853,7 +3938,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161]
+ [170]
 (./ncert-maths/10/5/3/6/10.5.3.tex (./ncert-maths/10/5/3/6/tables/table_1-1.tex
 
 Overfull \hbox (7.13481pt too wide) in paragraph at lines 11--11
@@ -3876,7 +3961,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [162 <./ncert-maths/11/9/2/6/figs/stem_plot.pdf>]
+ [171 <./ncert-maths/11/9/2/6/figs/stem_plot.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3885,8 +3970,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [163]
-<ncert-maths/10/5/3/6/figs/x(n)_plot.png, id=1971, 462.528pt x 346.896pt>
+ [172]
+<ncert-maths/10/5/3/6/figs/x(n)_plot.png, id=2037, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/6/figs/x(n)_plot.png Graphic file (type png)
 <use ncert-maths/10/5/3/6/figs/x(n)_plot.png>
 Package pdftex.def Info: ncert-maths/10/5/3/6/figs/x(n)_plot.png  used on input
@@ -3901,133 +3986,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [164 <./ncert-maths/10/5/3/6/figs/x(n)_plot.png>] (./ncert-maths/10/5/4/5/assi
+ [173 <./ncert-maths/10/5/3/6/figs/x(n)_plot.png>] (./ncert-maths/10/5/4/5/assi
 gn1.tex
 (./ncert-maths/10/5/4/5/tables/table1.tex)
-<ncert-maths/10/5/4/5/figs/fig.png, id=1982, 462.528pt x 346.896pt>
+<ncert-maths/10/5/4/5/figs/fig.png, id=2048, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/4/5/figs/fig.png Graphic file (type png)
 <use ncert-maths/10/5/4/5/figs/fig.png>
 Package pdftex.def Info: ncert-maths/10/5/4/5/figs/fig.png  used on input line 
 80.
 (pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [165]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [166 <./ncert-maths/10/5/4/5/figs/fig.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
-
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [167]
-(./ncert-maths/11/9/3/15/ncert_11_9_3_15.tex
-(./ncert-maths/11/9/3/15/tables/table1.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [168]
-<ncert-maths/11/9/3/15/figs/Figure_1.png, id=2034, 462.528pt x 346.896pt>
-File: ncert-maths/11/9/3/15/figs/Figure_1.png Graphic file (type png)
-<use ncert-maths/11/9/3/15/figs/Figure_1.png>
-Package pdftex.def Info: ncert-maths/11/9/3/15/figs/Figure_1.png  used on input
- line 111.
-(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-<ncert-maths/11/9/3/15/figs/Figure_2.png, id=2035, 462.528pt x 346.896pt>
-File: ncert-maths/11/9/3/15/figs/Figure_2.png Graphic file (type png)
-<use ncert-maths/11/9/3/15/figs/Figure_2.png>
-Package pdftex.def Info: ncert-maths/11/9/3/15/figs/Figure_2.png  used on input
- line 118.
-(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [169]
-(./ncert-maths/11/9/2/2/2.tex (./ncert-maths/11/9/2/2/tables/table1.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [170 <./ncert-maths/11/9/3/15/figs/Figure_1.png>]
-
-LaTeX Warning: Text page 171 contains only floats.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [171 <./ncert-maths/11/9/3/15/figs/Figure_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [172]
-<ncert-maths/11/9/2/2/figures/fig1.png, id=2078, 462.528pt x 346.896pt>
-File: ncert-maths/11/9/2/2/figures/fig1.png Graphic file (type png)
-<use ncert-maths/11/9/2/2/figures/fig1.png>
-Package pdftex.def Info: ncert-maths/11/9/2/2/figures/fig1.png  used on input l
-ine 120.
-(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [173 <./ncert-maths/11/9/2/2/figures/Fig1.png>]
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4045,7 +4013,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [175]
+ [175 <./ncert-maths/10/5/4/5/figs/fig.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4054,7 +4027,127 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [176])
+ [176]
+(./ncert-maths/11/9/3/15/ncert_11_9_3_15.tex
+(./ncert-maths/11/9/3/15/tables/table1.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [177]
+<ncert-maths/11/9/3/15/figs/Figure_1.png, id=2102, 462.528pt x 346.896pt>
+File: ncert-maths/11/9/3/15/figs/Figure_1.png Graphic file (type png)
+<use ncert-maths/11/9/3/15/figs/Figure_1.png>
+Package pdftex.def Info: ncert-maths/11/9/3/15/figs/Figure_1.png  used on input
+ line 111.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+<ncert-maths/11/9/3/15/figs/Figure_2.png, id=2103, 462.528pt x 346.896pt>
+File: ncert-maths/11/9/3/15/figs/Figure_2.png Graphic file (type png)
+<use ncert-maths/11/9/3/15/figs/Figure_2.png>
+Package pdftex.def Info: ncert-maths/11/9/3/15/figs/Figure_2.png  used on input
+ line 118.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [178]
+(./ncert-maths/11/9/2/2/2.tex (./ncert-maths/11/9/2/2/tables/table1.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [179 <./ncert-maths/11/9/3/15/figs/Figure_1.png>]
+
+LaTeX Warning: Text page 180 contains only floats.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [180 <./ncert-maths/11/9/3/15/figs/Figure_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [181]
+<ncert-maths/11/9/2/2/figures/fig1.png, id=2146, 462.528pt x 346.896pt>
+File: ncert-maths/11/9/2/2/figures/fig1.png Graphic file (type png)
+<use ncert-maths/11/9/2/2/figures/fig1.png>
+Package pdftex.def Info: ncert-maths/11/9/2/2/figures/fig1.png  used on input l
+ine 120.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182 <./ncert-maths/11/9/2/2/figures/Fig1.png>]
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [183]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [185])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [186
+
+]
 Chapter 6.
 (./ncert-physics/ltransform.tex (./ncert-physics/11/14/21.tex
 (./ncert-physics/11/14/tables/inputpar.tex)
@@ -4067,10 +4160,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [177
-
-]
-<ncert-physics/11/14/figs/11_14_21_fbd.pdf, id=2114, 482.24065pt x 789.54073pt>
+ [187]
+<ncert-physics/11/14/figs/11_14_21_fbd.pdf, id=2185, 482.24065pt x 789.54073pt>
 
 File: ncert-physics/11/14/figs/11_14_21_fbd.pdf Graphic file (type pdf)
 <use ncert-physics/11/14/figs/11_14_21_fbd.pdf>
@@ -4090,7 +4181,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [178]
+ [188]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4099,8 +4190,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [179 <./ncert-physics/11/14/figs/11_14_21_fbd.pdf>]
-<ncert-physics/11/14/figs/11.14.21_plot.png, id=2164, 462.528pt x 346.896pt>
+ [189 <./ncert-physics/11/14/figs/11_14_21_fbd.pdf>]
+<ncert-physics/11/14/figs/11.14.21_plot.png, id=2236, 462.528pt x 346.896pt>
 File: ncert-physics/11/14/figs/11.14.21_plot.png Graphic file (type png)
 <use ncert-physics/11/14/figs/11.14.21_plot.png>
 Package pdftex.def Info: ncert-physics/11/14/figs/11.14.21_plot.png  used on in
@@ -4115,7 +4206,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [180])
+ [190])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4124,13 +4215,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [181 <./ncert-physics/11/14/figs/11.14.21_plot.png>])
+ [191 <./ncert-physics/11/14/figs/11.14.21_plot.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [182
+ [192
 
 ]
 Chapter 7.
@@ -4143,15 +4234,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [183])
+ [193]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [184
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [194])
 Appendix A.
 (./app/conv.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4159,13 +4251,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [185]
+ [195
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [186
+ [196
 
 ]
 Appendix B.
@@ -4178,7 +4272,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [187]
+ [197]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4187,7 +4281,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [188]
+ [198]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4196,7 +4290,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [189]
+ [199]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4205,19 +4299,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [190])
+ [200])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [191]
+ [201]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [192
+ [202
 
 ]
 Appendix C.
@@ -4230,7 +4324,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [193]
+ [203]
 Underfull \vbox (badness 2443) has occurred while \output is active []
 
 
@@ -4239,7 +4333,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [194]
+ [204]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4248,7 +4342,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [195]
+ [205]
 Overfull \vbox (148.08226pt too high) has occurred while \output is active []
 
 
@@ -4257,7 +4351,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [196]
+ [206]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4266,100 +4360,55 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [197])
+ [207])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [198]
+ [208]
 No file main.ind.
 (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E378B570704FBC520293164C38035369;1172.
  ) 
 Here is how much of TeX's memory you used:
- 54927 strings out of 478287
- 1350177 string characters out of 5849289
- 1987667 words of memory out of 5000000
- 70552 multiletter control sequences out of 15000+600000
- 487644 words of font info for 102 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 109i,20n,108p,717b,1173s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.192.11} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.192.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.192.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.191.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.191.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.186.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.176.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.188.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.181.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.182.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.182.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.178.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.181.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.181.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm0800.pfb>
-Output written on main.pdf (204 pages, 2670221 bytes).
+ 56901 strings out of 476182
+ 1406189 string characters out of 5796582
+ 2102057 words of memory out of 6000000
+ 74617 multiletter control sequences out of 15000+600000
+ 530672 words of font info for 106 fonts, out of 8000000 for 9000
+ 1140 hyphenation exceptions out of 8191
+ 109i,20n,108p,717b,1234s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on main.pdf (214 pages, 2689431 bytes).
 PDF statistics:
- 2763 PDF objects out of 2984 (max. 8388607)
- 2274 compressed objects within 23 object streams
- 1254 named destinations out of 1440 (max. 500000)
- 496 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2827 PDF objects out of 2984 (max. 8388607)
+ 2325 compressed objects within 24 object streams
+ 1276 named destinations out of 1440 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 
