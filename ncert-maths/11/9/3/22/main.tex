@@ -1,0 +1,87 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{caption}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{gvv}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+%\bibliographystyle{ieeetr}
+\begin{document}
+%
+
+\bibliographystyle{IEEEtran}
+
+
+\vspace{3cm}
+
+\title{
+%  \logo{
+Assignment-2
+
+\large{EE:1205 \brak{Signals  Systems}}
+
+Indian Institute of Technology, Hyderabad
+%  }
+}
+\author{Md Ayaan Ashraf
+
+EE23BTECH11041
+}  
+\maketitle
+\newpage
+\bigskip
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+%\renewcommand{\theequation}{\theenumi}
+\section*{\textit{\textbf{Question 11.9.3.22}}}
+ If the first and the  $n^{th}$  term of a G.P. are $a$ and $b$, respectively, and if $P$ is the product of $n$ terms , prove that $ P^2 = \brak{ab}^n $
+\section*{\textit{\textbf{Solution:}}}
+\fi
+\input{ncert-maths/11/9/3/22/tables/table2}
+The  $n^{th}$ term of GP is :-
+\begin{align}
+x\brak{n} = & x\brak{0}r^{n} u\brak{n}\\
+P =& \prod_{k=0}^{n} x\brak{0}r^{k}= \brak{x\brak{0}}^n r^{\frac{n^2}{2}}= \brak{ab}^{\frac{n}{2}}\\
+\implies  P^2 =& \brak{ab}^n 
+\end {align}
+Z-transform of $x\brak{n}$:
+\begin{align}
+X\brak{z}= \frac{a}{1-\left(\frac{b}{a}\right)^{\frac{1}{n}}{z^{-1}}} , \quad{|z|>\left(\frac{b}{a}\right)^{\frac{1}{n}}}
+\end{align}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{ncert-maths/11/9/3/22/figs/fig.png}
+    \caption{(x(0)=5, r=2) Plot of x\brak{n}= $\brak{5}\brak{2}^n$}
+    \label{fig: 11.9.3.22}
+\end{figure}
+
