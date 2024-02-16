@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.3)  9 FEB 2024 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.3)  12 FEB 2024 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**q10.tex
-(./q10.tex
+**2.1.tex
+(./2.1.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -1026,13 +1026,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 9.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file q10.aux.
-\openout1 = `q10.aux'.
+) (./2.1.aux)
+\openout1 = `2.1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 39.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 39.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1159,8 +1159,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
 LaTeX Info: Redefining \nameref on input line 39.
+
+(./2.1.out) (./2.1.out)
 \@outlinefile=\write4
-\openout4 = `q10.out'.
+\openout4 = `2.1.out'.
 
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 111.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
@@ -1193,36 +1195,45 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
+(./tables/table2.tex)
+Overfull \hbox (13.37712pt too wide) detected at line 169
+[]
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./q10.aux)
+<./figs/fig2.png, id=12, 433.62pt x 289.08pt>
+File: ./figs/fig2.png Graphic file (type png)
+<use ./figs/fig2.png>
+Package pdftex.def Info: ./figs/fig2.png  used on input line 173.
+(pdftex.def)             Requested size: 516.0pt x 344.04474pt.
 
-Package rerunfilecheck Warning: File `q10.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package rerunfilecheck Info: Checksums for `q10.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figs/fig2.png>]
+(./2.1.aux)
+Package rerunfilecheck Info: File `2.1.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29071 strings out of 478287
- 573795 string characters out of 5849290
- 818201 words of memory out of 5000000
- 46678 multiletter control sequences out of 15000+600000
- 534914 words of font info for 170 fonts, out of 8000000 for 9000
+ 29153 strings out of 478287
+ 574860 string characters out of 5849290
+ 846617 words of memory out of 5000000
+ 46717 multiletter control sequences out of 15000+600000
+ 550156 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,6n,96p,407b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,11n,96p,407b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on q10.pdf (1 page, 24910 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on 2.1.pdf (2 pages, 69519 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
