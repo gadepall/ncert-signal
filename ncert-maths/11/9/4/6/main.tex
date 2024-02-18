@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,onecolumn]{IEEEtran}
@@ -119,9 +120,10 @@
 %\renewcommand{\theequation}{\theenumi}
 Q: Find the sum to n terms of $3 \times 8 + 6 \times 11 + 9 \times 14 + ...$ \\
     \solution
+    \fi
     \begin{table}[!ht]
     \centering
-        \input{./tables/table2}
+        \input{ncert-maths/11/9/4/6/tables/table2}
     \caption{input parameters}
     \label{}
 \end{table}
@@ -160,13 +162,10 @@ n^3u(n) \xleftrightarrow{\mathcal{Z}} \frac{z^{-1}\brak{1+4z^{-1}+z^{-2}}}{\brak
         $\therefore$ Sum of $n$ terms of the series whose $n^{th}$ term is given by $\brak{3n+3}\brak{3n+8}u\brak{n}$ is $(\frac{9n\brak{n+1}\brak{2n+1}}{6}+\frac{33n\brak{n+1}}{2}+24\brak{n+1})$u$\brak{n}$
         \begin{figure}[h]
     \centering
-     \includegraphics[width=\columnwidth]{figs/plot.png}
+     \includegraphics[width=\columnwidth]{ncert-maths/11/9/4/6/figs/plot.png}
     \caption{Theory vs Simulation}    
     \label{}
 \end{figure}
 
         
 
-
-
-\end{document}
