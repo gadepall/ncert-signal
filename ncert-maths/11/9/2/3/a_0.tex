@@ -1,0 +1,120 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{NCERT 11.9.2.3}
+\author{EE23BTECH11043 - BHUVANESH SUNIL NEHETE$^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\bibliographystyle{IEEEtran}
+
+\textbf{Question:}
+
+In an A.P. the first term is 2 and the sum of the first five terms is one-fourth of the next five terms. Show  that 20\textsuperscript{th} term is $-112$.
+
+\solution
+\fi
+\input{ncert-maths/11/9/2/3/tables/table}
+
+General term can be written as
+\begin{align}
+    x\brak{n} = \brak{x\brak{0} + nd}u\brak{n}
+\end{align}
+By referreing \eqref{eq:apz}
+\begin{align}
+    X(z) &= \frac{x(0)}{1-z^{-1}} + \frac{dz^{-1}}{(1-z^{-1})^{2}}\label{11.9.2.3_eq2}
+\end{align}
+Taking the inverse Z-transform by contour integration by refering \eqref{eq:APSum},
+\begin{align}
+    y(n) &= x(0)\sbrak{(n + 1)u(n)} + \frac{d}{2}\sbrak{n(n + 1)u(n)}\\
+    &= \frac{n+1}{2}\cbrak{2x(0) + nd}u(n)
+\end{align}
+Therefore, 
+\begin{align}
+    y\brak{4}=5x\brak{0}+10d\\
+    y\brak{9}=10x\brak{0}+45d
+\end{align}
+Given, 
+   \begin{align}
+       \sum_{n=0}^{4}x\brak{n} = \frac{1}{4}\sum_{n=5}^{9}x\brak{n}
+   \end{align}
+Simplifying:
+    \begin{align}
+        y\brak{4} &= \frac{1}{4}\brak{y\brak{9}-y\brak{4}}\\
+        \implies 5x\brak{0} + 10d &= \frac{1}{4}\brak{5x\brak{0} + 35d}\\
+        x\brak{0} &= \frac{-d}{3}\\
+        \implies d &= -6 \label{11.9.2.3_eq1}
+    \end{align}
+From \eqref{11.9.2.3_eq1} and \tabref{input data}:
+    \begin{align}
+        x\brak{n}&=\brak{2-6n}u\brak{n} \label{11.9.2.3_eq3}
+   \end{align} 
+From \eqref{11.9.2.3_eq3}:
+    \begin{align}
+        x\brak{19}&=x\brak{0}+19d\\ 
+        &= -112
+    \end{align}    
+From \eqref{11.9.2.3_eq3} and \eqref{11.9.2.3_eq2}:
+    \begin{align}
+        X\brak{z}=\frac{2}{1-z^{-1}} - \frac{6z^{-1}}{\brak{1-z^{-1}}^{2}} \quad |z|>1
+    \end{align}
+
+    \begin{figure}[ht]
+    \renewcommand\thefigure{1}
+        \centering
+        \includegraphics[width=1\linewidth]{ncert-maths/11/9/2/3/figs/Figure_1.png}
+        \caption{graph of $x\brak{n} = 2 - 6n$}
+    \end{figure}
+
+%\end{document}
