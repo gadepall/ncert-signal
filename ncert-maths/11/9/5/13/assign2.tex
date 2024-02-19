@@ -1,0 +1,90 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage[justification=centering]{caption}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{11.9.5-13}
+\author{EE23BTECH11033-killana jaswanth}
+\maketitle
+\newpage
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+question:\begin{align}
+\frac{a+bx}{a-bx}=\frac{b+cx}{b-cx}=\frac{c+dx}{c-dx}
+\end{align}
+then show that a,b,c,d are in G.P\\\\
+solution:\\
+\fi
+      let,
+\begin{align}
+\frac{b}{a}=\frac{c}{b}=\frac{d}{c}=r
+\end{align}
+\\\begin{table}[!ht]
+ \centering
+  \input{ncert-maths/11/9/5/13/tables/tableassign2.tex}
+   \caption{input parameters}
+   \label{tab:11.9.5.13}
+   \end{table}
+\begin{align}
+\frac{a+bx}{a-bx}&=\frac{a+arx}{a-arx}\\
+&=\frac{1+rx}{1-rx}\\
+\frac{b+cx}{b-cx}&=\frac{ar+ar^2x}{ar-ar^2x}\\
+&=\frac{1+rx}{1-rx}\\
+\frac{c+dx}{c-dx}&=\frac{ar^2+ar^3x}{ar^2-ar^3x}\\
+&=\frac{1+rx}{1-rx}
+\end{align}
+As, equations\begin{align} \brak{4}=\brak{6}=\brak{8}
+\end{align}
+so, a,b,c,d are in G.P\\\\
+Applying z-transform\\
+\begin{align}
+X\brak{z}&=\frac{a^2}{a-bz^{-1}} \quad \abs{z}>\abs{\frac{b}{a}}
+\end{align}
+%\end{document}
