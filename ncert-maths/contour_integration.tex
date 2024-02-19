@@ -117,4 +117,29 @@ Hint:$ S_{x-1}=S_{49}-S_x$\\
 \item Find the sum of all two digit numbers which when divided by $4$,yields $1$ as reminder?\\
 \solution
 \pagebreak
+
+\item A spiral is made up of successive semicircles,with centres alternately at A and B,starting with centre at A,of radii $0.5cm,1.0cm,1.5cm,2.0cm$,... as shown in Fig.$5.4$.what is the total length of such a spiral made up of thirteen consecutive semicircles?(Take $\pi=\frac{22}{7}$)\\
+\begin{tikzpicture}
+
+% Define the centers A and B
+\coordinate (A) at (0,0);
+\coordinate (B) at (0.5,0);
+
+% Draw the spiral using semicircles
+\foreach \r in {0.5,1.5} {
+  \draw (A) ++(\r,0) arc (0:180:\r);
+}
+\foreach \r in {1.0,2.0} {
+  \draw (B) ++(\r,0) arc (0:-180:\r);
+}
+\node[label={above:A}] at (-0.1,-0.6){};
+\node[label={above:B}] at (0.5,-0.6){};
+\node[label={above:l}] at (0.5,-1.7){};
+\node[label={above:L}] at (0.2,0.3){};
+% Draw the axes (optional)
+\draw[-] (-3,0) -- (3,0);
+
+\end{tikzpicture}\\
+\solution
+\pagebreak
 \end{enumerate}
