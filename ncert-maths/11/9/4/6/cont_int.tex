@@ -1,0 +1,66 @@
+\begin{enumerate}[label=\thechapter.\arabic*,ref=\thechapter.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item 
+\begin{align}
+    x\brak{n}          & \xrightarrow{\text{Z}} X\brak{z}             \\
+    \implies X\brak{z} & = \sum_{k=-\infty}^{\infty} x\brak{k} z^{-k}
+\end{align}
+Multiplying both side with $z^{k-1}$ and integrating on a contour integral enclosing the region of convergence. Where $C$ is a counter-clockwise closed contour in region of convergence.
+\begin{align}
+    \frac{1}{2\pi j} \oint_C X\brak{z} z^{k-1}  dz & = \frac{1}{2\pi j} \oint_C \sum_{k=-\infty}^{\infty} x\brak{k} z^{-n+k-1} dz                               \\
+                                                   & =\sum_{k=-\infty}^{\infty} x\brak{k}  \frac{1}{2\pi j} \oint_C z^{-n+k-1} .dz \label{eq:cauchyintegraleq1}
+\end{align}
+From cauchy's integral theorem
+\begin{align}
+    \frac{1}{2\pi j} \oint_C z^{-k} dz & = \begin{cases}
+                                               1, \quad k = 1 \\
+                                               0, \quad k\neq 1
+                                           \end{cases}  \\
+                                       & = \delta\brak{1-k}
+\end{align}
+So eq \eqref{eq:cauchyintegraleq1} becomes
+\begin{align}
+    \frac{1}{2\pi j} \oint_C X\brak{z} z^{k-1} dz & = \sum_{k=-\infty}^{\infty} x\brak{k} \delta \brak{k-n}                       \\
+    \implies x\brak{n}                            & =  \frac{1}{2\pi j} \oint_C X\brak{z} z^{n-1} dz \label{eq:cauchyintegraleq2}
+\end{align}
+Contour integrals like \eqref{eq:cauchyintegraleq2} can be evaluated using Cauchy's residue theorem.
+\begin{align}
+    x\brak{n} & =  \frac{1}{2\pi j} \oint_C X\brak{z} z^{n-1} dz                               \\
+              & = \sum \sbrak{\text{Residue of } X\brak{z} z^{n-1} \text{ at poles inside } C}
+\end{align}
+\item 
+Question: Find the sum of n terms of an AP where common difference = $d$ using Contour Integration.\\
+\solution\\
+By performing inverse Z transform on S\brak{z} using contour integration
+\begin{align}
+   s(n)&=\frac{1}{2\pi j}\oint_{C}S(z) \;z^{n-1} \;dz  \\
+   s(n)&=\frac{1}{2\pi j}\oint_{C}\brak{\dfrac{x\brak{0}z^{n-1}}{\brak{1-z^{-1}}^2} + \dfrac{dz^{n-2}}{\brak{1-z^{-1}}^{3}}}\;dz  
+\end{align}
+For $R_1$ we can observe that the pole has been repeated twice.
+\begin{align}
+    R&=\frac{1}{\brak {m-1}!}\lim\limits_{z\to a}\frac{d^{m-1}}{dz^{m-1}}\brak {{(z-a)}^{m}f\brak z}\\
+    R_1&=\frac{1}{\brak {1}!}\lim\limits_{z\to 1}\frac{d}{dz}\brak {{(z-1)}^{2}\frac{x\brak{0}z^{n+1}}{{(z-1)}^2}}\\
+    &=x\brak{0}\brak{n+1}\lim\limits_{z\to 1}\brak{z^n}\\
+    &=x\brak{0}\brak{n+1}\label{eq:1/ap/contour}
+\end{align}
+For $R_2$ we can observe that the pole has been repeated thrice.
+\begin{align}
+    R_2&=\frac{1}{\brak {2}!}\lim\limits_{z\to 1}\frac{d^{2}}{dz^{2}}\brak {{(z-1)}^{3}\frac{dz^{n+1}}{{(z-1)}^3}}\\
+    &=\frac{d\brak{n+1}}{2}\lim\limits_{z\to 1}\frac{d}{dz}\brak{z^n}\\
+    &=\frac{d\brak{n+1}\brak{n}}{2}\lim\limits_{z\to 1}\brak{z^{n-1}}\\
+    &=\frac{d\brak{n}\brak{n+1}}{2}\label{eq:2/ap/contour} \\
+    \implies R&= R_1 + R_2\label{eq:3/ap/contour}
+\end{align}
+Using \eqref{eq:1/ap/contour} and \eqref{eq:2/ap/contour} in \eqref{eq:3/ap/contour}
+\begin{align}
+   R &=x\brak{0}\brak{n+1}+\frac{d\brak{n}\brak{n+1}}{2}
+\end{align}
+Finally,
+\begin{align}
+    s\brak{n}&=x\brak{0}\brak{n+1}u\brak{n}+d\brak{\dfrac{{n\brak{n+1}}}{2}}u\brak{n}\\
+    &=\dfrac{n+1}{2}\brak{2x\brak{0}+nd}u\brak{n}
+\end{align}
+
+\end{enumerate}
