@@ -1,0 +1,95 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+ \newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+ \bibliographystyle{IEEEtran}
+ \vspace{3cm}
+ \title{\textbf{11.9.3.22}}
+ \author{EE23BTECH11048-Ponugumati Venkata Chanakya$^{*}$% <-this % stops a space
+ }
+ \maketitle
+ \newpage
+ \bigskip
+ \renewcommand{\thefigure}{\theenumi}
+ \renewcommand{\thetable}{\theenumi}
+ \textbf{QUESTION:}
+If $p^{th},q^{th},r^{th} $ term of a GP are $a,b$ and $c$  respectively Prove that \\
+\begin{align*}
+    a^{q-r}b^{r-p}c^{p-q}=1
+\end{align*}
+\solution
+\fi
+\begin{align}
+x(n)&=(x(0)d^n) u (n) \label{eq 11.9.3.22_1}\\
+a&=x(p) = (x(0)d^p)\\
+b&=x(q) = (x(0)d^q)\\
+c&=x(r) = (x(0)d^r)\\
+a^{q-r}b^{r-p}c^{p-q}&=x(0)^{q-r} d^{p(q-r)} x(0)^{r-p} d^{q(r-p)} x(0)^{p-q} d^{r(p-q)} \\
+&= x(0)^{q-r+r-p+p-q} d^{p(q-r)+q(r-p)+r(p-q)}\\
+&=x(0)^0 d^0\\
+a^{q-r}b^{r-p}c^{p-q} &=1
+\end{align}\
+
+ \begin{table}[!ht]
+    \centering
+        \input{ncert-maths/11/9/3/22/table/table.tex}
+    \caption{input parameters}
+    \label{tab:11_9_3_22}
+\end{table}
+
+Taking Z-Transform:
+\begin{enumerate}
+    \item $\mathcal{Z}\{u(n)\}$
+\begin{align}
+    u(n) \system{Z} \frac{1}{1-z^{-1}} \{\abs{z} > 1\}\label{eq 11.9.3.22_9} 
+\end{align}
+    \item $\mathcal{Z}\{d^{n}u(n)\}$ 
+\begin{align}
+    nu(n) \system{Z} \frac{z^{-1}}{(1-dz^{-1})}\, \{\abs{z} > \abs{d}\} \label{eq 11.9.3.22_10}
+    \end{align}
+    Taking Z-Transform of \eqref{eq 11.9.3.22_1} using \eqref{eq 11.9.3.22_9}and \eqref{eq 11.9.3.22_10}
+    \begin{align}
+    X(z) &= \frac{x(0)}{1-dz^{-1}} \qquad |z| > |d|
+     \end{align}
+\end{enumerate}
+%\end{document}
