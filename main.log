@@ -1,25 +1,25 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.12.8)  20 FEB 2024 08:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.19)  20 FEB 2024 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16>
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: bk11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -29,7 +29,7 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -37,9 +37,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count194
-\Gm@cntv=\count195
-\c@Gm@tempcnt=\count196
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
 \Gm@bindingoffset=\dimen141
 \Gm@wd@mp=\dimen142
 \Gm@odd@mp=\dimen143
@@ -48,33 +48,33 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen146
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-01-16 L3 programming layer (loader) 
+Package: expl3 2023-11-09 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count197
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count198
 \l__pdf_internal_box=\box51
 ))
-Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count198
-\l__lipsum_a_int=\count199
-\l__lipsum_b_int=\count266
+\g__lipsum_par_int=\count199
+\l__lipsum_a_int=\count266
+\l__lipsum_b_int=\count267
 
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box52
 \UL@hyphenbox=\box53
 \UL@skip=\skip50
-\UL@hook=\toks18
+\UL@hook=\toks19
 \UL@height=\dimen149
-\UL@pe=\count267
+\UL@pe=\count268
 \UL@pixel=\dimen150
 \ULC@box=\box54
 Package: ulem 2019/11/18
@@ -109,33 +109,33 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count268
+\c@r@tfl@t=\count269
 \rotFPtop=\skip51
 \rotFPbot=\skip52
 \rot@float@box=\box55
-\rot@mess@toks=\toks19
+\rot@mess@toks=\toks20
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
-Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
+Package: pstricks 2023/11/06 v0.74 LaTeX wrapper for `PSTricks' (RN,HV)
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
@@ -145,29 +145,29 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks20
-\XKV@tempa@toks=\toks21
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
 )
-\XKV@depth=\count269
+\XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv)
-\pstFP@xs=\count270
-\pstFP@xia=\count271
-\pstFP@xib=\count272
-\pstFP@xfa=\count273
-\pstFP@xfb=\count274
-\pstFP@rega=\count275
-\pstFP@regb=\count276
-\pstFP@regs=\count277
-\pstFP@times=\count278
+\pstFP@xs=\count271
+\pstFP@xia=\count272
+\pstFP@xib=\count273
+\pstFP@xfa=\count274
+\pstFP@xfb=\count275
+\pstFP@rega=\count276
+\pstFP@regb=\count277
+\pstFP@regs=\count278
+\pstFP@times=\count279
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
+\pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen154
 \pgfutil@tempdimb=\dimen155
 )
@@ -180,12 +180,12 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks26
 ))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
@@ -197,18 +197,18 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 \pgf@ya=\dimen161
 \pgf@yb=\dimen162
 \pgf@yc=\dimen163
-\c@pgf@counta=\count279
-\c@pgf@countb=\count280
-\c@pgf@countc=\count281
-\c@pgf@countd=\count282
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen164
-\pgfmath@count=\count283
+\pgfmath@count=\count284
 \pgfmath@box=\box57
-\pgfmath@toks=\toks26
-\pgfmath@stack@operand=\toks27
-\pgfmath@stack@operation=\toks28
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -229,18 +229,18 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count284
+\c@pgfmathroundto@lastzeros=\count285
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen165
 \pgffor@skip=\dimen166
-\pgffor@stack=\toks29
-\pgffor@toks=\toks30
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 ))
-\psLoopIndex=\count285
+\psLoopIndex=\count286
 
-`PSTricks' v3.18  <2022/11/28> (tvz,hv)
+`PSTricks' v3.19b  <2023/11/06> (tvz,hv)
 \pst@dima=\dimen167
 \pst@dimb=\dimen168
 \pst@dimc=\dimen169
@@ -254,25 +254,25 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pst@hbox=\box58
 \pst@ibox=\box59
 \pst@boxg=\box60
-\pst@cnta=\count286
-\pst@cntb=\count287
-\pst@cntc=\count288
-\pst@cntd=\count289
-\pst@cntg=\count290
-\pst@cnth=\count291
-\pst@cntm=\count292
-\pst@cntn=\count293
-\pst@cnto=\count294
-\pst@cntp=\count295
-\@zero=\count296
-\pst@toks=\toks31
+\pst@cnta=\count287
+\pst@cntb=\count288
+\pst@cntc=\count289
+\pst@cntd=\count290
+\pst@cntg=\count291
+\pst@cnth=\count292
+\pst@cntm=\count293
+\pst@cntn=\count294
+\pst@cnto=\count295
+\pst@cntp=\count296
+\@zero=\count297
+\pst@toks=\toks32
 --- We are running latex or xelatex ---
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
 \psunit=\dimen177
 \psxunit=\dimen178
 \psyunit=\dimen179
-\pst@C@@rType=\count297
+\pst@C@@rType=\count298
 \pslinewidth=\dimen180
 \psk@startLW=\dimen181
 \psk@endLW=\dimen182
@@ -281,23 +281,23 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pshooklength=\dimen183
 \pshookwidth=\dimen184
 )
-\pst@customdefs=\toks32
+\pst@customdefs=\toks33
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
 \pslinearc=\dimen185
 \pst@symbolStep=\dimen186
 \pst@symbolWidth=\dimen187
 \pst@symbolLinewidth=\dimen188
-\everypsbox=\toks33
+\everypsbox=\toks34
 \psframesep=\dimen189
 \pslabelsep=\dimen190
 \sh@wgridXunit=\dimen191
 \sh@wgridYunit=\dimen192
 \pst@shift=\dimen193
-\ps@imagectr=\count298
+\ps@imagectr=\count299
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
-File: pstricks.tex 2022/11/28 v3.18 `PSTricks' (tvz,hv)
+File: pstricks.tex 2023/11/06 v3.19b `PSTricks' (tvz,hv)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv))
@@ -306,9 +306,9 @@ File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen194
 \WF@size=\dimen195
-\c@WF@wrappedlines=\count299
+\c@WF@wrappedlines=\count300
 \WF@box=\box61
-\WF@everypar=\toks34
+\WF@everypar=\toks35
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstcol.sty
@@ -329,7 +329,7 @@ Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
 File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
@@ -340,87 +340,87 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip53
 \enit@outerparindent=\dimen196
-\enit@toks=\toks35
+\enit@toks=\toks36
 \enit@inbox=\box62
-\enit@count@id=\count300
-\enitdp@description=\count301
+\enit@count@id=\count301
+\enitdp@description=\count302
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count302
+\lst@mode=\count303
 \lst@gtempboxa=\box63
-\lst@token=\toks36
-\lst@length=\count303
+\lst@token=\toks37
+\lst@length=\count304
 \lst@currlwidth=\dimen197
-\lst@column=\count304
-\lst@pos=\count305
+\lst@column=\count305
+\lst@pos=\count306
 \lst@lostspace=\dimen198
 \lst@width=\dimen199
-\lst@newlines=\count306
-\lst@lineno=\count307
+\lst@newlines=\count307
+\lst@lineno=\count308
 \lst@maxwidth=\dimen256
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count308
-\lst@skipnumbers=\count309
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count309
+\lst@skipnumbers=\count310
 \lst@framebox=\box64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen257
 \ar@mcellbox=\box65
 \extrarowheight=\dimen258
-\NC@list=\toks37
+\NC@list=\toks38
 \extratabsurround=\skip54
 \backup@length=\skip55
 \ar@cellbox=\box66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTleft=\skip56
 \LTright=\skip57
 \LTpre=\skip58
 \LTpost=\skip59
-\LTchunksize=\count310
+\LTchunksize=\count311
 \LTcapwidth=\dimen259
 \LT@head=\box67
 \LT@firsthead=\box68
 \LT@foot=\box69
 \LT@lastfoot=\box70
 \LT@gbox=\box71
-\LT@cols=\count311
-\LT@rows=\count312
-\c@LT@tables=\count313
-\c@LT@chunks=\count314
-\LT@p@ftn=\toks38
+\LT@cols=\count312
+\LT@rows=\count313
+\c@LT@tables=\count314
+\c@LT@chunks=\count315
+\LT@p@ftn=\toks39
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count315
-\calc@Bcount=\count316
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count316
+\calc@Bcount=\count317
 \calc@Adimen=\dimen260
 \calc@Bdimen=\dimen261
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count317
+\calc@Ccount=\count318
 \calc@Cskip=\skip62
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip63
-\multirow@cntb=\count318
+\multirow@cntb=\count319
 \multirow@dima=\skip64
 \bigstrutjot=\dimen262
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-01-16 L3 Experimental document command parser
+Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
@@ -429,8 +429,8 @@ Package: import 2020/04/01  v 6.2
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2022/12/10{} The CircuiTikz circuit drawing package version
- 1.6.0
+Package: circuitikz 2023/10/29{} The CircuiTikz circuit drawing package version
+ 1.6.5
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -452,14 +452,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen272
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count319
-\c@pgf@countb=\count320
-\c@pgf@countc=\count321
-\c@pgf@countd=\count322
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count323
+\c@pgf@counta=\count320
+\c@pgf@countb=\count321
+\c@pgf@countc=\count322
+\c@pgf@countd=\count323
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count324
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -476,8 +476,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count324
-\pgfsyssoftpath@bigbuffer@items=\count325
+\pgfsyssoftpath@smallbuffer@items=\count325
+\pgfsyssoftpath@bigbuffer@items=\count326
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -523,7 +523,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box72
 \pgf@hbox=\box73
 \pgf@layerbox@main=\box74
-\pgf@picture@serial@count=\count326
+\pgf@picture@serial@count=\count327
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -556,8 +556,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen296
-\pgf@sys@shading@range@num=\count327
-\pgf@shadingcount=\count328
+\pgf@sys@shading@range@num=\count328
+\pgf@shadingcount=\count329
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -604,7 +604,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count329
+\pgf@plot@mark@count=\count330
 \pgfplotmarksize=\dimen299
 )
 \tikz@lastx=\dimen300
@@ -619,18 +619,18 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box78
 \tikz@tempbox=\box79
 \tikz@tempbox@bg=\box80
-\tikztreelevel=\count330
-\tikznumberofchildren=\count331
-\tikznumberofcurrentchild=\count332
-\tikz@fig@count=\count333
+\tikztreelevel=\count331
+\tikznumberofchildren=\count332
+\tikznumberofcurrentchild=\count333
+\tikz@fig@count=\count334
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count334
-\pgfmatrixcurrentcolumn=\count335
-\pgf@matrix@numberofcolumns=\count336
+\pgfmatrixcurrentrow=\count335
+\pgfmatrixcurrentcolumn=\count336
+\pgf@matrix@numberofcolumns=\count337
 )
-\tikz@expandcount=\count337
+\tikz@expandcount=\count338
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -676,9 +676,9 @@ File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 zlibraryfpu.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count338
-\pgf@circ@count@b=\count339
-\pgf@circ@count@c=\count340
+\pgf@circ@count@a=\count339
+\pgf@circ@count@b=\count340
+\pgf@circ@count@c=\count341
 \pgf@circ@res@up=\dimen319
 \pgf@circ@res@down=\dimen320
 \pgf@circ@res@zero=\dimen321
@@ -699,7 +699,7 @@ zlibraryfpu.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count341
+\pgf@circ@res@count=\count342
 )
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
@@ -721,12 +721,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks42
-\t@pgfplots@tokb=\toks43
-\t@pgfplots@tokc=\toks44
+\t@pgfplots@toka=\toks43
+\t@pgfplots@tokb=\toks44
+\t@pgfplots@tokc=\toks45
 \pgfplots@tmpa=\dimen331
-\c@pgfplots@coordindex=\count342
-\c@pgfplots@scanlineindex=\count343
+\c@pgfplots@coordindex=\count343
+\c@pgfplots@scanlineindex=\count344
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -735,9 +735,9 @@ ex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_loader.code.tex
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks45
-\t@pgf@tokb=\toks46
-\t@pgf@tokc=\toks47
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfutil-common-lists.tex))
@@ -748,14 +748,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count344
+\c@pgfplotsarray@tmp=\count345
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count345
-\t@pgfplotstable@a=\toks48
+\c@pgfplotstable@counta=\count346
+\t@pgfplotstable@a=\toks49
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -767,7 +767,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count346
+\c@pgfplotslibrarysurf@no=\count347
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -799,7 +799,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen334
 \pgfdecoratedinputsegmentremainingdistance=\dimen335
 \pgf@decorate@distancetomove=\dimen336
-\pgf@decorate@repeatstate=\count347
+\pgf@decorate@repeatstate=\count348
 \pgfdecorationsegmentamplitude=\dimen337
 \pgfdecorationsegmentlength=\dimen338
 )
@@ -815,7 +815,7 @@ zlibrarydecorations.pathreplacing.code.tex
 decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count348
+\pgfplots@numplots=\count349
 \pgfplots@xmin@reg=\dimen339
 \pgfplots@xmax@reg=\dimen340
 \pgfplots@ymin@reg=\dimen341
@@ -837,10 +837,10 @@ Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
 )
 \hsizevalue=\dimen345
 \vsizevalue=\dimen346
-\c@temp=\count349
+\c@temp=\count350
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
@@ -849,7 +849,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks49
+\@emptytoks=\toks50
 \ex@=\dimen347
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -860,14 +860,14 @@ LaTeX Info: Redefining \boldsymbol on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count350
+\inf@bad=\count351
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count351
-\leftroot@=\count352
+\uproot@=\count352
+\leftroot@=\count353
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count353
-\DOTSCASE@=\count354
+\classnum@=\count354
+\DOTSCASE@=\count355
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -880,40 +880,40 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen349
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count355
+\macc@depth=\count356
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count356
+\c@MaxMatrixCols=\count357
 \dotsspace@=\muskip16
-\c@parentequation=\count357
-\dspbrk@lvl=\count358
-\tag@help=\toks50
-\row@=\count359
-\column@=\count360
-\maxfields@=\count361
-\andhelp@=\toks51
+\c@parentequation=\count358
+\dspbrk@lvl=\count359
+\tag@help=\toks51
+\row@=\count360
+\column@=\count361
+\maxfields@=\count362
+\andhelp@=\toks52
 \eqnshift@=\dimen350
 \alignsep@=\dimen351
 \tagshift@=\dimen352
 \tagwidth@=\dimen353
 \totwidth@=\dimen354
 \lineht@=\dimen355
-\@envbody=\toks52
+\@envbody=\toks53
 \multlinegap=\skip66
 \multlinetaggap=\skip67
-\mathdisplay@stack=\toks53
+\mathdisplay@stack=\toks54
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count362
-\float@exts=\toks54
+\c@float@type=\count363
+\float@exts=\toks55
 \float@box=\box85
-\@float@everytoks=\toks55
+\@float@everytoks=\toks56
 \@floatcapt=\box86
 )
 (/usr/share/texlive/texmf-dist/tex/latex/boites/boites.sty
@@ -922,7 +922,7 @@ Package: boites 2013/11/21 v1.1 Colored, framed and breakable across pages boxe
 s
 \bk@bxb=\box87
 \bk@bxa=\box88
-\bk@lcnt=\count363
+\bk@lcnt=\count364
 )
 (/usr/share/texlive/texmf-dist/tex/latex/boites/boites_exemples.sty
 File: boites_exemples.sty 
@@ -944,7 +944,7 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count364
+\g_MT_multlinerow_int=\count365
 \l_MT_multwidth_dim=\dimen359
 \origjot=\skip69
 \l_MT_shortvdotswithinadjustabove_dim=\dimen360
@@ -969,15 +969,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks56
-\thm@bodyfont=\toks57
-\thm@headfont=\toks58
-\thm@notefont=\toks59
-\thm@headpunct=\toks60
+\thm@style=\toks57
+\thm@bodyfont=\toks58
+\thm@headfont=\toks59
+\thm@notefont=\toks60
+\thm@headpunct=\toks61
 \thm@preskip=\skip70
 \thm@postskip=\skip71
 \thm@headsep=\skip72
-\dth@everypar=\toks61
+\dth@everypar=\toks62
 )
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -987,33 +987,22 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks62
-\verbatim@line=\toks63
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks63
+\verbatim@line=\toks64
 \verbatim@in@stream=\read3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
-\tab@position=\count365
-\tab@size=\count366
-\listing@line=\count367
+\tab@position=\count366
+\tab@size=\count367
+\listing@line=\count368
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -1023,7 +1012,17 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
@@ -1034,7 +1033,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1045,44 +1044,45 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count368
+\c@section@level=\count369
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count370
 )
 \@linkdim=\dimen367
-\Hy@linkcounter=\count369
-\Hy@pagecounter=\count370
+\Hy@linkcounter=\count371
+\Hy@pagecounter=\count372
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count371
+\Hy@SavedSpaceFactor=\count373
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count372
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count374
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4748.
+LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen368
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
@@ -1092,37 +1092,37 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count373
+\Fld@menulength=\count375
 \Field@Width=\dimen369
 \Fld@charsize=\dimen370
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count374
-\c@Item=\count375
-\c@Hfootnote=\count376
+\Hy@abspage=\count376
+\c@Item=\count377
+\c@Hfootnote=\count378
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count377
-\c@bookmark@seq@number=\count378
+\Fld@listcount=\count379
+\c@bookmark@seq@number=\count380
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1151,23 +1151,23 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 
 )
 \outermargin=\skip74
-\emailcount=\count379
-\punctcount=\count380
-\aucount=\count381
-\corrauthcount=\count382
-\c@affn=\count383
-\addcount=\count384
+\emailcount=\count381
+\punctcount=\count382
+\aucount=\count383
+\corrauthcount=\count384
+\c@affn=\count385
+\addcount=\count386
 \adjtitleskip=\skip75
 \QELftRghtDimen=\skip76
-\featuretitcnt=\count385
-\c@scheme=\count386
-\c@theorem=\count387
-\c@lemma=\count388
-\c@corollary=\count389
-\c@example=\count390
-\c@definition=\count391
-\c@remark=\count392
-\c@exer=\count393
+\featuretitcnt=\count387
+\c@scheme=\count388
+\c@theorem=\count389
+\c@lemma=\count390
+\c@corollary=\count391
+\c@example=\count392
+\c@definition=\count393
+\c@remark=\count394
+\c@exer=\count395
 \tabbodybox=\box90
 \chktabbodywdbox=\box91
 \eqnarraycolsep=\skip77
@@ -1180,21 +1180,21 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 \brlmvdn=\skip80
 \cropraisedimen=\skip81
 \margwidth=\dimen375
-\pagecntcntr=\count394
+\pagecntcntr=\count396
 LaTeX Info: Redefining \emph on input line 1719.
-\temQEcnt=\count395
+\temQEcnt=\count397
 \authhsize=\dimen376
-\QueryCnt=\count396
+\QueryCnt=\count398
 \aqadjdim=\dimen377
-\LASTPAGENO=\count397
-\TmpCnt=\count398
+\LASTPAGENO=\count399
+\TmpCnt=\count400
 \iletterskip=\skip82
 ) (./gvv.sty) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip83
 \bibsep=\skip84
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count399
+\c@NAT@ctr=\count401
 )
 \@indexfile=\write4
 \openout4 = `main.idx'.
@@ -1259,17 +1259,17 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count400
+\scratchcounter=\count402
 \scratchdimen=\dimen378
 \scratchbox=\box92
-\nofMPsegments=\count401
-\nofMParguments=\count402
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count403
+\nofMPsegments=\count403
+\nofMParguments=\count404
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count405
 \MPscratchDim=\dimen379
-\MPnumerator=\count404
-\makeMPintoPDFobject=\count405
-\everyMPtoPDFconversion=\toks65
+\MPnumerator=\count406
+\makeMPintoPDFobject=\count407
+\everyMPtoPDFconversion=\toks66
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1287,7 +1287,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count406
+\c@lstlisting=\count408
 LaTeX Info: Redefining \celsius on input line 26.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
 
@@ -1351,8 +1351,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-(./main.toc)
+ [2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1984,7 +1983,7 @@ LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
@@ -2638,11 +2637,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [75
 
 ]
-<ncert-maths/11/9/3/21/figs//graph_1.png, id=713, 462.528pt x 320.1561pt>
-File: ncert-maths/11/9/3/21/figs//graph_1.png Graphic file (type png)
-<use ncert-maths/11/9/3/21/figs//graph_1.png>
-Package pdftex.def Info: ncert-maths/11/9/3/21/figs//graph_1.png  used on input
- line 87.
+<ncert-maths/11/9/3/21/figs/graph_1.png, id=713, 462.528pt x 320.1561pt>
+File: ncert-maths/11/9/3/21/figs/graph_1.png Graphic file (type png)
+<use ncert-maths/11/9/3/21/figs/graph_1.png>
+Package pdftex.def Info: ncert-maths/11/9/3/21/figs/graph_1.png  used on input 
+line 87.
 (pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2653,7 +2652,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76 <./ncert-maths/11/9/3/21/figs//graph_1.png>]
+ [76 <./ncert-maths/11/9/3/21/figs/graph_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -3720,7 +3719,7 @@ LaTeX Warning: Command \textgreater invalid in math mode on input line 201.
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
 01.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 201.
@@ -5098,11 +5097,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [257]
-<ncert-maths/10/5/3/2/figs//graph_1.png, id=2668, 462.528pt x 320.1561pt>
-File: ncert-maths/10/5/3/2/figs//graph_1.png Graphic file (type png)
-<use ncert-maths/10/5/3/2/figs//graph_1.png>
-Package pdftex.def Info: ncert-maths/10/5/3/2/figs//graph_1.png  used on input 
-line 134.
+<ncert-maths/10/5/3/2/figs/graph_1.png, id=2668, 462.528pt x 320.1561pt>
+File: ncert-maths/10/5/3/2/figs/graph_1.png Graphic file (type png)
+<use ncert-maths/10/5/3/2/figs/graph_1.png>
+Package pdftex.def Info: ncert-maths/10/5/3/2/figs/graph_1.png  used on input l
+ine 134.
 (pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5113,7 +5112,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [258 <./ncert-maths/10/5/3/2/figs//graph_1.png>]
+ [258 <./ncert-maths/10/5/3/2/figs/graph_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5123,11 +5122,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [259]
-<ncert-maths/10/5/3/2/figs//graph_2.png, id=2705, 462.528pt x 320.1561pt>
-File: ncert-maths/10/5/3/2/figs//graph_2.png Graphic file (type png)
-<use ncert-maths/10/5/3/2/figs//graph_2.png>
-Package pdftex.def Info: ncert-maths/10/5/3/2/figs//graph_2.png  used on input 
-line 206.
+<ncert-maths/10/5/3/2/figs/graph_2.png, id=2705, 462.528pt x 320.1561pt>
+File: ncert-maths/10/5/3/2/figs/graph_2.png Graphic file (type png)
+<use ncert-maths/10/5/3/2/figs/graph_2.png>
+Package pdftex.def Info: ncert-maths/10/5/3/2/figs/graph_2.png  used on input l
+ine 206.
 (pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5147,12 +5146,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [261 <./ncert-maths/10/5/3/2/figs//graph_2.png>]
-<ncert-maths/10/5/3/2/figs//graph_3.png, id=2740, 462.528pt x 320.1561pt>
-File: ncert-maths/10/5/3/2/figs//graph_3.png Graphic file (type png)
-<use ncert-maths/10/5/3/2/figs//graph_3.png>
-Package pdftex.def Info: ncert-maths/10/5/3/2/figs//graph_3.png  used on input 
-line 273.
+ [261 <./ncert-maths/10/5/3/2/figs/graph_2.png>]
+<ncert-maths/10/5/3/2/figs/graph_3.png, id=2740, 462.528pt x 320.1561pt>
+File: ncert-maths/10/5/3/2/figs/graph_3.png Graphic file (type png)
+<use ncert-maths/10/5/3/2/figs/graph_3.png>
+Package pdftex.def Info: ncert-maths/10/5/3/2/figs/graph_3.png  used on input l
+ine 273.
 (pdftex.def)             Requested size: 433.62001pt x 300.16025pt.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5178,7 +5177,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [263 <./ncert-maths/10/5/3/2/figs//graph_3.png>]
+ [263 <./ncert-maths/10/5/3/2/figs/graph_3.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5567,7 +5566,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [290 <./ncert-maths/11/9/2/2/figures/fig1.png>]
+ [290 <./ncert-maths/11/9/2/2/figures/Fig1.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5596,6 +5595,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [293]
+(./ncert-maths/10/5/3/18/main.tex (./ncert-maths/10/5/3/18/tables/tab_1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5611,6 +5611,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [295]
+<ncert-maths/10/5/3/18/figs/fig_1.jpg, id=3182, 462.528pt x 346.896pt>
+File: ncert-maths/10/5/3/18/figs/fig_1.jpg Graphic file (type jpg)
+<use ncert-maths/10/5/3/18/figs/fig_1.jpg>
+Package pdftex.def Info: ncert-maths/10/5/3/18/figs/fig_1.jpg  used on input li
+ne 108.
+(pdftex.def)             Requested size: 433.62001pt x 325.23007pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [296 <./ncert-maths/10/5/3/18/figs/fig_1.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [297]
 (./ncert-maths/11/9/3/7/assignment2.tex
 (./ncert-maths/11/9/3/7/tables/table2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5621,8 +5643,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [296]
-<ncert-maths/11/9/3/7/figs/graph.png, id=3177, 462.528pt x 320.1561pt>
+ [298]
+<ncert-maths/11/9/3/7/figs/graph.png, id=3208, 462.528pt x 320.1561pt>
 File: ncert-maths/11/9/3/7/figs/graph.png Graphic file (type png)
 <use ncert-maths/11/9/3/7/figs/graph.png>
 Package pdftex.def Info: ncert-maths/11/9/3/7/figs/graph.png  used on input lin
@@ -5637,7 +5659,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [297 <./ncert-maths/11/9/3/7/figs/graph.png>] (./ncert-maths/11/9/5/30/main.te
+ [299 <./ncert-maths/11/9/3/7/figs/graph.png>] (./ncert-maths/11/9/5/30/main.te
 x
 (./ncert-maths/11/9/5/30/tables/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5645,8 +5667,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [298]
-<ncert-maths/11/9/5/30/figs/p.jpeg, id=3204, 462.528pt x 346.896pt>
+ [300]
+<ncert-maths/11/9/5/30/figs/p.jpeg, id=3236, 462.528pt x 346.896pt>
 File: ncert-maths/11/9/5/30/figs/p.jpeg Graphic file (type jpg)
 <use ncert-maths/11/9/5/30/figs/p.jpeg>
 Package pdftex.def Info: ncert-maths/11/9/5/30/figs/p.jpeg  used on input line 
@@ -5661,33 +5683,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [299 <./ncert-maths/11/9/5/30/figs/p.jpeg>]
+ [301 <./ncert-maths/11/9/5/30/figs/p.jpeg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [300]
-(./ncert-maths/10/5/4/4/discrete.tex (./ncert-maths/10/5/4/4/tables/TABLE1.tex)
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [301]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [302]
+(./ncert-maths/10/5/4/4/Discrete.tex (./ncert-maths/10/5/4/4/tables/TABLE1.tex)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [303]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [304]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -5711,13 +5733,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [303]
+ [305]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [304]
+ [306]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -5728,8 +5750,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [305]
-<ncert-maths/10/5/4/4/figs/fig1.png, id=3276, 462.528pt x 346.896pt>
+ [307]
+<ncert-maths/10/5/4/4/figs/fig1.png, id=3308, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/4/4/figs/fig1.png Graphic file (type png)
 <use ncert-maths/10/5/4/4/figs/fig1.png>
 Package pdftex.def Info: ncert-maths/10/5/4/4/figs/fig1.png  used on input line
@@ -5744,8 +5766,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [306 <./ncert-maths/10/5/4/4/figs/fig1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+ [308 <./ncert-maths/10/5/4/4/figs/fig1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
@@ -5758,8 +5780,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [307]
-Overfull \hbox (4.01315pt too wide) in paragraph at lines 127--151
+ [309]
+Overfull \hbox (4.01315pt too wide) in paragraph at lines 128--152
 []\OT1/cmr/m/n/10.95 A spi-ral is made up of suc-ces-sive semi-cir-cles,with ce
 n-tres al-ter-nately at A and B,starting
  []
@@ -5773,27 +5795,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [308]
-<ncert-maths/10/5/3/19/figs/question.png, id=3297, 781.41937pt x 161.85469pt>
+ [310]
+<ncert-maths/10/5/3/19/figs/question.png, id=3328, 781.41937pt x 161.85469pt>
 File: ncert-maths/10/5/3/19/figs/question.png Graphic file (type png)
 <use ncert-maths/10/5/3/19/figs/question.png>
 Package pdftex.def Info: ncert-maths/10/5/3/19/figs/question.png  used on input
- line 155.
+ line 156.
 (pdftex.def)             Requested size: 433.62001pt x 89.81558pt.
 
 (./ncert-maths/10/5/3/19/assign2.tex
 (./ncert-maths/10/5/3/19/tables/tables1.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 152--76
+Underfull \hbox (badness 10000) in paragraph at lines 153--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--76
+Underfull \hbox (badness 10000) in paragraph at lines 153--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--76
+Underfull \hbox (badness 10000) in paragraph at lines 153--76
 
  []
 
@@ -5806,7 +5828,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [309 <./ncert-maths/10/5/3/19/figs/question.png>]
+ [311 <./ncert-maths/10/5/3/19/figs/question.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5815,8 +5837,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [310]
-<ncert-maths/10/5/3/19/figs/figure_plot.png, id=3324, 462.528pt x 346.896pt>
+ [312]
+<ncert-maths/10/5/3/19/figs/figure_plot.png, id=3356, 462.528pt x 346.896pt>
 File: ncert-maths/10/5/3/19/figs/figure_plot.png Graphic file (type png)
 <use ncert-maths/10/5/3/19/figs/figure_plot.png>
 Package pdftex.def Info: ncert-maths/10/5/3/19/figs/figure_plot.png  used on in
@@ -5835,14 +5857,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [311]
+ [313]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [312 <./ncert-maths/10/5/3/19/figs/figure_plot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+ [314 <./ncert-maths/10/5/3/19/figs/figure_plot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
@@ -5855,7 +5877,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [313]
+ [315]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5864,7 +5886,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [314])
+ [316])
 Chapter 6.
 (./ncert-physics/ltransform.tex (./ncert-physics/11/14/21.tex
 (./ncert-physics/11/14/tables/inputpar.tex)
@@ -5877,10 +5899,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [315
+ [317
 
 ]
-<ncert-physics/11/14/figs/11_14_21_fbd.pdf, id=3371, 482.24065pt x 789.54073pt>
+<ncert-physics/11/14/figs/11_14_21_fbd.pdf, id=3402, 482.24065pt x 789.54073pt>
 
 File: ncert-physics/11/14/figs/11_14_21_fbd.pdf Graphic file (type pdf)
 <use ncert-physics/11/14/figs/11_14_21_fbd.pdf>
@@ -5900,7 +5922,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [316]
+ [318]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5909,8 +5931,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [317 <./ncert-physics/11/14/figs/11_14_21_fbd.pdf>]
-<ncert-physics/11/14/figs/11.14.21_plot.png, id=3421, 462.528pt x 346.896pt>
+ [319 <./ncert-physics/11/14/figs/11_14_21_fbd.pdf>]
+<ncert-physics/11/14/figs/11.14.21_plot.png, id=3453, 462.528pt x 346.896pt>
 File: ncert-physics/11/14/figs/11.14.21_plot.png Graphic file (type png)
 <use ncert-physics/11/14/figs/11.14.21_plot.png>
 Package pdftex.def Info: ncert-physics/11/14/figs/11.14.21_plot.png  used on in
@@ -5925,27 +5947,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [318])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [319 <./ncert-physics/11/14/figs/11.14.21_plot.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [320])
-Chapter 7.
-(./ncert-physics/systems.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5954,9 +5956,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [321
-
-]
+ [321 <./ncert-physics/11/14/figs/11.14.21_plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5966,8 +5966,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [322])
-Appendix A.
-(./app/conv.tex)
+Chapter 7.
+(./ncert-physics/systems.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5981,29 +5984,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [324
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [324])
+Appendix A.
+(./app/conv.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [325
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [326
 
 ]
 Appendix B.
 (./app/mgf.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [325]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [326]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6021,7 +6025,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [328])
+ [328]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6033,7 +6040,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [330
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [330])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [331]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [332
 
 ]
 Appendix C.
@@ -6046,26 +6068,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [331]
-Underfull \vbox (badness 2443) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [332]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [333]
-Overfull \vbox (148.08226pt too high) has occurred while \output is active []
+Underfull \vbox (badness 2443) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6082,60 +6086,81 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [335])
+ [335]
+Overfull \vbox (148.08226pt too high) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [336]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [337])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [338]
 No file main.ind.
 (./main.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+ ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E378B570704FBC520293164C38035369;1172.
  ) 
 Here is how much of TeX's memory you used:
- 58455 strings out of 476091
- 1443744 string characters out of 5794081
- 2146813 words of memory out of 5000000
- 75419 multiletter control sequences out of 15000+600000
- 533836 words of font info for 118 fonts, out of 8000000 for 9000
+ 59488 strings out of 474267
+ 1474251 string characters out of 5749989
+ 2207917 words of memory out of 5000000
+ 78396 multiletter control sequences out of 15000+600000
+ 579618 words of font info for 122 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,20n,108p,810b,1239s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tfrupe
-e/tfrupee.pfb>
-Output written on main.pdf (342 pages, 3623576 bytes).
+ 111i,20n,115p,810b,1237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/tfrupee/tfrupee.pfb>
+Output written on main.pdf (344 pages, 3656329 bytes).
 PDF statistics:
- 4162 PDF objects out of 4296 (max. 8388607)
- 3435 compressed objects within 35 object streams
- 1892 named destinations out of 2073 (max. 500000)
- 666 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4198 PDF objects out of 4296 (max. 8388607)
+ 3468 compressed objects within 35 object streams
+ 1913 named destinations out of 2073 (max. 500000)
+ 671 words of extra memory for PDF output out of 10000 (max. 10000000)
 
