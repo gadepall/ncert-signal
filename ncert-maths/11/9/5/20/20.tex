@@ -1,0 +1,216 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{circuitikz}
+\usepackage{graphicx}
+
+%\newcounter{MYtempeqncnt}
+\DeclareMathOperator*{\Res}{Res}
+%\renewcommand{\baselinestretch}{2}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+\def\inputGnumericTable{}                                 %%
+
+\lstset{
+	frame=single,
+	breaklines=true,
+	columns=fullflexible
+}
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+	\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\newcommand\figref{Fig.~\ref}
+\newcommand\tabref{Table~\ref}
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{ieeetr}
+
+
+\providecommand{\mbf}{\mathbf}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+\providecommand{\rsbrak}[1]{\ensuremath{{}\left.#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\res}[1]{\Res\displaylimits_{#1}}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+%\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\mtx}[1]{\mathbf{#1}}
+\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+%\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\cosec}{\,\text{cosec}\,}
+\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\renewcommand{\abstractname}{Question}
+
+\let\vec\mathbf
+
+	
+	\vspace{3cm}
+	
+	
+
+
+\newcommand{\permcomb}[4][0mu]{{{}^{#3}\mkern#1#2_{#4}}}
+\newcommand{\comb}[1][-1mu]{\permcomb[#1]{C}}
+
+%\IEEEpeerreviewmaketitle
+
+\newcommand \tab [1][1cm]{\hspace*{#1}}
+%\newcommand{\Var}{$\sigma ^2$}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\title{
+	
+\title{NCERT Discrete 11.5.9 Q20}
+\author{EE23BTECH11061 - SWATHI DEEPIKA$^{*}$% <-this % stops a space
+}
+
+
+}
+\begin{document}
+
+\maketitle
+
+\textbf{Question:} 
+If $a$,$b$,$c$ are in A.P.;$b$,$c$,$d$ are in G.P and $\frac{1}{c}$, $\frac{1}{d}$, $\frac{1}{e}$ are in A.P. prove that $a$,$c$,$e$ are in G.P.
+\solution
+ \begin{table}[h]
+ 	\centering
+ 	\resizebox{6 cm}{!}{
+ 		\input{tables/table1.tex}
+ 	}
+ 	\vspace{6 pt}
+ 	\caption{Parameters}
+ 	\label{tab:swa_tabel} 
+ \end{table}
+
+ 
+\begin{align}
+b-a = c-b\\
+2b=a+c \label{eq: sw1}
+\end{align}
+\begin{align}
+c^2 = b\times d
+\end{align}
+\begin{align}
+d= \frac{c^2}{b} \label{eq: sw2}
+\end{align}
+\begin{align}
+\frac{1}{d} - \frac{1}{c} = \frac{1}{e} - \frac{1}{d}\\
+\frac{2}{d} = \frac{1}{c} + \frac{1}{e}
+\end{align}
+From \eqref{eq: sw2},
+\begin{align}
+\frac{2b}{c^2} = \frac{1}{c} + \frac{1}{e}
+\end{align}
+
+From \eqref{eq: sw1},
+\begin{align}\frac{a + c}{c^2} = \frac{1}{c} + \frac{1}{e}\\
+\frac{a}{c^2} + \frac{1}{c} = \frac{1}{c} + \frac{1}{e}\\
+a \times e = {c}^2
+\end{align}
+
+So, $a$,$c$,$e$ are in G.P\\
+
+\begin{enumerate}
+
+\item For $y(n)$:
+    \begin{align}
+        y(n) &= a\left(\frac{c}{a}\right)^n u(n)
+    \end{align}
+    \begin{equation*}
+     y(n)  \xleftrightarrow{\mathcal{Z}} Y(z)
+     \end{equation*}
+    \begin{align}
+        Y(z) &= \frac{c}{1-\frac{c}{a}z^{-1}}, \quad \left|z\right|>\left|\frac{c}{a}\right|
+    \end{align}
+    
+    \item For $x_1(n)$:
+    \begin{align}
+        x_1(n) &= (b + n(b-a))u(n)
+    \end{align}
+    \begin{equation*}
+   x_1(n)  \xleftrightarrow{\mathcal{Z}} X_1(z)
+    \end{equation*}
+    \begin{align}
+        X_1(z) &= \frac{a}{1-z^{-1}} + \frac{(b-a)z^{-1}}{(1-z^{-1})^2} , \quad |z| > 1
+    \end{align}
+
+    \item For $x_2(n)$:
+    \begin{align}
+        x_2(n) &= b\left(\frac{c}{b}\right)^n u(n)
+    \end{align}
+    \begin{equation*}
+     x_2(n)  \xleftrightarrow{\mathcal{Z}} X_2(z)
+     \end{equation*}
+    \begin{align}
+        X_2(z) &= \frac{c}{1-\frac{c}{b}z^{-1}},  \quad \left|z\right|>\left|\frac{c}{b}\right|
+    \end{align}
+
+    \item For $x_3(n)$:
+    \begin{align}
+        x_3(n) &= \left(\frac{1}{c} + n\left(\frac{1}{c} - \frac{1}{d}\right)\right)u(n)
+    \end{align}
+    \begin{equation*}
+  x_3(n)  \xleftrightarrow{\mathcal{Z}} X_3(z)
+   \end{equation*}
+    \begin{align}
+        X_3(z) &= \frac{\frac{1}{c}}{1-z^{-1}} + \left(\frac{1}{d} - \frac{1}{c}\right)\frac{z^{-1}}{(1-z^{-1})^2} , \quad |z| > 1
+    \end{align}
+\end{enumerate}
+
+
+\end{document}
+
+
+
+
+
