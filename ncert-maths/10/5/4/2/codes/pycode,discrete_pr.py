@@ -16,10 +16,10 @@ def plot_stem_graph(ax, x_values, y_values, expression):
     ax.grid(True)
 
 # Read values from files
-values_py3 = read_values('ncert-signal/ncert-maths/10/5/4/2/codes/py_3,values.txt')
-values_py4 = read_values('ncert-signal/ncert-maths/10/5/4/2/codes/py_4,values.txt')
-values_py5 = read_values('ncert-signal/ncert-maths/10/5/4/2/codes/py_5,values.txt')
-values_py6 = read_values('ncert-signal/ncert-maths/10/5/4/2/codes/py_6,values.txt')
+values_py3 = read_values('ncert-maths/10/5/4/2/codes/py_3,values.txt')
+values_py4 = read_values('ncert-maths/10/5/4/2/codes/py_4,values.txt')
+values_py5 = read_values('ncert-maths/10/5/4/2/codes/py_5,values.txt')
+values_py6 = read_values('ncert-maths/10/5/4/2/codes/py_6,values.txt')
 
 # Generate corresponding x values
 a = len(values_py3) - 1
@@ -38,7 +38,7 @@ plot_stem_graph(axs[1, 1], x_values, values_py6, 6)
 plt.tight_layout()
 
 # Save the plot to a PNG file
-plt.savefig('ncert-signal/ncert-maths/10/5/4/2/figs/figure1.png')
+plt.savefig('ncert-maths/10/5/4/2/figs/figure1.png')
 
 # Show the plot
 plt.show()
