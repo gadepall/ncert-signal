@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,onecolumn]{IEEEtran}
@@ -118,10 +119,11 @@
 A circuit containing a $80 mH$ inductor and a $60 \mu F$ capacitor in series is connected to a $230 V$, $50 Hz$ supply. A resistance of $15 \Omega $ is connected in series. Obtain the average power transferred to each element of the circuit, and the total power absorbed.\\
 \\
 
-\textbf{Solution: }
+\solution
+\fi
 \begin{figure}[h]
 	\centering
-	\input{figs/fig1.tex}
+	\input{ncert-physics/12/7/19/figs/fig1.tex}
 	\caption{LCR Circuit}
 	\label{fig:msm11.7.19fig2}
 \end{figure}
@@ -133,7 +135,7 @@ In~\figref{fig:msm11.7.19fig2} the following information is provided:
  \begin{table}[h!]
  	\centering
  	\resizebox{6 cm}{!}{
- 		\input{tables/table1.tex}
+ 		\input{ncert-physics/12/7/19/tables/table1.tex}
  	}
  	\caption{Given Parameters}
  	\label{tab:msm11.7.19tab1} 
@@ -142,7 +144,7 @@ In~\figref{fig:msm11.7.19fig2} the following information is provided:
  
  \begin{figure}[!h]
  	\centering
- 	\input{figs/fig2}
+ 	\input{ncert-physics/12/7/19/figs/fig2.tex}
  	\caption{s domain circuit}
  	\label{fig:msm11.7.19fig1}
  	
@@ -251,7 +253,7 @@ d) Average Power transferred to the resistor, $P_R$:
 \newpage
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=\columnwidth]{figs/rmagnitude.png}
+	\includegraphics[width=\columnwidth]{ncert-physics/12/7/19/figs/rmagnitude.png}
 	\caption{$\abs{H(j/omega)}$ vs $\omega$}
 \end{figure}
 
@@ -284,5 +286,5 @@ Thus Bandwidth of circuit is :
 f = \frac{\omega_{2}-\omega_{1}}{2\pi} = 29.85 
 \end{align}
 
-\end{document}
+%\end{document}
 
