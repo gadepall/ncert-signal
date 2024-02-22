@@ -1,0 +1,38 @@
+\begin{enumerate}[label=\thechapter.\arabic*,ref=\thechapter.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item Complex Fourier Series\\
+Consider,
+\begin{align}
+	x(t) &= \sum_{n=-\infty}^{\infty} c_{n}e^{j2\pi nft}
+	\label{eq:compfs}
+\end{align}
+where $c_{n}$ is the exponential fourier coefficient.
+\begin{align}
+        c_{n} &= \frac{1}{T} \int_{0}^{T} x(t) e^{-j2\pi nft} \, dt
+\end{align}
+where $T$ is the time period of function $x(t)$.
+\item Trigonometric Fourier Series\\
+We can write:
+\begin{align}
+	e^{j2\pi nft} = cos(2\pi nft t) + j sin(2\pi nft)
+	\label{eq:expfs}
+\end{align}
+Substituting \eqref{eq:expfs} in \eqref{eq:compfs}
+\begin{align}
+	 x(t) &= \sum_{n=-\infty}^{\infty} c_{n} \brak{\cos(2\pi nft) + j \sin(2\pi nft)}\\
+	      &= a_0 + \sum_{n=1}^{\infty} \brak{a_{n} \cos(2\pi nft)} + \brak{b_{n} \sin(2\pi nft)}
+\end{align}
+where $a_0, a_{n}$ and $b_{n}$ are trigonometric fourier series.
+\begin{align}
+          a_{0} &= c_{0}\\
+                &=\frac{1}{T} \int_{0}^{T} x(t) \, dt\\
+          a_{n} &= 2Re(c_{n})\\
+                &=\frac{2}{T} \int_{0}^{T} x(t)\cos(2\pi nft) \, dt\\
+          b_{n} &= -2Im(c_{n})\\
+                &= \frac{2}{T} \int_{0}^{T} x(t)\sin(2\pi nft) \, dt
+\end{align}
+\end{enumerate}
+
