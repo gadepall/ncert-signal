@@ -1,3 +1,4 @@
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[a4,12pt,twocolumn]{IEEEtran}
@@ -186,6 +187,7 @@ columns=fullflexible
 In an A.P., if the $p$-th term is $\frac{1}{q}$ and $q$-th term is $\frac{1}{p}$, prove that the sum of the first $pq$ terms is $\frac{1}{2}\brak{pq + 1}$, where $p \neq q$.\brak{\text{Using Z-transform of x\brak{n}}}.\\
 
 \solution
+\fi
 \begin{align}
     \frac{1}{q} &= x\brak{0} + pd \\
     \frac{1}{p} &= x\brak{0} + qd
@@ -235,15 +237,10 @@ Finding sum of $pq$ terms,
 y\brak{n} &=\frac{n}{2} \brak{2x\brak{0} + \brak{n+1}d}\\
 y\brak{pq} &=\frac{1}{2}\brak{pq + 1}
 \end{align}
-\begin{tabular}{|c|c|c|}
-    \hline
-    \textbf{Symbols} & \textbf{Values} & \textbf{Description} \\
-    \hline
-    $x\brak{n}$ & $\brak{\frac{n}{pq}}u\brak{n}$ & general term of the series \\
-    \hline
-    $y\brak{n}$ & $ \frac{\brak{n+1}}{2}$ & sum of n terms \\
-    \hline
-\end{tabular}\\
+\begin{table}
+\centering
+\input{tables/table.tex}
+\caption{Input Parameters}
+\end{table}
 
-
-\end{document}
+%\end{document}
