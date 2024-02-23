@@ -189,31 +189,31 @@ In an A.P., if the $p$-th term is $\frac{1}{q}$ and $q$-th term is $\frac{1}{p}$
 \solution
 \fi
 \begin{align}
-    \frac{1}{q} &= x\brak{0} + pd \\
-    \frac{1}{p} &= x\brak{0} + qd
+    \frac{1}{q} &= x\brak{0} + pd \label{eq:"11.9.2.5eq1"}\\
+    \frac{1}{p} &= x\brak{0} + qd \label{eq:"11.9.2.5eq2"}
 \end{align}
 
-From equations \brak{1} and \brak{2}, the argumented matrix is:
+From equations \eqref{eq:"11.9.2.5eq1"} and \eqref{eq:"11.9.2.5eq2"}, the argumented matrix is:
 \begin{align}
 \begin{pmatrix}
 1 & p & \frac{1}{q} \\
-1 & q & \frac{1}{p}
+1 & q & \frac{1}{p} 
 \end{pmatrix}
 \xleftrightarrow {R_2\leftarrow R_2-R_1}
 \begin{pmatrix}
 1 & p & \frac{1}{q} \\
 0 & q-p & \frac{q-p}{pq}
-\end{pmatrix}\\
+\end{pmatrix} \label{eq:"11.9.2.5eq3"}\\
 \xleftrightarrow {R_2\leftarrow \frac{R_2}{q-p}}
 \begin{pmatrix}
 1 & p & \frac{1}{q} \\
 0 & 1 & \frac{1}{pq}
-\end{pmatrix}\\
+\end{pmatrix} \label{eq:"11.9.2.5eq4"}\\
 \xleftrightarrow {R_1\leftarrow R_1-pR_2}
 \begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & \frac{1}{pq}
-\end{pmatrix}\\
+\end{pmatrix}\label{eq:"11.9.2.5eq5"}\\
 \implies 
 \begin{pmatrix}
 x\brak{0} \\
@@ -223,19 +223,19 @@ d
 \begin{pmatrix}
 0 \\
 \frac{1}{pq}
-\end{pmatrix}
+\end{pmatrix}\label{eq:"11.9.2.5eq6"}
 \end{align}
 
 
 \begin{align}
-x\brak{n}&=\brak{\frac{n}{pq}}u \brak{n}\\
-X\brak{z} &= \frac{z^{-1}}{pq\brak{1-z^{-1}}^2}  \qquad ,|z| > 1
+x\brak{n}&=\brak{\frac{n}{pq}}u \brak{n} \label{eq:"11.9.2.5eq7"}\\
+X\brak{z} &= \frac{z^{-1}}{pq\brak{1-z^{-1}}^2}  \qquad ,|z| > 1 \label{eq:"11.9.2.5eq8"}
 \end{align}
 
 Finding sum of $pq$ terms,
 \begin{align}
-y\brak{n} &=\frac{n}{2} \brak{2x\brak{0} + \brak{n+1}d}\\
-y\brak{pq} &=\frac{1}{2}\brak{pq + 1}
+y\brak{n} &=\frac{n}{2} \brak{2x\brak{0} + \brak{n+1}d} \label{eq:"11.9.2.5eq9"}\\
+y\brak{pq} &=\frac{1}{2}\brak{pq + 1} \label{eq:"11.9.2.5eq10"}
 \end{align}
 \begin{table}
 \centering
