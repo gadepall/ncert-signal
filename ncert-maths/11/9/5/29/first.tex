@@ -1,0 +1,236 @@
+%\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}  
+\usepackage{tikz}
+\usepackage{circuitikz} 
+\usepackage{caption}
+
+\def\inputGnumericTable{}                                
+\usepackage[latin1]{inputenc}                 
+\usepackage{color}                            
+\usepackage{array}                            
+\usepackage{longtable}                        
+\usepackage{calc}                            
+\usepackage{multirow}                      
+\usepackage{hhline}                           
+\usepackage{ifthen}                          
+\usepackage{lscape}
+\usepackage{amsmath}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+
+\begin{document}
+%
+
+\bibliographystyle{IEEEtran}
+
+
+\vspace{3cm}
+
+\title{
+%	\logo{
+Discrete 11.9.5
+
+\large{EE:1205 Signals and System}
+
+Indian Institute of Technology, Hyderabad
+%	}
+}
+\author{Prashant Maurya
+
+EE23BTECH11218
+}	
+%\title{
+%	\logo{Matrix Analysis through Octave}{\begin{center}\includegraphics[scale=.24]{tlc}\end{center}}{}{HAMDSP}
+%}
+
+
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+%\title{Matrix Analysis through Octave}
+%
+%
+% author names and IEEE memberships
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+% was not built to handle multiple paragraphs
+%
+
+%\author{<-this % stops a space
+%\thanks{}}
+%}
+% note the % following the last \IEEEmembership and also \thanks - 
+% these prevent an unwanted space from occurring between the last author name
+% and the end of the author line. i.e., if you had this:
+% 
+% \author{....lastname \thanks{...} \thanks{...} }
+%                     ^------------^------------^----Do not want these spaces!
+%
+% a space would be appended to the last name and could cause every name on that
+% line to be shifted left slightly. This is one of those "LaTeX things". For
+% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+% "AB" then you have to do: "\textbf{A}\textbf{B}"
+% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+
+% The paper headers
+%\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
+%{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+
+
+
+% If you want to put a publisher's ID mark on the page you can do it like
+% this:
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+
+
+% make the title area
+\maketitle
+
+\newpage
+
+%\tableofcontents
+
+\bigskip
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+%\renewcommand{\theequation}{\theenumi}
+
+%\begin{abstract}
+%%\boldmath
+%In this letter, an algorithm for evaluating the exact analytical bit error rate  (BER)  for the piecewise linear (PL) combiner for  multiple relays is presented. Previous results were available only for upto three relays. The algorithm is unique in the sense that  the actual mathematical expressions, that are prohibitively large, need not be explicitly obtained. The diversity gain due to multiple relays is shown through plots of the analytical BER, well supported by simulations. 
+%
+%\end{abstract}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+% This preserves the distinction between vectors and scalars. However,
+% if the journal you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals frown on math
+% in the abstract anyway.
+
+% Note that keywords are not normally used for peerreview papers.
+%\begin{IEEEkeywords}
+%Cooperative diversity, decode and forward, piecewise linear
+%\end{IEEEkeywords}
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+%\IEEEpeerreviewmaketitle	
+
+\textbf{Question 29: }A person writes a letter to four of his friends. He asks each one of them to copy the letter and mail to four different persons with instruction that they move the chain similarly. Assuming that the chain is not broken and that it costs 50 paise to mail one letter. Find the amount spent on the postage when 8th set of letter is mailed.\\
+
+\textbf{Solution}
+\begin{table}[!h]
+	\centering
+	\input{tables/table1}
+	\vspace{6 pt}
+	\caption{Given Parameters}
+	\label{tab:enter-label}
+\end{table}
+\begin{align}
+x\brak{n}=x\brak{0}r^nu\brak{n}\
+\end{align}
+On taking Z transform
+\begin{align}
+X\brak{z}=&\dfrac{x\brak{0}}{1-rz^{-1}}  \quad |z|>|r|\\
+ 		 =&\dfrac{4}{1-4z^{-1}}
+\end{align}
+\begin{align}
+y\brak{n} =& x\brak{n}* u\brak{n}\\
+\implies Y\brak{z} =& X\brak{z} U\brak{z}\\
+                   =& \dfrac{4}{\brak{1-4z^{-1}}}\dfrac{1}{\brak{1-z^{-1}}} \quad |z|>|r| \cap |z|>|1|    
+\end{align}
+Using contour integration to find the inverse Z-transform:\\
+\begin{align}
+    \implies y\brak{7}=&\dfrac{1}{2\pi j}\oint_{C}Y\brak{z} \;z^{6} \;dz\\
+    =&\dfrac{1}{2\pi j}\oint_{C}\dfrac{4z^6}{\brak{1-4z^{-1}}\brak{1-z^{-1}}}\;dz \\
+    =&\dfrac{4}{3} \brak{\frac{1}{2\pi j} {\oint_C \dfrac{z^{9}}{z - 4} \:dz -  \frac{1}{2\pi j}{\oint_C \frac{z^{9}}{z - 1}}}} dz
+\end{align}
+We know that 
+\begin{align}
+    \implies R&=\dfrac{1}{\brak {m-1}!}\lim\limits_{z\to a}\dfrac{d^{m-1}}{dz^{m-1}}\brak {{\brak{z-a}}^{m}f\brak z}  
+\end{align}
+For first contour integral,
+\begin{align}
+R_1 =& \frac{1}{\brak{1 - 1}!} \lim_{z \to a} \brak{\brak{z - a}f\brak{z}}\\
+	=& r^{n+1}
+\end{align}
+For second contour integral,
+\begin{align}
+R_2 =& \frac{1}{\brak{1 - 1}!} \lim_{z \to a} \brak{\brak{z - a}f\brak{z}}\\
+	=& 1
+\end{align}
+The sum of $n$ terms of a GP is given by :
+\begin{align}
+s\brak{n}=&\dfrac{x\brak{0}}{r-1} \brak{R_1 -R_2}\\
+		 =& 87380\\
+\end{align}
+\begin{align}
+\therefore \text{Total amount spent on postage}=& 87380 \times 0.5 \\ 
+             =& Rs.\; 43690
+\end{align}
+
+\begin{figure}[ht]
+	\centering
+    \includegraphics[width=\columnwidth]{figs/figure1.png}
+    \caption{Plot of $x(n)$ $vs$ $n$}
+    \label{fig: 1}
+\end{figure}
+\end{document}
