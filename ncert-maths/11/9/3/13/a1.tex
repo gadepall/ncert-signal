@@ -1,0 +1,89 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{\textbf{11.9.3}}
+\author{EE23BTECH11053-R.Rahul$^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\textbf{QUESTION:}\\
+1.How many terms of G.P.$3$,$3^2$,$3^3$, \ldots are needed to give the sum $120$ ?\\
+
+\solution
+\fi
+\vspace{-0.25cm}
+\input{ncert-maths/11/9/3/13/tables/table.tex}
+\begin{center}
+    
+\begin{align}
+      X(z)&=\frac{x(0)}{1-rz^{-1}} \qquad |z|>|r|\\
+      &=\frac{3}{1-3z^{-1}}\\
+      U(z)&=\frac{1}{1-z^{-1}} \qquad |z|>1\\
+      s(n)&= x(n)*u(n)\\
+      S(z)&=X(z)U(z)\\
+&=\brak{ \frac{3}{1-3z^{-1}}}\brak{\frac{1}{1-z^{-1}}}\quad|z| > 3 \end{align}
+\end{center}
+by using sum to n terms in G.P
+\begin{align}
+    s(n)&=a(\frac{r^{n}-1}{r-1})\\
+    120&=\frac{3^{n+1}-3}{2}\\
+    n&=4
+\end{align}
+
+\begin{figure}
+  
+  \includegraphics[width=\columnwidth]{ncert-maths/11/9/3/13/figs/download.png}
+  \caption{Stem plot of x(n)}
+\end{figure}
+
+\begin{figure}
+  
+  \includegraphics[width=\columnwidth]{ncert-maths/11/9/3/13/figs/graph.png}
+  \caption{Stem plot of s(n)}
+\end{figure}
+%\end{document}
