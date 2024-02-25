@@ -9,5 +9,5 @@
 \contentsline {chapter}{\numberline {7}Systems}{387}{chapter.7}%
 \contentsline {chapter}{\numberline {A} Convolution}{389}{appendix.A}%
 \contentsline {chapter}{\numberline {B} Z-transform}{391}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Contour Integration}{399}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Fourier Series}{405}{appendix.D}%
+\contentsline {chapter}{\numberline {C}Contour Integration}{397}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Fourier Series}{403}{appendix.D}%
