@@ -82,9 +82,9 @@
 	
 	\fontsize{13.5}{20}\selectfont
 	Here, $a_1 = 1, a_2 = 1$
-	
-	$a_n = a_{n-1} + a_{n-2}$ , $n$ $\textgreater$ 2 \hfill (1)
-	
+	\begin{align}
+	$a_n &= a_{n-1} + a_{n-2}$ , $n$ $\textgreater$ 2
+	\end{align}
 	\vspace{0.2cm}
 	
 	Applying $z$ transform,
@@ -92,9 +92,9 @@
 	\vspace{-0.8cm}
 	
 	\begin{align}
-		X\brak z	&= z^{-1} X(z) + z^{-2} X(z) + z^{-0} \tag{2} \\[6pt]
-		&= \dfrac{1}{1 - z^{-1} - z^{-2}} \tag{3} \\[10pt]
-		&= \dfrac{1}{(1 - \alpha z^{-1})(1 - \beta z^{-1})} \hspace{0.2cm}, \hspace{0.3cm}\lvert \hspace{0.1cm} z \hspace{0.1cm}\rvert \hspace{0.1cm} \textgreater \hspace{0.1cm} \lvert \hspace{0.1cm} \alpha \hspace{0.1cm} \rvert  \tag{4}				
+		X\brak z	&= z^{-1} X(z) + z^{-2} X(z) + z^{-0}  \\[6pt]
+		&= \dfrac{1}{1 - z^{-1} - z^{-2}}  \\[10pt]
+		&= \dfrac{1}{(1 - \alpha z^{-1})(1 - \beta z^{-1})} \hspace{0.2cm}, \hspace{0.3cm}\lvert \hspace{0.1cm} z \hspace{0.1cm}\rvert \hspace{0.1cm} \textgreater \hspace{0.1cm} \lvert \hspace{0.1cm} \alpha \hspace{0.1cm} \rvert 				
 	\end{align}
 	
 	\vspace{0.3cm}
@@ -106,7 +106,7 @@
 	Using partial fractions,
 	
 	\begin{align}
-		X(z) &= \dfrac{\alpha}{(\alpha - \beta)} \dfrac{1}{(1 - \alpha z^{-1})} - \dfrac{\beta}{(\alpha - \beta)} \dfrac{1}{(1 - \beta z^{-1})} \tag{5}
+		X(z) &= \dfrac{\alpha}{(\alpha - \beta)} \dfrac{1}{(1 - \alpha z^{-1})} - \dfrac{\beta}{(\alpha - \beta)} \dfrac{1}{(1 - \beta z^{-1})}
 	\end{align}
 	
 	$a^n u(n)$
@@ -120,23 +120,12 @@
 	\vspace{-0.5cm}
 	
 	\begin{align}
-		x(n) &= \dfrac{\alpha}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\beta}{(\alpha - \beta)} (\beta^n u(n)) \tag{6}
+		x(n) &= \dfrac{\alpha}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\beta}{(\alpha - \beta)} (\beta^n u(n))\\[3pt]
+		x(n) &= \dfrac{\alpha^{n+1} - \beta^{n+1} }{\alpha - \beta} u(n)\\[10pt]
+		x(n) &= \dfrac{(1 + \sqrt{5})^{n+1} - (1 - \sqrt{5})^{n+1} }{2^{n+1} \sqrt{5}} u(n)\\[10pt]
+		y(n) &= \dfrac{x(n+1)}{x(n)}\\[10pt]
+		y(n) &= \dfrac{1}{2} \Bigg[ \dfrac{(1 + \sqrt{5})^{n+2} - (1 - \sqrt{5})^{n+2}}{(1 + \sqrt{5})^{n+1} - (1 - \sqrt{5})^{n+1}} \Bigg]
 	\end{align}
-	
-	$x(n)$ = $\dfrac{\alpha^{n+1} - \beta^{n+1} }{\alpha - \beta}$ $u(n)$ \hfill (7)
-	
-	\vspace{0.6cm}
-	
-	$x(n)$ = $\dfrac{(1 + \sqrt{5})^{n+1} - (1 - \sqrt{5})^{n+1} }{2^{n+1} \sqrt{5}}$ $u(n)$\hfill (8)
-	
-	\vspace{0.6cm}
-	
-	$y(n)$ = $\dfrac{x(n+1)}{x(n)}$ \hfill (9)
-	
-	\vspace{0.6cm}
-	
-	$y(n)$ = $\dfrac{1}{2}$ $\Bigg[$ $\dfrac{(1 + \sqrt{5})^{n+2} - (1 - \sqrt{5})^{n+2}}{(1 + \sqrt{5})^{n+1} - (1 - \sqrt{5})^{n+1}}$ $\Bigg]$ \hfill (10)
-	
 	%\newpage
 	
 	\begin{figure}[htbp]
