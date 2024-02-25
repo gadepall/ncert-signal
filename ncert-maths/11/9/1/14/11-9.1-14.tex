@@ -59,48 +59,34 @@
 	
 	\renewcommand{\thefigure}{\theenumi}
 	\renewcommand{\thetable}{\theenumi}
-	
-	
-	\vspace{0.2cm}
+
 	\linespread{1.1}
 	
 	
 	\textbf{Question : }
 	The Fibonacci sequence is defined by $1 = a_1 = a_2$ and \par $a_n = a_{n-1} + a_{n-2}$ , $n$ $\textgreater$ 2
 	
-	\vspace{0.2cm}
 	Find $\dfrac{a_{n + 1}}{a_n}$, for $n$ = 1, 2, 3, 4, 5
 	
-	\vspace{0.3cm}
 	\textbf{Answer : }
 	\vspace{0.3cm}
 	\fi
 	\input{ncert-maths/11/9/1/14/table/Table.tex}
 	
-	\vspace{-0.2cm}
-	
 	Here, $a_1 = 1, a_2 = 1$
 	\begin{align}
 	a_n &= a_{n-1} + a_{n-2} , n \textgreater 2
 	\end{align}
-	\vspace{0.2cm}
 	
 	Applying $z$ transform,
-	
-	\vspace{-0.8cm}
-	
 	\begin{align}
 		X\brak z	&= z^{-1} X(z) + z^{-2} X(z) + z^{-0}  \\[6pt]
 		&= \dfrac{1}{1 - z^{-1} - z^{-2}}  \\[10pt]
 		&= \dfrac{1}{(1 - \alpha z^{-1})(1 - \beta z^{-1})} \hspace{0.2cm}, \hspace{0.3cm}\lvert \hspace{0.1cm} z \hspace{0.1cm}\rvert \hspace{0.1cm} \textgreater \hspace{0.1cm} \lvert \hspace{0.1cm} \alpha \hspace{0.1cm} \rvert 				
 	\end{align}
-	
-	\vspace{0.3cm}
-	
+
 	Where, $\alpha$ = $\dfrac{1 +\sqrt{5}}{2}$ and $\beta$ = $\dfrac{1 -\sqrt{5}}{2}$ 
-	
-	\vspace{0.4cm}
-	
+
 	Using partial fractions,
 	
 	\begin{align}
@@ -110,13 +96,8 @@
 	$a^n u(n)$
 	$\xleftarrow[]{\hspace{0.4cm}{\mathcal{Z}}\hspace{0.1cm}}\xrightarrow[]{}$
 	$\dfrac{1}{1 - a z^{-1}}$ \hspace{0.2cm} $\lvert \hspace{0.1cm} z \hspace{0.1cm}\rvert \hspace{0.1cm} \textgreater \hspace{0.1cm} \lvert \hspace{0.1cm} a \hspace{0.1cm} \rvert$
-	
-	\vspace{0.4cm}
-	
+
 	Substituting this result,
-	
-	\vspace{-0.5cm}
-	
 	\begin{align}
 		x(n) &= \dfrac{\alpha}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\beta}{(\alpha - \beta)} (\beta^n u(n))\\[3pt]
 		x(n) &= \dfrac{\alpha^{n+1} - \beta^{n+1} }{\alpha - \beta} u(n)\\[10pt]
