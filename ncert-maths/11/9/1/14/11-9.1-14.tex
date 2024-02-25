@@ -1,0 +1,164 @@
+% \iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{siunitx}
+\usepackage{flushend}
+\usepackage[siunitx]{circuitikz}
+\usepackage{caption}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+	\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+	
+	\bibliographystyle{IEEEtran}
+	\vspace{3cm}
+	
+	\title{NCERT 9.1 Q.14}
+	\author{EE23BTECH11203 - Adarsh A$^{*}$% <-this % stops a space
+	}
+	\maketitle
+	%\newpage
+	\bigskip
+	
+	\renewcommand{\thefigure}{\theenumi}
+	\renewcommand{\thetable}{\theenumi}
+	
+	
+	\vspace{0.2cm}
+	\linespread{1.1}
+	
+	
+	\textbf{\fontsize{13.5}{20}\selectfont Question : }
+	\fontsize{13.5}{20}\selectfont The Fibonacci sequence is defined by $1 = a_1 = a_2$ and \par $a_n = a_{n-1} + a_{n-2}$ , $n$ $\textgreater$ 2
+	
+	\vspace{0.2cm}
+	Find $\dfrac{a_{n + 1}}{a_n}$, for $n$ = 1, 2, 3, 4, 5
+	
+	\vspace{0.3cm}
+	\textbf{\fontsize{13.5}{20}\selectfont Answer : }
+	\vspace{0.3cm}
+	\fontsize{13.5}{20}\selectfont 
+	
+	\input{table/Table.tex}
+	
+	\vspace{-0.2cm}
+	
+	\fontsize{13.5}{20}\selectfont
+	Here, $a_1 = 1, a_2 = 1$
+	
+	$a_n = a_{n-1} + a_{n-2}$ , $n$ $\textgreater$ 2 \hfill (1)
+	
+	\vspace{0.2cm}
+	
+	%Re-writing this equation,
+	
+	%\vspace{0.1cm}
+	
+	%$x(n)$ = $x(n-1)$ + $x(n-2)$ + $u(-n)$, $n$ $\geq$ 0 \hfill (2)
+	
+	%\vspace{0.2cm}
+	
+	Applying $z$ transform,
+	
+	\vspace{-0.8cm}
+	
+	\begin{align}
+		X\brak z	&= z^{-1} X(z) + z^{-2} X(z) + z^{-0} \tag{2} \\[6pt]
+		&= \dfrac{1}{1 - z^{-1} - z^{-2}} \tag{3} \\[10pt]
+		&= \dfrac{1}{(1 - \alpha z^{-1})(1 - \beta z^{-1})} \hspace{0.2cm}, \hspace{0.3cm}\lvert \hspace{0.1cm} z \hspace{0.1cm}\rvert \hspace{0.1cm} \textgreater \hspace{0.1cm} \lvert \hspace{0.1cm} \alpha \hspace{0.1cm} \rvert  \tag{4}				
+	\end{align}
+	
+	\vspace{0.3cm}
+	
+	Where, $\alpha$ = $\dfrac{1 +\sqrt{5}}{2}$ and $\beta$ = $\dfrac{1 -\sqrt{5}}{2}$ 
+	
+	\vspace{0.4cm}
+	
+	Using partial fractions,
+	
+	\begin{align}
+		X(z) &= \dfrac{\alpha}{(\alpha - \beta)} \dfrac{1}{(1 - \alpha z^{-1})} - \dfrac{\beta}{(\alpha - \beta)} \dfrac{1}{(1 - \beta z^{-1})} \tag{5}
+	\end{align}
+	
+	$a^n u(n)$
+	$\xleftarrow[]{\hspace{0.4cm}{\mathcal{Z}}\hspace{0.1cm}}\xrightarrow[]{}$
+	$\dfrac{1}{1 - a z^{-1}}$ \hspace{0.2cm} $\lvert \hspace{0.1cm} z \hspace{0.1cm}\rvert \hspace{0.1cm} \textgreater \hspace{0.1cm} \lvert \hspace{0.1cm} a \hspace{0.1cm} \rvert$
+	
+	\vspace{0.4cm}
+	
+	Substituting this result,
+	
+	\vspace{-0.5cm}
+	
+	\begin{align}
+		x(n) &= \dfrac{\alpha}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\beta}{(\alpha - \beta)} (\beta^n u(n)) \tag{6}
+	\end{align}
+	
+	$x(n)$ = $\dfrac{\alpha^{n+1} - \beta^{n+1} }{\alpha - \beta}$ $u(n)$ \hfill (7)
+	
+	\vspace{0.6cm}
+	
+	$x(n)$ = $\dfrac{(1 + \sqrt{5})^{n+1} - (1 - \sqrt{5})^{n+1} }{2^{n+1} \sqrt{5}}$ $u(n)$\hfill (8)
+	
+	\vspace{0.6cm}
+	
+	$y(n)$ = $\dfrac{x(n+1)}{x(n)}$ \hfill (9)
+	
+	\vspace{0.6cm}
+	
+	$y(n)$ = $\dfrac{1}{2}$ $\Bigg[$ $\dfrac{(1 + \sqrt{5})^{n+2} - (1 - \sqrt{5})^{n+2}}{(1 + \sqrt{5})^{n+1} - (1 - \sqrt{5})^{n+1}}$ $\Bigg]$ \hfill (10)
+	
+	\newpage
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{figures/fig1.png}
+		\caption*{\hspace{2cm} (a) Plot of $x(n)$ $vs$ $n$}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{figures/fig2.png}
+		\caption*{\hspace{2cm} (b) Plot of $y(n)$ $vs$ $n$}
+		
+	\end{figure}
+	
+	
+\end{document}
