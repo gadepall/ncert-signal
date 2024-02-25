@@ -1,0 +1,83 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{pgf}
+\usepackage{lmodern}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{graphicx}
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11047 - Deepakreddy P
+}
+\maketitle
+\newpage
+\bigskip
+
+
+\noindent \textbf{3} \quad A 44 mH inductor is connected to 220 V, 50 Hz ac supply. Determine
+the rms value of the current in the circuit.\\
+\solution
+\fi
+
+
+\begin{figure}[ht]
+  \centering
+      \input{ncert-physics/12/7/3/figs/ckt1}
+  \caption{Circuit-1}
+\end{figure}
+
+\begin{align}
+    V &= I \brak{j \omega L} \\
+    I &= \frac{V}{j \omega L} A \\
+    I &= \frac{220 \sqrt{2}}{j \brak{314} \brak{44 \text{x} 10^{-3}}}A\\
+    I &= \frac{22.52}{j}A
+\end{align}
+
+
+\begin{figure}[ht]
+  \centering
+
+      \input{ncert-physics/12/7/3/figs/ckt2}
+
+  \caption{Circuit-2}
+\end{figure}
+
+\begin{align}
+    I_{rms} = \frac{I}{\sqrt{2}}A\\
+    I_{rms} = \frac{15.92}{j}A\\
+    \abs{I_{rms}} = 15.92 A
+\end{align}
+
+\begin{figure}[ht]
+   \centering
+   \includegraphics[width=1.1\columnwidth]{ncert-physics/12/7/3/figs/ac.png}
+   \caption{Plot of I vs time}
+\end{figure}
+
+\begin{center}
+    \begin{table}[ht]
+        \input{ncert-physics/12/7/3/tables/table1}
+    \end{table}
+\end{center}
+
+\begin{center}
+    \begin{table}[ht]
+        \input{ncert-physics/12/7/3/tables/table2}
+    \end{table}
+\end{center}
+
+%\end{document}
+
