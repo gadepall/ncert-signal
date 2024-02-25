@@ -1,4 +1,4 @@
-% \iffalse
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -75,8 +75,8 @@
 	\textbf{\fontsize{13.5}{20}\selectfont Answer : }
 	\vspace{0.3cm}
 	\fontsize{13.5}{20}\selectfont 
-	
-	\input{table/Table.tex}
+	\fi
+	\input{ncert-maths/11/9/1/14/table/Table.tex}
 	
 	\vspace{-0.2cm}
 	
@@ -86,14 +86,6 @@
 	$a_n = a_{n-1} + a_{n-2}$ , $n$ $\textgreater$ 2 \hfill (1)
 	
 	\vspace{0.2cm}
-	
-	%Re-writing this equation,
-	
-	%\vspace{0.1cm}
-	
-	%$x(n)$ = $x(n-1)$ + $x(n-2)$ + $u(-n)$, $n$ $\geq$ 0 \hfill (2)
-	
-	%\vspace{0.2cm}
 	
 	Applying $z$ transform,
 	
@@ -145,20 +137,20 @@
 	
 	$y(n)$ = $\dfrac{1}{2}$ $\Bigg[$ $\dfrac{(1 + \sqrt{5})^{n+2} - (1 - \sqrt{5})^{n+2}}{(1 + \sqrt{5})^{n+1} - (1 - \sqrt{5})^{n+1}}$ $\Bigg]$ \hfill (10)
 	
-	\newpage
+	%\newpage
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[width=0.6\textwidth]{figures/fig1.png}
+		\includegraphics[width=0.6\textwidth]{ncert-maths/11/9/1/14/figures/fig1.png}
 		\caption*{\hspace{2cm} (a) Plot of $x(n)$ $vs$ $n$}
 	\end{figure}
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[width=0.6\textwidth]{figures/fig2.png}
+		\includegraphics[width=0.6\textwidth]{ncert-maths/11/9/1/14/figures/fig2.png}
 		\caption*{\hspace{2cm} (b) Plot of $y(n)$ $vs$ $n$}
 		
 	\end{figure}
 	
 	
-\end{document}
+%\end{document}
