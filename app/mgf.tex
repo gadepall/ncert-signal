@@ -138,4 +138,53 @@ n(n+1) u(n) &\system{Z} \frac{z^{-1}}{({1-z^{-1}})^3}, \quad \abs{z} > 1
 y(n) &= x(0)\sbrak{(n + 1)u(n)} + \frac{d}{2}\sbrak{n(n + 1)u(n)}\\
 &= \frac{n+1}{2}\cbrak{2x(0) + nd}u(n)
 \end{align}
+
+
+\item
+\begin{table}[ht]
+\input{ncert-maths/11/9/9/4/tables/table_1.2}
+\end{table}
+\begin{align}
+	%\label{Z_trans_pair}\\
+	\delta\brak{n} &\system{Z} 1 \\
+	\delta\brak{n+k} &\system{Z}z^{k} ,\forall k\in \mathbb{R} \label{11027_delta_func}
+\end{align}
+\begin{align}
+        \log\brak{1-x} = -x - \frac{x^2}{2} - \frac{x^3}{3}-\frac{x^4}{4}- \ldots \label{11027_log_expansion}
+\end{align}
+Let $x\brak{n}$ and $w\brak{n}$ be some expression as described in the table in discrete time domain, whose $Z$ transform, $X\brak{z}$ and $W\brak{z}$ respectively, shall be obtained for future reference.\\
+\begin{align}
+    \notag \text{For }  x\brak{n} = \frac{1}{n+c} &u\brak{n},\forall c \geq 2,c \in \mathbb{N}\\
+    X\brak{z} &= \sum_{n= -\infty}^{n= +\infty} x\brak{n}z^{-n}\\
+    &=\sum_{n = 0}^{n = +\infty} \frac{1}{n+c}z^{-n}\\
+    &= z^c\sum_{n = 0}^{n = +\infty} \frac{1}{n+c}z^{-\brak{n+c}}
+\end{align}
+Using, \eqref{11027_log_expansion}
+\begin{align}
+    X\brak{z}&= z^c \biggl(-\log\brak{1-z^{-1}}- z^{-1}\notag\\& -\frac{z^{-2}}{2}-\frac{z^{-3}}{3} - \ldots -\frac{z^{-(c-1)}}{c-1} \biggr)\ \forall c \geq 2, c \in \mathbb{N} \label{11027_when_c_not_1}
+\end{align} 
+
+\begin{align}
+	\notag \text{For } w\brak{n} = \frac{1}{n+1}&u\brak{n},\\
+	W\brak{z} &=\sum_{n= -\infty}^{n= +\infty} w\brak{n}z^{-n}\\
+	&= \sum_{n = 0}^{n = +\infty} \frac{1}{n+1}z^{-n}\\
+	&= z\sum_{n = 0}^{n = +\infty} \frac{1}{n+1}z^{-\brak{n+1}} 
+\end{align}
+Using \eqref{11027_log_expansion},
+\begin{align}
+	W\brak{z}&= -z\log\brak{1-z^{-1}} \label{11027_when_c_equals_1}	
+\end{align}
+\\
+Let $D\brak{z}$ be some expression as described in the table in $Z$ domain, whose inverse $Z$ transform, $d\brak{n}$ shall be obtained for future reference.\\
+
+\begin{align}
+	\notag \text{For } D\brak{z}&= z^{k}\log\brak{1-z^{-1}} \forall k \geq 1, k\in \mathbb{Z}\\
+	D\brak{z}&= \brak{-z^{k-1} - \frac{1}{2}z^{k-2} - \frac{1}{3}z^{k-3} - \frac{1}{4}z^{k-4} - \ldots}
+\end{align}
+Using \eqref{11027_delta_func},
+\begin{align}
+	d\brak{n} &= \biggl(-\delta\brak{n+k-1}  -\frac{1}{2}\delta\brak{n+k-2}  -\frac{1}{3}\delta\brak{n+k-3} \notag \\ &-\frac{1}{4}\delta\brak{n+k-4} - \ldots - \frac{1}{n+k}\delta\brak{0}-\ldots\biggr)\\
+	&= \frac{-1}{n+k} u\brak{n} \label{11027_eq_log}
+\end{align}
+
 \end{enumerate}

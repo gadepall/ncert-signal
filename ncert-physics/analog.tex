@@ -1,4 +1,8 @@
 \begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
+\item A circular disk of mass 10kg is suspended by a wire attached to its centre. The wire is twisted by rotating the disc and released. The period of torsional oscillations is found to be 1.5s. The radius of the disc is 15cm. Determine the torsional spring constant of the wire. (Torsional spring constant $\alpha$ is defined by the relation J=-$\alpha$$\theta$, where J is the restoring couple and $\theta$ is the angle of twist).\\
+\solution
+\input{ncert-physics/11/14/23/11.14-23.tex}
+\pagebreak
 \item Suppose that the electric field amplitude of an electromagnetic wave is $E_0$ = 120N/C and that its frequency is $f$ = 50.0 MHz.
 \begin{enumerate} [label=(\alph*)]
     \item Determine, $B_0, \omega, k$ and $\lambda$
@@ -157,11 +161,251 @@ combination is zero at the resonating frequency.\\
 \item A 44 mH inductor is connected to 220 V, 50 Hz ac supply. Determine
 the rms value of the current in the circuit.\\
 \solution
+\input{ncert-physics/12/7/3/ac.tex}
 \pagebreak
 
 \item The 6563 \AA\, H$\alpha$ line emitted by hydrogen in a star is found to be redshifted by 15 \AA. Estimate the speed with which the star is receding from the Earth.
 \solution
 \pagebreak
+\item The amplitude  of the magnetic part of a harmonic elctromagnetic wave is $B_0=510$nT.What is the amplitude of the electric part of the electromagnetic wave.\\
+\solution
+\pagebreak
+
+\item A 100$\mu$F capacitor in series with a 40$\Omega$ resistance is connected to a 110V, 60Hz supply.
+\begin{enumerate}[label = {\brak{\alph*}}]
+\item What is the maximum current in the circuit?
+\item What is the time lag between the current maximum and the voltage maximum?\\
+\end{enumerate}
+\solution
+\pagebreak
+\item A 100 $\ohm$ resistor is connected to $220 V$, $50 Hz$ AC supply.\\
+(1) What is the rms value of current in the circuit?\\
+(2) What is the net power consumed over a full cycle?
+
+\solution
+\pagebreak
+\item  Two towers on top of two hills are $40$ km apart.This line joining them passes $50$ m above a hill halfway between the towers.What is the longest wavelength of radio waves,which can be sent between the towers without  appereciable diffraction effects?\\
+\solution
+\pagebreak
+\item A circuit containing a 80mH inductor and a 60$\mu$F capacitor in series is connected to a 230V, 50Hz supply. The resistance of the circuit is negligible.\\
+\begin{enumerate}
+  \item Obtain the current amplitude and rms value.
+  \item Obtain the rms value of potential drops across each element.
+  \item What is the average power transferred to the inductor ?
+  \item What is the average power transferred to the capacitor ?
+  \item What is the total average power absorbed by the circuit ? \brak{\text{'Average' implies 'averaged over one cycle'.}}
+\end{enumerate}
+\solution
+\pagebreak
+\item A coil of inductance 0.50 H and resistance 100 $\Omega$ is connected to a 240 V, 50 Hz ac supply.\\
+(a) What is the maximum current in the coil?\\		
+(b) What is the time lag between the voltage maximum and the current maximum?\\
+\solution
+\pagebreak
+
+\item A plane electromagnetic wave travels in vacuum along the \(z\)-direction. What can you say about the directions of its electric (\(\mathbf{E}\)) and magnetic (\(\mathbf{B}\)) field vectors? If the frequency of the wave is \(30 \, \text{MHz}\), what can you say about its wavelength?\\
+\solution
+\pagebreak
+
+\item
+Earthquakes generate sound waves inside the earth. Unlike a gas, the earth can experience both transverse (S) and longitudinal (P) sound waves. Typically the speed of S wave is about $4.0 km/s$, and that of P wave is $8.0 km/s$. A seismograph records P and S waves from an earthquake. The first P wave arrives $4 min$ before the first S wave. Assuming the waves travel in straight line, at what distance does the
+earthquake occur ?
+\solution
+\pagebreak
+
+\item
+A hospital uses an ultrasonic scanner to locate tumors in a tissue. What is the wavelength of sound in the tissue in which the speed of sound is $1.7 \, \text{km/s}$? The operating frequency of the scanner is $4.2 \, \text{MHz}$.
+\solution
+\pagebreak
+
+\item In double-slit experiment using light of wavelength $600 nm$, the
+angular width of a fringe formed on a distant screen is $0.1\degree$. What is
+the spacing between the two slits?\\
+\solution
+\pagebreak
+
+\item A spring having with a spring constant 1200 N$m^{-1}$ is mounted on a horizontal
+table as shown in Fig.A mass of 3 kg is attached to the free end of the
+spring. The mass is then pulled sideways to a distance of 2.0 cm and released.\\
+Determine (i) the frequency of oscillations, (ii) maximum acceleration of the mass,
+and (iii) the maximum speed of the mass.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\linewidth]{ncert-physics/11/14/9/figs/analog.png}
+    \caption{ }
+
+\end{figure}
+\solution
+\pagebreak
 
 
+\item A string of mass 2.50 kg is under a tension of 200 N. The length of the stretched string is 20.0 m. If the transverse jerk is struck at one end of the string, how long does he disturbance take to reach the other end ? 
+\solution
+\pagebreak
+
+\item In a Young's double-slit experiment, the slits ar e separated by $0.28$ mm and the screen is placed $1.4 m$ away. The distance between the central bright fringe and the fourth bright fringe is measured to be $1.2 cm$. Determine the wavelength of light used in the experiment.\\
+\solution
+\pagebreak
+\item Keeping the source frequency equal to the resonating frequency of the series $LCR$ circuit, if the three elements, $L, C$, and $R$ are arranged in parallel, show that the total current in the parallel $LCR$ circuit is minimum at this frequency. Obtain the current rms value in each branch of the circuit for the elements and source specified in Exercise 7.11 for this frequency\\
+   $\varepsilon =230V$, $L=5.0H$, $C=80\mu$F, $R=40\ohm$\\
+\begin{circuitikz}
+  \draw (0,0) to[sV, v=$\varepsilon$] (0,3);
+  \draw (0,3) to [resistor, l=$R$] (3,3);
+  \draw (3,3)to[capacitor,l=$C$] (3,0);
+  \draw (0,0)to[L,l=$L$] (3,0);
+\end{circuitikz}
+\\ \\ \\
+\begin{circuitikz}
+    \draw (0,0) to [sV, v=$\varepsilon$] (0,3);
+    \draw (2,3) to [R, l=$R$] (2,0);
+    \draw (4,3) to [C, l=$C$] (4,0);
+    \draw (6,3) to [L, l=$L$] (6,0);
+    \draw (0,0) -- (6,0);
+    \draw (0,3) -- (6,3);
+\end{circuitikz}
+ \solution
+\item A SONAR system fixed in a submarine operates at a frequency 40.0 kHz. An enemy submarine moves towards the SONAR with a speed of 360 km/hr. What is the frequency of sound reflected by the submarine? Take the speed of sound in water to be 1450 m/s.\\
+\solution
+\pagebreak
+
+\item Figure 1.0.35 (a) shows a spring of force constant k clamped rigidly at one end and a mass $m$ attached to its free end. A force $F$ applied at the free end stretches the spring. Figure 1.0.35 (b) shows the same spring with both ends free and attached to a mass $m$ at either end. Each end of the spring in Fig. 1.0.35(b) is stretched by the same force $F$.
+
+\begin{figure}[ht]
+\caption{ }
+    \includegraphics[width=0.45\textwidth]{ncert-physics/11/14/13/figs/fig1.png}
+    \includegraphics[width=0.45\textwidth]{ncert-physics/11/14/13/figs/fig2.png}
+\end{figure}
+\begin{enumerate}[label = (\alph*)]
+  \item What is the maximum extension of the spring in the two cases ?    
+  \item If the mass in Fig. (a) and the two masses in Fig. (b) are released, what is the
+period of oscillation in each case ?
+\end{enumerate}
+    
+\solution
+\newpage
+
+\item A bat is flitting about in a cave, navigating via ultrasonic beeps. Assume that the
+sound emission frequency of the bat is 40 kHz. During one fast swoop directly
+toward a flat wall surface, the bat is moving at 0.03 times the speed of sound in air.
+What frequency does the bat hear reflected off the wall ? \hfill{NCERT Analog 11.15.27}\\
+\solution
+\pagebreak
+\item One end of a long string of linear mass density $8.0 \times 10^{-3} \, \text{kg m}^{-1}$ is connected to an electrically driven tuning fork of frequency $256 \, \text{Hz}$. The other end passes over a pulley and is tied to a pan containing a mass of $90 \, \text{kg}$. The pulley end absorbs all the incoming energy so that reflected waves at this end have negligible amplitude. At $t=0$, the left end (fork end) of the string $x=0$ has zero transverse displacement ($y=0$) and is moving along positive $y$-direction. The amplitude of the wave is $5.0 \, \text{cm}$. Write down the transverse displacement $y$ as a function of $x$ and $t$ that describes the wave on the string.\hfill{NCERT Analog 11.15.24} \\
+\solution
+\pagebreak
+\item A steel wire has a length of 12.0 m and a mass of 2.10 kg. What should be the
+tension in the wire so that speed of a transverse wave on the wire equals the speed
+of sound in dry air at 20 $^{\circ} C = 343ms^{-1}$ \hfill{NCERT Analog 11.15.3}\\
+\solution
+\pagebreak
+\item What is the Brewster angle for air to glass transition?\brak{{\text{Refractive index of glass =1.5}}}\\
+\solution
+\pagebreak
+\item A parallel beam of light with a wavelength of $500$ nm falls on a narrow slit, and the resulting diffraction pattern is observed on a screen $1$ m away. The distance to the first minimum from the center of the screen is $2.5$ mm.\\
+Find the width of the slit given that $y = 0.0025$ m, $L = 1$ m, and $\lambda = 5 \times 10^{-7}$ m.\\
+\solution
+\pagebreak
+
+\item Two sitar strings A and B playing the note `Ga' are slightly out of tune and produce beats of frequency $6$Hz. The tension in the string A is slightly reduced and the beat frequency is found to reduce to $3$Hz. If the original frequency of A is $324$Hz,what is the frequency of B?\\
+\solution
+\pagebreak
+
+\item Which of the following functions of time represent (a) simple harmonic, (b) periodic
+ but not simple harmonic, and (c) non-periodic motion? Give period for each case of periodic motion ($\omega$ is any positive constant):\\
+ \begin{enumerate}
+ \item $\sin\brak{\omega t}-\cos\brak{\omega t}$\\
+ \item $\sin^3\brak{\omega t}$\\
+ \item $3\cos\brak{\frac{\pi}{4}- 2\omega t}$\\
+ \item $\cos\brak{\omega t}+\cos\brak{3\omega t}+\cos\brak{5\omega t}$\\
+ \item \text{exp}\brak{-\omega^2 t^2}\\
+ \item $1+\omega t+\omega^2 t^2$\\
+  \end{enumerate}
+ \solution
+\input{ncert-physics/11/14/4/11_14_4.tex}
+ \pagebreak
+
+ \item A metre-long tube open at one end, with a movable piston at the other end, shows resonance with a fixed frequency source (a tuning fork of frequency $340$ Hz) when the tube length is $25.5$ cm or $79.3$ cm. Estimate the speed of sound in air at the temperature of the experiment. The edge effects may be neglected.\\
+ \solution
+ \pagebreak
+\item In a double-slit experiment the angular width of a fringe is found to
+be $0.2^\circ$ on a screen placed 1 m away. The wavelength of light used is
+600 nm. What will be the angular width of the fringe if the entire
+experimental apparatus is immersed in water? Take refractive index
+of water to be $\frac{4}{3}$
+\solution
+\pagebreak
+\item An air chamber of volume V has a neck area of cross section a into which a ball of mass m just fits and can move up down without any friction. Show that when the ball is pressed down a little and released, it executes SHM. Obtain an expression for the time period of oscillations assuming pressure-volume variations of air to be isothermal.
+\solution
+\pagebreak
+
+\item
+(a) The refractive index of glass is $1.5$. What is the speed of light in
+glass?(Speed of light in vacuum is $3.0\times 10^{8} m s^{-1}$) \\
+\\
+(b) Is the speed of light in glass independent of the colour of light? If
+not, which of the two colours red and violet travels slower in a
+glass prism?\\
+\solution
+\pagebreak
+\item
+The motion of a particle executing simple harmonic motion is described by the
+displacement function, $x(t)$ = $A$ $cos$ ($\omega$$t$ +$\phi$).
+If the initial $(t = 0)$ position of the particle is $1 cm$ and its initial velocity is $\omega\quad cm/s$, what are its amplitude and initial phase angle ? The angular frequency of the particle is $\pi\quad s^{-1}$. If instead of the cosine function, we choose the sine function to describe the SHM : $x$ = $B$ $sin$ ($\omega$$t$ +$\alpha$), what are the amplitude and initial phase of the
+particle with the above initial conditions.\\
+\solution
+\pagebreak
+
+\item A stone dropped from the top of a tower of height $300$ m splashes into the water of a pond near the base of the tower. When is the splash heard at the top given that the speed of the sound in air is $340$ m $s^{-1}$.(g=$9.8$ m $s^{-2}$)\\
+\solution
+\pagebreak
+
+\item Monochromatic light of wavelength 589nm is incident from air on a
+water surface. What are the wavelength, frequency and speed of\\
+(a) Reflected light?\\
+(b) refracted light? Refractive index of water is 1.33.\\
+\solution
+\pagebreak
+\item A bat emits ultrasonic sound of frequency $1000 kHz$ in air. If the sound meets a water surface, what is the wavelength of\\[0pt] \brak a the reflected sound \\[0pt]
+\brak{b} the transmitted sound?\\
+Speed of sound in air is $340 ms^{-1}$ and in water is $1486 ms^{-1}$.\\
+\solution
+\pagebreak
+
+\item A pipe 20 cm long is closed at one end. Which harmonic mode of the pipe is
+
+resonantly excited by a 430 Hz source ? Will the same source be in resonance with
+
+the pipe if both ends are open? (speed of sound in air is 340 m $s^{–1}$).\\
+\solution
+\pagebreak
+
+\item Figures correspond to two circular motions. The radius of the circle, the period of revolution, the initial position and the sense of revolution(i.e. clockwise or anti-clockwise) are indicated on each figure. Obtain the corresponding simple harmonic motions of the x-projections of the radius vector of resolving particle P in each case.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ncert-physics/11/14/11/codes/qfig.pdf}
+\end{figure}
+\solution
+\pagebreak
+
+\item A steel rod $100$cm long is clamped at its middle. The fundamental frequency of the longitudinal vibrations of the rod are given to be $2.53$kHz. What is the speed of sound in steel? \\
+\solution
+\pagebreak
+
+\item A train, standing in a station yard, blows a whistle of frequency $400 \, \text{Hz}$ in still air. The wind starts blowing in the direction from the yard to the station with a speed of $10 \, \text{m/s}$. What are the frequency, wavelength, and the speed of sound for an observer standing on the station's platform? Is the situation exactly identical to the case when the air is still and the observer runs towards the yard at a speed of $10\, \text{m/s}$? The speed of sound in still air can be taken as $340\, \text{m/s}$.\\
+\solution
+\pagebreak
+
+\item A radio can tune in to any station in the 7.5 MHz to 12 MHz band. What is the corresponding wavelength band?\\
+\solution
+\pagebreak
+
+\item A travelling harmonic wave on a string is described by $$ y(x,t) = 7.5 \sin(0.0050x + 12t + \frac{\pi}{4}) $$
+\begin{enumerate}
+    \item[(a)] What are the displacement and velocity of oscillation of a point at $x = 1\,\text{cm}$ and $t = 1\,\text{s}$? Is this velocity equal to the velocity of wave propagation?
+    
+    \item[(b)] Locate the points on the string which have the same transverse displacements and velocity as the point at $x = 1\,\text{cm}$ at $t = 2\,\text{s}$, $t = 5\,\text{s}$, and $t = 11\,\text{s}$.
+\end{enumerate}
+\solution
+\pagebreak
 \end{enumerate}

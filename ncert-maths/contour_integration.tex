@@ -3,13 +3,14 @@
 \item In a potato race, a bucket is placed at the starting point, which is 5 m from the first potato,and the other potatoes are placed 3 m apart in a straight line. There are ten potatoes in the line. A competitor starts from the bucket, picks up the nearest potato, runs back with it, drops it in the bucket, runs back to pick up the next potato, runs to the bucket to drop it in, and she continues in the same way until all the potatoes are in the bucket. What is the total distance the competitor has to run?\\
 \hfill(NCERT-Maths 10.5.3.20Q)\\
 \solution 
+\input{ncert-maths/10/5/3/20/main.tex}
 \pagebreak
 
 \item Find the sum of the first $15$ multiples of $8$. \\
 
 \solution
 \input{ncert-maths/10/5/3/13/assignment12.tex}
-%\pagebreak
+ss\pagebreak
 
 \item If the sum of $n$ terms of an A.P. is $3n^2+5n$ and its $m^{th}$ term is 164, find the value of $m$.\\
 \solution
@@ -79,17 +80,140 @@ multiples of 5.\\
 
 \item Find the sum of odd numbers between 0 and 50.\\
 \solution
-\input{}
+\input{ncert-maths/10/5/3/14/14.tex}
 \pagebreak
 
 \item  A ladder has rungs 25cm apart.The rungs decrease uniformly in length from 45cm at the bottom to 25cm at the top.If the top and bottom rungs are 2 and 1/2 meter apart.what is length of wood required for the rungs?\\
 \pagebreak
 
 \item Q2) The sum of the third and the seventh terms of AP is 6 and their product is 8. Find the sum of first sixteen terms of the AP \\
+\solution \input{ncert-maths/10/5/4/2/latexcode,discrete_pr.tex}
+\pagebreak
+\item A spiral is made up of successive semicircles, with centres alternately at A and B, starting with centre at A, of radii $0.5 cm$, $1.0 cm$, $1.5 cm$, $2.0 cm$, . . . What is the total length of such a spiral made up of thirteen consecutive semicircles? (Take $\pi = \frac{22}{7}$)\\
+\solution
+\input{ncert-maths/10/5/3/18/main.tex}
+\newpage
+
+\item Find the sum to indicated number of terms in each of the geometric progressions in
+$0.15, 0.015, 0.0015\ldots 20 terms$.\\
+\solution
+\input{ncert-maths/11/9/3/7/assignment2.tex}
+\pagebreak
+
+\item A man deposited Rs 10000 in a bank at the rate of 5\% simple interest anually. Find the amount in 15\textsuperscript{th} year since he deposited the amount and also calculate the total amount after 20 years.\\
+\solution
+\input{ncert-maths/11/9/5/30/main.tex}
+\pagebreak
+\item A manufacturer reckons that the value of a machine, which costs him Rs.$15625$, will depreciate each year by $20\%$.Find the estimated value at the end of 5 years.\\
+\solution
+\input{ncert-maths/11/9/5/31/main.tex}
+\pagebreak
+
+
+\item The houses of a row are numbered consecutively from 1 to 49. Show that there is a value
+of x such that the sum of the numbers of the houses preceding the house numbered is equal to the sum of the numbers of the houses following it. Find this value of $x$.\\
+Hint:$ S_{x-1}=S_{49}-S_x$\\
+\solution
+\input{ncert-maths/10/5/4/4/discrete.tex}
+\pagebreak
+
+\item A contract on construction job specifies a penalty for delay of completion beyond a certain date as follows: \rupee $200$ for the first day, \rupee $250$ for the second day, \rupee $300$ for the third day, etc., the penalty for each succeeding day being \rupee $50$ more than for the preceding day.How much money the contractor has to pay as penalty, if he has delayed the work by $30$ days?\\
+\solution
+\input{ncert-maths/10/5/3/15/assign10_5_3_15.tex}
+\item Find the sum of all two digit numbers which when divided by $4$,yields $1$ as reminder?\\
+\solution
+\input{ncert-maths/11/9/5/6/discrete1.tex}
+\pagebreak
+
+\item A spiral is made up of successive semicircles,with centres alternately at A and B,starting with centre at A,of radii $0.5cm,1.0cm,1.5cm,2.0cm$,... as shown in Fig.$5.4$.what is the total length of such a spiral made up of thirteen consecutive semicircles?(Take $\pi=\frac{22}{7}$)\\
+\begin{tikzpicture}
+
+% Define the centers A and B
+\coordinate (A) at (0,0);
+\coordinate (B) at (0.5,0);
+
+% Draw the spiral using semicircles
+\foreach \r in {0.5,1.5} {
+  \draw (A) ++(\r,0) arc (0:180:\r);
+}
+\foreach \r in {1.0,2.0} {
+  \draw (B) ++(\r,0) arc (0:-180:\r);
+}
+\node[label={above:A}] at (-0.1,-0.6){};
+\node[label={above:B}] at (0.5,-0.6){};
+\node[label={above:l}] at (0.5,-1.7){};
+\node[label={above:L}] at (0.2,0.3){};
+% Draw the axes (optional)
+\draw[-] (-3,0) -- (3,0);
+
+\end{tikzpicture}\\
 \solution
 \pagebreak
 \item Evaluate $\sum_{k=1}^{11} (2 + 3^k)$\\
 \solution
 \pagebreak
 
+\item 200 logs are stacked in the following manner: 20 logs in the bottom row, 19 in the next row,18 in the row next to it and so on (see Fig \ref{fig:10.5.3.19.q}). In how many rows are the 200 logs placed and how many logs are in the top row?
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{ncert-maths/10/5/3/19/figs/question.png}
+    \caption{ }
+    \label{fig:10.5.3.19.q}
+\end{figure}
+\solution \input{ncert-maths/10/5/3/19/assign2.tex}
+\pagebreak
+
+\item In an AP:
+\begin{enumerate}
+\item given a = 5, d = 3,$a_n=5$, find n and $S_n$.
+\item given a = 7, $a_{13}$=35, find d and $S_{13}$.
+\item given $a_{12}=37$, d = 3, find a and $S_{12}$.
+\item given $a_3$= 15, $S_{10}$ = 125, find d and $a_{10}$.
+\item given d = 5, $S_9$= 75, find a and $a_9$.
+\item given a = 2, d = 8, $S_n$= 90, find n and $a_n$.
+\item given a = 8, $a_n$= 62, $S_n$= 210, find n and d.
+\item given an= 4, d = 2, $S_n=-14$, find n and a.
+\item given a = 3, n = 8, S = 192, find d.
+\item given l = 28, S = 144, and there are total 9 terms. Find a.\\
+\end{enumerate}
+\solution
+\pagebreak
+
+\item Find the sum of n terms of the series:
+$1\times2+2\times3+3\times4+4\times5+....$\\
+\solution
+\pagebreak
+\item Find the sum of the first 22 terms of an AP in which $d = 7$ and the $22^{nd}$ term is 149.\\
+\solution
+\pagebreak
+
+\item Find the sum of integers from 1 to 100 that are divisible by 2 or 5.\\
+\solution
+\pagebreak
+
+\item In a school, students thought of planting trees in and around the school to reduce air
+
+pollution. It was decided that the number of trees, that each section of each class will
+
+plant, will be the same as the class, in which they are studying, e.g., a section of Class I
+
+will plant 1 tree, a section of Class II will plant 2 trees and so on till Class XII. There are
+
+three sections of each class. How many trees will be planted by the students?\\
+\solution
+\pagebreak
+\item A sum of Rs.$700$ is to be used to give seven cash prizes to students of a school for their overall academic performance. If each prize is Rs.$20$ less than its preceding prize, find the value of each of the prizes. \\
+\solution
+\input{ncert-maths/10/5/3/16/Ncert_10_5_3_16.tex}
+\pagebreak
+
+\item Find the sum of all numbers between 200 and 400 which are divisible by 7.\\
+\solution
+\pagebreak
+
+\item Find the 20th term in this series.\\
+$$2\times4+4\times6+6\times8\cdots+n\,terms$$ \\
+\solution 
+\input{ncert-maths/11/9/5/22/digital2.tex}
+\pagebreak
 \end{enumerate}
