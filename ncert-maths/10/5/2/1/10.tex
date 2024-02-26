@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -62,23 +63,24 @@
 
 \begin{table}[h!]
   \centering
-  \input{10/5/2/1/tables/10.5.2.1.table}
-   \label{tab:Table1}
+  \input{ncert-maths/10/5/2/1/tables/10.5.2.1.table.tex}
+   \label{tab:ESTable1}
 \end{table}
 \solution
+\fi
 for A.P,
 \begin{align}
     x_i(n) = \sbrak{x_i(0) + nd_i} u(n)
-    \label{eq:1}
+    \label{eq:ES1}
 \end{align}
 \begin{enumerate}
-\item From \eqref{eq:1} \tabref{tab:Table1} :
+\item From \eqref{eq:ES1} \tabref{tab: ESTable1} :
 \begin{align}
 x_1(n) &= \sbrak{7+3n}u(n)\\
 x_1(7) &= 28\\
 X_1(z) &= \frac{7 - 4z^{-1}}{(1 - z^{-1})^2} \quad |z| \neq 1
 \end{align}
-\item From \eqref{eq:1} and \tabref{tab:Table1} :
+\item From \eqref{eq:ES1} and \tabref{tab: ESTable1} :
 \begin{align}
 x_2(n) &= \sbrak{-18 + d_2n}u(n)\\
 x_2(9) &= 0\\
@@ -86,7 +88,7 @@ d_2 &= 2\\
 X_2(z) &= \frac{-18 + 20z^{-1}}{(1 - z^{-1})^2}
  \quad |z| \neq 1
 \end{align}
-\item From \eqref{eq:1} \tabref{tab:Table1} :
+\item From \eqref{eq:ES1} \tabref{tab: ESTable1} :
 \begin{align}
 x_3(n) &= \sbrak{x_3(0)-3n}u(n)\\
 x_3(17) &= -5\\
@@ -94,7 +96,7 @@ x_3(0) &= 49\\
 X_3(z) &= \frac{49 - 52z^{-1}}{(1 - z^{-1})^2}
  \quad |z| \neq 1
 \end{align}
-\item From \eqref{eq:1} \tabref{tab:Table1} :
+\item From \eqref{eq:ES1} \tabref{tab: ESTable1} :
 \begin{align}
 x_4(n) &= \sbrak{18.9+2.5n}u(n)\\
 x_4(n) &= 3.6\\
@@ -102,7 +104,7 @@ n_4    &= 9\\
 X_4(z) &= \frac{18.9 - 16.4z^{-1}}{(1 - z^{-1})^2}
  \quad |z| \neq 1
 \end{align}
-\item From \eqref{eq:1} \tabref{tab:Table1} :
+\item From \eqref{eq:ES1} \tabref{tab: ESTable1} :
 \begin{align}
 x_5(n) &= \sbrak{3.5}u(n)\\
 x_5(104) &= 3.5\\
@@ -110,11 +112,11 @@ X_5(z) &= \frac{3.5}{1-z^{-1}} \quad |z| \neq 1
 \end{align}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\columnwidth]{10/5/2/1/figs/10.png}
+    \includegraphics[width=\columnwidth]{ncert-maths/10/5/2/1/figs/10.png}
     \caption{stem plots }
-    \label{fig:1}
+    \label{fig:ESFIG1}
 \end{figure}
 \end{enumerate}
 
-\end{document}
+%\end{document}
 
