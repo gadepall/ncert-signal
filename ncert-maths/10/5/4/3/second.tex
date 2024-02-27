@@ -1,6 +1,4 @@
 \iffalse
-\let\negmedspace\undefined
-\let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -53,6 +51,40 @@
 \renewcommand{\thetable}{\theenumi}
 \textbf{Question:}
 \\
- A ladder has rungs 25cm apart.The rungs decrease uniformly in length from 45cm at the bottom to 25cm at the top.If the top and bottom rungs are 2 and 1/2 meter apart.what is length of wood required for the rungs?
-        
+ A ladder has rungs 25cm apart. The rungs decrease uniformly in length from 45cm at the bottom to 25cm at the top. If the top and bottom rungs are 2 and 1/2 meter apart, what is the length of wood required for the rungs?
+\fi
+\begin{table}[h]
+\centering
+\input{ncert-maths/10/5/4/3/tables/tab2.tex}
+\caption{Description of Parameters}
+\label{tab:parameter-values}
+\end{table}
+Total number of rungs:
+\begin{align}
+\frac{\brak{\frac{5}{2}}100}{25}+1 = 11
+\end{align}
+
+As the length of rungs decreases uniformly, it is in A.P:
+\begin{align}
+x(n) = \brak{x(0) + nd}u(n) \\
+25 = 45 + 10d \\
+d = -2
+\end{align}
+
+The sum of the lengths of all rungs gives the total length of wood required. So, finding the sum of A.P using Z-transform:
+\begin{align}
+X(z) = \frac{45}{1-z^{-1}} + \frac{-2z^{-1}}{\brak{1-z^{-1}}^{2}}\\
+y(n)=x(n)*u(n)\\
+Y(z)=X(z)U(z)\\
+Y(z)=\frac{45}{\brak{1-z^{-1}}^2}+ \frac{-2z^{-1}}{\brak{1-z^{-1}}^{3}}
+\end{align}
+Taking the inverse of the Z-transform using counter-integration\\
+From \eqref{eq:3/ap/contour},
+\begin{align}
+y(10) = 45\brak{\brak{10+1}}+\frac{-2}{2}\brak{10\brak{10+1}} \\
+y(10) = 385
+\end{align}
+
+The length of wood required for the rungs is $385$ cm.
 %\end{document}
+
