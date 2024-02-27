@@ -1,13 +1,13 @@
 \vskip -8pt
 \contentsline {schapter}{Introduction}{iii}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Harmonics}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Filters}{85}{chapter.2}%
-\contentsline {chapter}{\numberline {3} Z-transform}{99}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Sequences}{209}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Contour Integration}{325}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Laplace Transform}{425}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Systems}{431}{chapter.7}%
-\contentsline {chapter}{\numberline {A} Convolution}{433}{appendix.A}%
-\contentsline {chapter}{\numberline {B} Z-transform}{435}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Contour Integration}{443}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Fourier Series}{449}{appendix.D}%
+\contentsline {chapter}{\numberline {2}Filters}{91}{chapter.2}%
+\contentsline {chapter}{\numberline {3} Z-transform}{105}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Sequences}{215}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Contour Integration}{331}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Laplace Transform}{431}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Systems}{437}{chapter.7}%
+\contentsline {chapter}{\numberline {A} Convolution}{439}{appendix.A}%
+\contentsline {chapter}{\numberline {B} Z-transform}{441}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Contour Integration}{449}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Fourier Series}{455}{appendix.D}%
