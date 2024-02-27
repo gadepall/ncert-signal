@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -70,13 +71,13 @@ is connected to a 230 V variable frequency supply.
 (c) For which frequencies of the source is the power transferred to the circuit half the power at resonant frequency? What is the current amplitude at these frequencies?
 
 (d) What is the Q-factor of the given circuit?
-
+\fi
 \textbf{Solution:}
 
 Given parameters are:
-\input{tables/table.tex}
+\input{ncert-physics/12/7/20/tables/table.tex}
 
-\input{figs/circuit.tex}
+\input{ncert-physics/12/7/20/figs/circuit.tex}
 
 The impedance of the above circuit is given as:
 \begin{align}
@@ -146,7 +147,7 @@ The impedance of the above circuit is given as:
     \end{align}
 
     \begin{align}
-        P_{\text{avg}} &= \frac{1}{2} \frac{V^2}{R} \label{eq:9}
+        P_{\text{avg}} &= \frac{1}{2} \frac{V^2}{R} 
     \end{align}
 
     Substitute the given values and calculate:
@@ -206,7 +207,7 @@ Z^2 = R^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2
 
     The Q-factor (\(Q\)) of a series RLC circuit is given by the formula:
 
-    \[Q = \frac{1}{R} \sqrt{\frac{L}{C}} \label{eq:Qfact}\]
+    \[Q = \frac{1}{R} \sqrt{\frac{L}{C}} \]
 
     Substitute the given values and calculate:
 
@@ -218,9 +219,9 @@ Z^2 = R^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\columnwidth]{figs/analog.png}
-  \label{fig:bode_Plot}
+  \includegraphics[width=\columnwidth]{ncert-physics/12/7/20/figs/analog.png}
+  \label{fig:ashleyannbode_Plot}
 \end{figure}
 
-\end{document}
+%\end{document}
 
