@@ -1,0 +1,15 @@
+\begin{tikzpicture}[scale=1]
+\centering
+    % Axis
+    \draw[<->] (-3.5,0) -- (3.5,0) node[right] {$x$};
+    \draw[<->] (0,-3.5) -- (0,3.5) node[above] {$y$};
+    \draw (0,0) circle (3);
+     % \node at ({-2*cos(120)}, {2*sin(120)}) {$<$};
+     \draw[->] (3,0) arc (0:45:3);
+     \draw[->] (3,0) arc (0:215:3);
+
+    \draw[->] (0,0) -- (315:3);
+    \draw[<->] (0.5,-0.5) arc (-45:-180:0.707) node at (-0.9,-1){$\frac{3\pi}{4}$};
+    \node at (1.5,1.3) {$\omega = 2\pi rad/s$};
+    \node at (1.8,-0.5) {$A =1cm$};
+\end{tikzpicture}

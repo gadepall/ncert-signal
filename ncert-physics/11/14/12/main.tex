@@ -1,0 +1,135 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{caption}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{NCERT 11.14 12Q}
+\author{EE23BTECH11012 - Chavan Dinesh$^{*}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\large\textbf{\textsl{Question:}}
+Plot the corresponding reference circle for each of the following simple harmonic
+motions. Indicate the initial (t = 0) position of the particle, the radius of the circle,and the angular speed of the rotating particle. For simplicity, the sense of rotation
+may be fixed to be anticlockwise in every case: ($x$ is in cm and $t$ is in $s$)
+\begin{enumerate}[label=\alph*)]
+    \item $x = -2 \sin(3t + \frac{\pi}{3})$
+    \item $x = \cos(\frac{\pi}{6} - t)$
+    \item $x = 3 \sin(2\pi t + \frac{\pi}{4})$
+    \item $x = 2 \cos(\pi t)$
+\end{enumerate}
+
+\solution
+\fi
+\begin{table}[htbp]
+    \centering
+    \setlength{\extrarowheight}{5pt}
+    \input{ncert-physics/11/14/12/tables/table1}
+    \caption{Input table}
+    \label{tab:parameter_table.11.14.12.analog}
+\end{table}
+\begin{enumerate}[label=\roman*)]
+\item \begin{align}
+    x = -2 \sin\left(3t + \frac{\pi}{3}\right)\\
+   x =2\cos\left(3t+\frac{5\pi}{6}\right)
+\end{align}
+\begin{figure}[!htbp]
+    \input{ncert-physics/11/14/12/figs/sol_1}
+\end{figure}
+\item \begin{align}
+    x = \cos\left(\frac{\pi}{6} - t\right)
+\end{align}
+\begin{figure}[!htbp]
+    \input{ncert-physics/11/14/12/figs/sol_2}
+\end{figure}
+
+\item \begin{align}
+    x &= 3 \sin\left(2\pi t + \frac{\pi}{4}\right)\\
+    x &= -3\cos\left(2\pi t + \frac{3\pi}{4}\right)
+\end{align}
+\begin{figure}[!htbp]
+    \input{ncert-physics/11/14/12/figs/sol_3}
+\end{figure}
+
+\item 
+\begin{align}
+    x = 2 \cos(\pi t)
+\end{align}
+\begin{figure}[!htbp]
+    \input{ncert-physics/11/14/12/figs/sol_4}
+\end{figure}
+
+\end{enumerate}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = \columnwidth]{ncert-physics/11/14/12/figs/Figure_1.png}
+    \caption{}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = \columnwidth]{ncert-physics/11/14/12/figs/Figure_2.png}
+    \caption{}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = \columnwidth]{ncert-physics/11/14/12/figs/Figure_3.png}
+    \caption{}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = \columnwidth]{ncert-physics/11/14/12/figs/Figure_4.png}
+    \caption{}
+\end{figure}
+\bibliographystyle{IEEEtran}
+%\end{document}
