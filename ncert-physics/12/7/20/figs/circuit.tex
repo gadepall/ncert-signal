@@ -1,0 +1,16 @@
+% goes into figs
+
+\begin{figure}[htb]
+    \centering
+    \begin{circuitikz} 
+        \draw (0,0)
+        to[sinusoidal voltage source, v=$V$] (0,2) % Voltage source
+        to[R, l=$R$] (2,2) % Resistor
+        to[L, l=$j\omega L$] (4,2) % Inductor
+        to[C, l=$\frac{1}{j\omega C}$] (4,0) % Capacitor
+        -- (0,0); % Connect back to the starting point
+    \end{circuitikz}
+    \caption{Circuit diagram with sinusoidal voltage source, resistor, inductor, and capacitor.}
+    \label{fig:circuit}
+\end{figure}
+
