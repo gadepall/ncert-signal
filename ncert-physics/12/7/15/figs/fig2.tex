@@ -1,0 +1,12 @@
+\begin{circuitikz}
+	\draw(0,0) -- (1,0);
+	\draw(1,0) to [R, l=$R$](2,0);
+	\draw(2,0) -- (3,0);
+	\draw(3,0) to [C, l=$\dfrac{1}{sC}$](4,0);
+	\draw(4,0) -- (4,-2);
+	\draw(0,-2)--(4,-2);
+	\draw(0,0)--(0,-2);
+	 \draw[->] (0, -1) node[left] {$I(s)$} -- (0, -1);
+	 \draw(2, -2) to [sV, l =$V(s)$](2.5, -2);
+\end{circuitikz}
+	

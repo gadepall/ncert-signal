@@ -1,0 +1,258 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}  
+\usepackage{tikz}
+\usepackage{circuitikz} 
+\usepackage{caption}
+
+\def\inputGnumericTable{}                                
+\usepackage[latin1]{inputenc}                 
+\usepackage{color}                            
+\usepackage{array}                            
+\usepackage{longtable}                        
+\usepackage{calc}                            
+\usepackage{multirow}                      
+\usepackage{hhline}                           
+\usepackage{ifthen}                          
+\usepackage{lscape}
+\usepackage{amsmath}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+
+\begin{document}
+%
+
+\bibliographystyle{IEEEtran}
+
+
+\vspace{3cm}
+
+\title{
+%	\logo{
+Analog 12.7 
+
+\large{EE:1205 Signals and System}
+
+Indian Institute of Technology, Hyderabad
+%	}
+}
+\author{Prashant Maurya
+
+EE23BTECH11218
+}	
+%\title{
+%	\logo{Matrix Analysis through Octave}{\begin{center}\includegraphics[scale=.24]{tlc}\end{center}}{}{HAMDSP}
+%}
+
+
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+%\title{Matrix Analysis through Octave}
+%
+%
+% author names and IEEE memberships
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+% was not built to handle multiple paragraphs
+%
+
+%\author{<-this % stops a space
+%\thanks{}}
+%}
+% note the % following the last \IEEEmembership and also \thanks - 
+% these prevent an unwanted space from occurring between the last author name
+% and the end of the author line. i.e., if you had this:
+% 
+% \author{....lastname \thanks{...} \thanks{...} }
+%                     ^------------^------------^----Do not want these spaces!
+%
+% a space would be appended to the last name and could cause every name on that
+% line to be shifted left slightly. This is one of those "LaTeX things". For
+% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+% "AB" then you have to do: "\textbf{A}\textbf{B}"
+% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+
+% The paper headers
+%\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
+%{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+
+
+
+% If you want to put a publisher's ID mark on the page you can do it like
+% this:
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+
+
+% make the title area
+\maketitle
+
+\newpage
+
+%\tableofcontents
+
+\bigskip
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+%\renewcommand{\theequation}{\theenumi}
+
+%\begin{abstract}
+%%\boldmath
+%In this letter, an algorithm for evaluating the exact analytical bit error rate  (BER)  for the piecewise linear (PL) combiner for  multiple relays is presented. Previous results were available only for upto three relays. The algorithm is unique in the sense that  the actual mathematical expressions, that are prohibitively large, need not be explicitly obtained. The diversity gain due to multiple relays is shown through plots of the analytical BER, well supported by simulations. 
+%
+%\end{abstract}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+% This preserves the distinction between vectors and scalars. However,
+% if the journal you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals frown on math
+% in the abstract anyway.
+
+% Note that keywords are not normally used for peerreview papers.
+%\begin{IEEEkeywords}
+%Cooperative diversity, decode and forward, piecewise linear
+%\end{IEEEkeywords}
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+%\IEEEpeerreviewmaketitle	
+\textbf{Question 15: }
+A 100$\mu$F capacitor in series with a 40$\Omega$ resistance is
+connected to a 110V, 60Hz supply.\\
+(a) What is the maximum current in the circuit?\\
+(b) What is the time lag between the current maximum and the voltage maximum?\\
+
+\textbf{Solution}
+\fi
+\begin{table}[!h]
+	\centering
+	\input{ncert-physics/12/7/15/tables/table1.tex}
+	\vspace{6 pt}
+	\caption{Given Parameters}
+	\label{tab:12.7.15.10}
+\end{table}
+\begin{figure}[!h]
+	\centering
+	\input{ncert-physics/12/7/15/figs/fig1.tex}
+	\caption{RC Circuit}
+	\label{fig:12.7.15.20}
+\end{figure}
+\vspace{2cm}
+\begin{figure}[!h]
+	\centering
+	\input{ncert-physics/12/7/15/figs/fig2.tex}
+	\caption{RC Circuit}
+	\label{fig:12.7.15.30}
+\end{figure}
+\begin{enumerate} [label = (\alph*)]
+\item $V_{out }$ across capacitor,
+\begin{align}
+ V_{out}=\dfrac{\dfrac{1}{sC}}{ R + \dfrac{1}{sC}}
+ V_{in}
+\end{align}
+\begin{align}
+\dfrac{V_{out}}{V_{in}} =& H\brak{s}\\
+\implies H\brak{s} =& \dfrac{1}{1+sRC}\\
+                    =& \dfrac{1}{\sqrt{1+\brak{\omega RC}^2}}e^{-tan^{-1}\dfrac{1}{\brak{\omega RC}}}
+\end{align}
+On taking fourier transform of $H\brak{s}$ ,
+\begin{align}
+V_{out} =& \dfrac{110}{\sqrt{1+\brak{\omega RC}^2}}cos\brak{\omega t - tan^{-1}\dfrac{1}{\brak{\omega RC}}}
+\end{align}
+For current across circuit,
+
+\begin{align} 
+\implies I=& \dfrac{V_{out}}{Z}\\
+		 =& \dfrac{110j\omega C}{\sqrt{1+\brak{\omega RC}^2}}cos\brak{\omega t - tan^{-1}\dfrac{1}{\brak{\omega RC}}}\\
+		 =& -\dfrac{110\omega C}{\sqrt{1+\brak{\omega RC}^2}}sin\brak{\omega t - tan^{-1}\dfrac{1}{\brak{\omega RC}}}
+\end{align}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 2.4 in, height = 1.6 in]{ncert-physics/12/7/15/figs/fig4.png}
+    \caption{Current vs $\omega$}
+    \label{fig:12.7.15.40}
+\end{figure}
+Maximum current in the circuit ,
+\begin{align}
+    \implies I_0 =&  \dfrac{110\omega C}{\sqrt{1+\brak{\omega RC}^2}} \\
+  =&3.24 \: A
+\end{align}
+\item In a capacitor circuit,the voltage lags behind the current by a phase angle of $\phi$ .\\
+\begin{align}
+\implies \phi =& tan^{-1}\dfrac{1}{\brak{\omega RC}}\\
+     =& \frac{33.56\pi}{180 \times 120\pi}
+\end{align}
+\begin{align}
+	 \phi =&\dfrac{33.56\pi}{180}rad
+\end{align}
+\begin{align}
+	 \implies Time\: lag   =&\dfrac{\phi}{\omega}\\
+								=& \frac{33.56\pi}{180 \times 120\pi}\\
+								=& 1.55ms
+\end{align}
+\item Plot of Impedance vs Angular Frequency
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 2.4 in, height = 1.6 in]{ncert-physics/12/7/15/figs/fig3.png}
+    \caption{Impedance vs $\omega$}
+    \label{fig:12.7.15.50}
+\end{figure}
+\end{enumerate}

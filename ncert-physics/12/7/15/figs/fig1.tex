@@ -1,0 +1,12 @@
+\begin{circuitikz}
+	\draw(0,0) -- (1,0);
+	\draw(1,0) to [R, l=$40\Omega$](2,0);
+	\draw(2,0) -- (3,0);
+	\draw(3,0) to [C, l=$100\, \mu\text{F}$](4,0);
+	\draw(4,0) -- (4,-2);
+	\draw(0,-2)--(4,-2);
+	\draw(0,0)--(0,-2);
+	 \draw[->] (0, -1) node[left] {$I(t)$} -- (0, -1);
+	 \draw(2, -2) to [sV, l =$110V\,60Hz$](2.5, -2);
+\end{circuitikz}
+	
