@@ -1,0 +1,128 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{caption}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{gvv}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+%\bibliographystyle{ieeetr}
+\begin{document}
+%
+
+\bibliographystyle{IEEEtran}
+
+
+\vspace{3cm}
+
+\title{
+%	\logo{
+Assignment-11.14.7 
+
+\large{EE:1205-Signals and Systems}
+
+Indian Institute of Technology, Hyderabad
+%	}
+}
+\author{Md Ayaan Ashraf
+
+EE23BTECH11041
+}	
+
+\maketitle
+
+\newpage
+
+%\tableofcontents
+
+\bigskip
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+%\renewcommand{\theequation}{\theenumi}
+\section*{\textbf{\textit{Question}}}
+The motion of a particle executing simple harmonic motion is described by the
+displacement function, $x(t)$ = $A$ $cos$ ($\omega$$t$ +$\phi$).
+If the initial $(t = 0)$ position of the particle is $1 cm$ and its initial velocity is $\omega\quad cm/s$, what are its amplitude and initial phase angle ? The angular frequency of the particle is $\pi\quad s^{-1}$. If instead of the cosine function, we choose the sine function to describe the SHM : $x$ = $B$ $sin$ ($\omega$$t$ +$\alpha$), what are the amplitude and initial phase of the
+particle with the above initial conditions.
+\section*{\textit{\textbf{Solution}}}
+\fi
+\input{ncert-physics/11/14/7/table/table}
+\begin{enumerate}
+\item In \figref{Fig1_11.14.7}, the equation is
+\begin{align}
+   x_1(t) = A \cos(2\pi f t + \phi)  
+\end{align}
+Given:
+\begin{align}
+     x_1(0)&= A \cos(\phi) = 1 \text{ cm} \\
+ x_1'(0)&= -A 2\pi f \sin(\phi) = 2\pi f \text{ cm/s}
+ \end{align}
+Solving for $\phi$ and $A$:
+\begin{align}
+    \tan(\phi) = -1\\
+\implies
+\phi = -\frac{\pi}{4} \\
+\implies 
+A= \sqrt{2}cm
+\end{align}
+\begin{figure}[h]
+\renewcommand\thefigure{1}
+    \centering
+    \includegraphics[width=0.8\columnwidth]{ncert-physics/11/14/7/figs/fig1.png}
+    \caption{$x_1(t) = \sqrt{2}\cos(\pi t - \frac{\pi}{4}$)}
+    \label{Fig1_11.14.7}
+\end{figure}
+    \item In \figref{Fig2_11.14.7}, the equation is
+\begin{align}
+    x_2(t) = B \sin(2\pi f t + \alpha) 
+    \end{align}
+    Given:\\
+    \begin{align}
+     x_2(0)=& B \sin(\alpha) = 1 \text{ cm} \\
+    x_2'(0)=& B 2\pi f \cos(\alpha) = 2\pi f \text{ cm/s}
+\end{align}
+Solving for $\alpha$ and $B$:
+\begin{align}
+    \tan(\alpha)& = 1\\
+\implies
+\alpha &= \frac{\pi}{4} \\
+\implies 
+B &=\sqrt{2}cm
+\end{align}
+\begin{figure}[h]
+\renewcommand\thefigure{2}
+    \centering
+    \includegraphics[width=0.8\columnwidth]{ncert-physics/11/14/7/figs/fig2.png}
+    \caption{$x_2(t) = \sqrt{2}\sin(\pi t + \frac{\pi}{4})$}
+    \label{Fig2_11.14.7}
+\end{figure}
+\end{enumerate}
