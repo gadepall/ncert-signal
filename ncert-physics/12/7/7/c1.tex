@@ -1,0 +1,123 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{amsmath}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\usepackage{circuitikz} 
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{NCERT Analog- 12.7.7}
+\author{EE23BTECH11045 - Palavelli Srija$^{*}$}
+
+\maketitle
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\vspace{3cm}
+\textbf{Question 12.7.7:} 
+ A charged $30 \mu F$ capacitor is connected to a $27 mH$ inductor. What is the angular frequency of free oscillations of the circuit?\\
+\textbf{Solution: }
+\begin{table}[h!]
+    \centering
+    \input{tables/table2.tex}
+    \caption{Input Parameters}
+    \label{tab:table_omega}
+\end{table}
+\begin{figure}[H]
+    \centering
+    \input{figs/fig1.tex}
+    \caption{LC Circuit Diagram}
+    \label{fig:sr33}
+\end{figure}
+at $t=0^-\quad V_C=-V_0,\quad I(0)=0,\quad V_L=V_0$\\
+
+\begin{figure}[H]
+    \centering
+    \input{figs/fig2.tex}
+   \caption{LC Circuit Diagram in S domain}
+    \label{fig:sr32}
+\end{figure}
+\begin{align}
+sL I(s) + \frac{1}{sC} I(s) &= \frac{V_0}{s} \\
+I(s) &= \frac{V_0C}{s^2LC + 1} \\
+\mathcal{L}^{-1}\{I(s)\} &= I(t) \\
+I(t) &= \frac{V_0C}{\sqrt{LC}} \sin\left(t\frac{1}{\sqrt{LC}}\right) \\
+I(t) &= V_0\sqrt{\frac{C}{L}} \sin\left(t\frac{1}{\sqrt{LC}}\right)
+\end{align}
+
+Net impedence of LC circuit \\
+\begin{align}
+Z&=R_L +R_C \\
+&=Ls + \dfrac{1}{sC} 
+\end{align}
+At resonance, the resistance of capacitor and inductor cancel out as follows:
+\begin{align}
+    Ls + \dfrac{1}{sC} &= 0\\
+    \implies s &= j\dfrac{1}{\sqrt{LC}} \label{eq:sr20}
+\end{align}
+$s$ can be expressed in terms of angular resonance frequency as
+\begin{equation}
+    s = j\omega_0 \label{eq:sr21}
+\end{equation}
+on comparing \eqref{eq:sr20} and \eqref{eq:sr21}
+\begin{equation}
+    \omega_0 = \dfrac{1}{\sqrt{LC}}
+\end{equation}
+\begin{align}
+\omega_0 &= \frac{1}{\sqrt{(30 \times 10^{-6}) \times (27 \times 10^{-3})}} \\
+&= \frac{1}{\sqrt{8.1 \times 10^{-7}}}\\
+& \approx 1.11 \times 10^{3} \, \text{rad/s}
+\end{align}
+Assuming $V_0=1$volt\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth,height=5cm]{figs/p.png}
+    \caption{I(t) vs t}
+    \label{fig:sr31}
+\end{figure}
+\end{document}
+
