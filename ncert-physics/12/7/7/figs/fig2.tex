@@ -1,0 +1,12 @@
+
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+\draw (6.75,13.5) to[L,l={ \LARGE $sL$} ] (6.75,10.75);
+\draw [](6.75,13.5) to[short] (10.75,13.5);
+\draw [](6.75,10.75) to[short] (10.75,10.75);
+\draw (10.75,13.5) to[C,l={ \LARGE $1/sC$}] (10.75,12);
+\draw (10.75,12) to[american voltage source,l={ \LARGE $V_0/s$}] (10.75,10.75);
+\draw [->, >=Stealth] (8.5,13.5) -- (8.25,13.5);
+\draw (8.5,13.5) -- (8.25,13.5) node[midway, above] {$I(s)$};
+\end{circuitikz}
+

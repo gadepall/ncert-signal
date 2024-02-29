@@ -1,0 +1,15 @@
+\begin{circuitikz}
+   \draw(0, 0) to [L, l=$27\,\text{mH}$] (0, -2);
+   
+    \draw(0, 0) -- (3, 0);
+   \draw(3, 0) to [C, l=$30\,\mu\text{F}$] (3, -2) -- (0, -2);
+ \draw (2, 0) -- (3, 0) node[midway, below] {-};
+    \draw (2, -2) -- (3, -2) node[midway, above] {+};
+    \draw (-0.5, 0) node[ below] {+};
+    \draw (-0.5, -2) node[above] {-};
+ \draw (-0.25, -1) node[left] {$V_L$};
+    % Draw current arrow
+   \draw[<-] (1, 0) -- (2, 0) node[midway, above] {$I(t)$};
+   \draw (2.5, -1) node[left] {$V_C$};
+\end{circuitikz}
+
