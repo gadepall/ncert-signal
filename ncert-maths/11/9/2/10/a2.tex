@@ -1,0 +1,61 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm,mathtools}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+\title{NCERT DISCRETE 11.9.2 Q10}
+\author{EE23BTECH11052 - Abhilash Rapolu }
+\begin{document}
+\maketitle
+\newpage
+\textbf{Question 11.9.2.10}:If the sum of first $p$ terms of an A.P. is equal to the sum of the first $q$ terms, then
+find the sum of the first $(p + q)$ terms.\\
+\ Solution:
+\fi
+\begin{table}[htbp]
+\centering
+\input{ncert-maths/11/9/2/10/tables/table1.tex}
+\caption{Given parameters list}
+\end{table}
+Now let's find the z transform of the $x(n)$ using the linearity property.\\
+\begin{align}
+X(z)&=\frac{a_0}{1-z^{-1}}+d\frac{z^{-1}}{(1-z^{-1})^2}\\
+y(n) &= x(n)*u(n)
+\end{align}
+Now apply z transform on both sides\\
+\begin{align}
+Y(z)&=X(z)U(z)\\
+Y(z)&=\frac{a_0}{(1-z^{-1})^2}+d\frac{z^{-1}}{(1-z^{-1})^3}
+\end{align}
+by comparison of the above equations:\\
+using equations from appendix  \eqref{eq:uzder-shift} and \eqref{eq:uzder-der}\\
+the inverse z transform:\\
+\begin{align}
+y(n)&=[a_0(n)+\frac{d}{2}(n)(n-1)]u(n)
+\end{align}
+as we considered n=0 as our first term, we have to replace n by (n+1)\\
+Sum of first n terms is given as:\\
+\begin{align}
+y(n)&=[a_0(n+1)+\frac{d}{2}(n+1)(n)]u(n)
+\end{align}
+given in question y(p-1)=y(q-1)\\
+\begin{align}
+[a_0(p)+\frac{d}{2}(p-1)(p)]u(n)&=[a_0(q)+\frac{d}{2}(q-1)(q)]u(n)\\
+d&=(-)\frac{2a_0}{p+q-1}
+\end{align}
+now for first p+q terms:\\
+\begin{align}
+y(p+q-1)&=[a_0(p+q)+\frac{d}{2}(p+q-1)(p+q)]u(n)
+\end{align}
+substitue d in this\\
+\begin{align}
+y(p+q-1)&=[a_0(p+q)-\frac{a_0}{p+q-1}(p+q-1)(p+q)]u(n)\\
+y(p+q-1)&=[a_0(p+q)-a_0(p+q)]u(n)\\
+y(p+q-1)&=0.
+\end{align}
+
+%\end{document}
+
