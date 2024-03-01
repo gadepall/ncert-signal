@@ -1,0 +1,155 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{circuitikz}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+
+\title{Assignment\\[1ex]12.7 - 8}
+\author{EE23BTECH11220 - R.V.S.S Varun$^{}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\section*{Question}
+A charged 30 $\mu$F capacitor is connected to a 27 mH inductor. Suppose the initial charge on the capacitor is 6mC.What is the total energy stored in the circuit initially? What is the
+total energy at later time?
+\fi
+\begin{figure}[h]
+
+
+  
+    
+
+    \input{ncert-physics/12/7/8/figs/ckt2.tex}
+
+
+
+  
+  
+       
+  
+    \caption{Circuit diagram}
+     
+   \label{fig:12.7.8.1}
+\end{figure}
+
+\begin{table}[h]
+  \centering
+  \input{ncert-physics/12/7/8/tables/table.tex}
+  \caption{Table of parameters}
+  \label{tab:12.7.8.1}
+\end{table}
+ \begin{figure}[h]
+
+
+  
+    
+
+    \input{ncert-physics/12/7/8/figs/ckt1.tex}
+
+
+
+  
+  
+       
+  
+    \caption{Circuit diagram in laplace domain}
+     
+   \label{fig:12.7.8.2}
+\end{figure}
+Writing KVL in above circuit,
+\begin{align}
+    L{sI\brak{s}}+\frac{v\brak{0^{+}}}{s}+\frac{1}{C}\frac{I\brak{s}}{s}=0
+\end{align}
+\begin{align}
+    I\brak{s}= \frac{-v\brak{0^{+}}C}{LCs^2+1}
+\end{align}
+From initial value theorem ,
+\begin{align}
+    i\brak{0^{+}}=\lim_{s\to\infty}[sI\brak{s}]
+\end{align}
+\begin{align}
+    i\brak{0^{+}}=\lim_{s\to\infty}\left[s\frac{-v\brak{0^{+}}C}{LCs^2+1}\right]=0
+\end{align}
+From final value theorem ,
+\begin{align}
+     i\brak{\infty}=\lim_{s\to0}[sI\brak{s}]
+\end{align}
+\begin{align}
+   i\brak{\infty}=\lim_{s\to0}\left[s\frac{-v\brak{0^{+}}C}{LCs^2+1}\right]=0 
+\end{align}
+\begin{align}
+	\label{12.7.8}
+	i\brak{0^{+}}&=i\brak{\infty}\\
+	&=0
+\end{align}
+Hence,
+\begin{align}
+	q\brak{0^{+}}&=q\brak{\infty}\\
+	&=6\ mC
+\end{align}
+
+from \brak{\ref{12.7.8}},
+\begin{align}
+    E_L=0
+\end{align}
+\begin{gather}
+\begin{align}
+	E_C&=\frac{q^2}{2C}\\
+       &=0.6\ J
+\end{align}
+\begin{align}
+    E=E_L+E_C
+\end{align}
+\end{gather}
+\begin{align}
+    E=0.6\ J
+\end{align}
+Hence , the total energy stored in the circuit initially and at a later time is 0.6\ J.
+
