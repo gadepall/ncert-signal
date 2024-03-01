@@ -1,0 +1,9 @@
+\begin{circuitikz}
+    \draw (0,0) to [sV, v=$\varepsilon(s)$,] (0,3);
+    \draw (2,3) to [R, l=$R$] (2,0);
+    \draw (4,3) to [C, l=$\frac{1}{sC}$] (4,0);
+    \draw (6,3) to [L, l=$Ls$] (6,0);
+    \draw (0,0) -- (6,0);
+    \draw (0,3) -- (6,3);
+    \draw[->] (0, 3) node[left] {$I(s)$} -- (0.5, 3);
+\end{circuitikz}

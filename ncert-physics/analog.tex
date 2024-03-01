@@ -255,13 +255,6 @@ and (iii) the maximum speed of the mass.
 \item Keeping the source frequency equal to the resonating frequency of the series $LCR$ circuit, if the three elements, $L, C$, and $R$ are arranged in parallel, show that the total current in the parallel $LCR$ circuit is minimum at this frequency. Obtain the current rms value in each branch of the circuit for the elements and source specified in Exercise 7.11 for this frequency\\
    $\varepsilon =230V$, $L=5.0H$, $C=80\mu$F, $R=40\ohm$\\
 \begin{circuitikz}
-  \draw (0,0) to[sV, v=$\varepsilon$] (0,3);
-  \draw (0,3) to [resistor, l=$R$] (3,3);
-  \draw (3,3)to[capacitor,l=$C$] (3,0);
-  \draw (0,0)to[L,l=$L$] (3,0);
-\end{circuitikz}
-\\ \\ \\
-\begin{circuitikz}
     \draw (0,0) to [sV, v=$\varepsilon$] (0,3);
     \draw (2,3) to [R, l=$R$] (2,0);
     \draw (4,3) to [C, l=$C$] (4,0);
@@ -270,6 +263,8 @@ and (iii) the maximum speed of the mass.
     \draw (0,3) -- (6,3);
 \end{circuitikz}
  \solution
+ \input{ncert-physics/12/7/17/main.tex}
+ \pagebreak
 \item A SONAR system fixed in a submarine operates at a frequency 40.0 kHz. An enemy submarine moves towards the SONAR with a speed of 360 km/hr. What is the frequency of sound reflected by the submarine? Take the speed of sound in water to be 1450 m/s.\\
 \solution
 \pagebreak
@@ -359,6 +354,7 @@ displacement function, $x(t)$ = $A$ $cos$ ($\omega$$t$ +$\phi$).
 If the initial $(t = 0)$ position of the particle is $1 cm$ and its initial velocity is $\omega\quad cm/s$, what are its amplitude and initial phase angle ? The angular frequency of the particle is $\pi\quad s^{-1}$. If instead of the cosine function, we choose the sine function to describe the SHM : $x$ = $B$ $sin$ ($\omega$$t$ +$\alpha$), what are the amplitude and initial phase of the
 particle with the above initial conditions.\\
 \solution
+\input{ncert-physics/11/14/7/main.tex}
 \pagebreak
 
 \item A stone dropped from the top of a tower of height $300$ m splashes into the water of a pond near the base of the tower. When is the splash heard at the top given that the speed of the sound in air is $340$ m $s^{-1}$.(g=$9.8$ m $s^{-2}$)\\
