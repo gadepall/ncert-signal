@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -61,13 +62,14 @@
 Evaluate $\sum_{k=1}^{11} (2 + 3^k)$.
 
 \solution
+\fi
 \begin{table}[h!]
   \centering
-  \input{11/9/3/11/tables/11.t}
+  \input{ncert-maths/11/9/3/11/tables/11.t.tex}
   \caption{Input Parameters}
-    \label{tab:table1}
+    \label{tab:eshatable1}
 \end{table}\\
-From \tabref{tab:table1}
+
 \begin{align}
 x\brak{n} &= \brak{2+3^{n+1}}u(n)\\
 x\brak{n} &= \brak{2+3^{n}\cdot{3}}u(n)\\
@@ -105,8 +107,8 @@ R_3 &=\frac{1}{\brak {1-1}!}\frac{3}{2}\lim\limits_{z\to 1}\brak{\brak{z-1}\frac
 \end{align}
 \begin{figure}[b]
     \centering
-    \includegraphics[width=\columnwidth]{11/9/3/11/figs/fig1.png}
+    \includegraphics[width=\columnwidth]{ncert-maths/11/9/3/11/figs/fig1.png}
     \caption{stem plot }
-    \label{fig:1}
+    \label{fig:eshaplot1}
 \end{figure}
-\end{document}
+%\end{document}
