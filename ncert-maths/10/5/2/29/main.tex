@@ -1,0 +1,122 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+\title{}
+\author{EE23BTECH11042 -  Khusinadha Naik$^{*}$
+}
+\maketitle
+\newpage
+\bigskip
+
+% \renewcommand{\thefigure}{\theenumi}
+% \renewcommand{\thetable}{\theenumi}
+
+
+\section*{Exercise 9.3}
+
+\noindent \textbf{29.} \hspace{2pt}If A and G be A.M. and G.M., respectively between two positive numbers, prove that the numbers are A $\pm \sqrt{(A+G)(A-G)}$. 
+
+\noindent \textbf{Ans.}\\
+\fi
+
+\begin{table}[h]
+\input{ncert-maths/11/9/3/29/tables/tab1.tex}
+\end{table}
+
+\noindent From \tabref{tab:11.9.3.29.1}
+\begin{align}
+x_1\brak{2} &= x_2\brak{2} \\
+\brak{x_1\brak{0} + 2d }u\brak{n} &= \brak{x_1\brak{0} r^{2}}u\brak{n} \\
+2d &= x_1\brak{0}\brak{r^{2} - 1}  \label{eq:11.9.3.29.3}
+\end{align}
+
+Now the two numbers are 
+\begin{align}
+	\brak{a,b} &= \brak{x_1\brak{0}u\brak{n} , \brak{x_1\brak{0} + d} u\brak{n}} \\
+&=\brak{x_1\brak{0} + d \pm 2d} u\brak{n} \\
+&=\brak{x_1\brak{0} + d \pm \sqrt{d^{2}}} u\brak{n} \\
+\notag &=\brak{x_1\brak{0} + d } u\brak{n}\pm\\
+& \quad  \sqrt{2x_1\brak{0}d - 2x_1\brak{0}d + d^{2}}  u\brak{n} \label{eq:11.9.3.29.7}
+\end{align}
+
+Substituting \eqref{eq:11.9.3.29.3} in \eqref{eq:11.9.3.29.7}:
+\begin{align}
+\notag (a,b) &= \brak{x_1(0) + d } u\brak{n}\pm \\ 
+& \quad \sqrt{2x_1(0)d + x_1(0)  x_1(0)  (1 - r^{2}) + d^{2}} u\brak{n} \\
+\notag &= \brak{x_1(0) + d } u\brak{n}\pm \\ 
+& \quad \sqrt{x_1(0)^2 + d^2 + 2x_1(0)d - x_1(0)^2r^2} u\brak{n} \\
+\notag &= \brak{x_1(0) + d } u\brak{n}\pm \\
+& \quad \sqrt{ \brak{\brak{x_1\brak{0} + d} u\brak{n}}^2 - \brak{\brak{x_1\brak{0} r}u\brak{n}}^2}\label{eq:11.9.3.29.10}
+\end{align}
+\pagebreak
+
+\noindent Comparing \eqref{eq:11.9.3.29.10} , \tabref{tab:11.9.3.29.1} 
+\begin{align}
+\brak{a,b} =& A \pm \sqrt{A^2 - G^2} \\
+\implies \brak{a,b} =& A \pm \sqrt{\brak{A + G}\brak{A - G}}
+\end{align}
+
+\begin{align}
+u\brak{n} \xleftrightarrow{\mathcal{Z}} &\frac{1}{1 - z^{-1}} \quad , \abs{z} > 1  \label{eq:11.9.3.29.13}\\
+nu\brak{n} \xleftrightarrow{\mathcal{Z}} &\frac{z^{-1}}{\brak{1 - z^{-1}}^2} \quad , \abs{z} > 1  \label{eq:11.9.3.29.14}\\
+a^{n}u\brak{n} \xleftrightarrow{\mathcal{Z}} &\frac{1}{1 - az^{-1}} \quad , \abs{z} > a \label{eq:11.9.3.29.15}
+\end{align}
+
+From  \eqref{eq:11.9.3.29.13} , \eqref{eq:11.9.3.29.14}
+\begin{align}
+x_1\brak{z} = \frac{x\brak{0}}{1 - z^{-1}} + \frac{dz^{-1}}{\brak{1 - z^{-1}}^2} \quad , \abs{z} > 1 
+\end{align}
+From \eqref{eq:11.9.3.29.15}
+\begin{align}
+x_2\brak{z} = \frac{x\brak{0}}{1 - rz^{-1}} \quad , \abs{z} > r
+\end{align}
+
+
+
+
+%\end{document}
