@@ -1,0 +1,119 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}       
+\usepackage[latin1]{inputenc}   
+\usepackage{array}  
+\usepackage{tikz}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11217 - Prajwal M$^{*}$
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\section*{Exercise 9.1}
+The given figure shows a series LCR circuit connected to a sinusoidal 230 V source. \\
+L = 5.0 H, C = 80 $\mu$F, R = 40 $\Omega$.
+
+\begin{figure}[h]
+\input{figs/question.tex}
+\end{figure}
+
+\begin{enumerate}
+    \item Determine the source frequency which drives the circuit in resonance.
+    \item Obtain the impedance of the circuit
+at the resonating frequency.
+    \item Determine the rms potential drops across the three elements of
+the circuit. Show that the potential drop across the LC
+combination is zero at the resonating frequency.\\
+\end{enumerate}
+
+Solution:
+\fi
+\begin{table}[h]
+    \centering
+    \input{ncert-physics/12/7/11/tables/table1}
+    \caption{Parameter description}
+    \label{tab:217.tab.1}
+\end{table}
+\begin{figure}[h]
+	\input{ncert-physics/12/7/11/figs/sdomain.tex}
+\end{figure}
+
+\begin{enumerate}
+\item 
+from \figref{217.fig.2},
+\begin{align}
+    Z & = R + j\brak{\omega L - \frac{1}{\omega C}}\\
+    min\brak{|Z|} & = R \text{ at } \omega = \frac{1}{\sqrt{LC}}\\ 
+    f_{res} = \frac{\omega_{res}}{2\pi} & = \frac{1}{2\pi\sqrt{LC}} = 7.958 Hz \label{217.eq.3}
+\end{align}
+\item 
+\begin{align}
+    Z_{res} & = R = 40 \Omega\label{217.eq.4}
+\end{align}
+
+\begin{figure}[h]
+     \centering
+	\includegraphics[width=\columnwidth]{ncert-physics/12/7/11/figs/impedance.png}
+     \caption{Impedance vs frequency}
+     \label{217.fig.3}
+\end{figure}
+
+\item 
+\begin{align}
+    I_{res} & = \frac{\varepsilon}{Z_{res}}\label{217.eq.5}\\
+    % & = \brak{\frac{230\sqrt{2}e^{j\omega_{res}t}}{R}}\\
+    % I_{res} & = \brak{8.132}e^{j50t}\label{217.eq.5}\\
+    V_R & = Re\cbrak{RI_{res}}\\
+    & = Re\cbrak{R\frac{\varepsilon}{Z_{res}}}&\cbrak{\text{using \eqref{217.eq.5}}}\\
+    & = Re\cbrak{325.28e^{j50t}}\\
+    & = 325.28 cos\brak{50t}\\
+    V_C & = Re\cbrak{\frac{-j}{\omega_{res}C}I_{res}}\\
+    & = Re\cbrak{\frac{-j}{\omega_{res}C}\frac{\varepsilon}{Z_{res}}}&\cbrak{\text{using \eqref{217.eq.5}}}\\
+    & = Re\cbrak{2032.93 e^{j\brak{50t - \frac{\pi}{2}}}}\\
+    & = 2031.93 sin\brak{50t} \label{217.eq.7}\\
+    V_L& = Re\cbrak{j\omega_{res}LI_{res}}\\
+    & = Re\cbrak{j\omega_{res}L\frac{\varepsilon}{Z_{res}}}&\cbrak{\text{using \eqref{217.eq.5}}}\\
+    & = Re\cbrak{2032.93e^{j\brak{50t + \frac{\pi}{2}}}}\\
+    & = - 2031.93 sin\brak{50t} \label{217.eq.8}
+\end{align}
+
+from \eqref{217.eq.7} and \eqref{217.eq.8}, voltage across LC combination is $V_C + V_L = 0 V$
+\end{enumerate}
+
+\begin{table}[h]
+    \centering
+    \input{ncert-physics/12/7/11/tables/table2}
+    \caption{Solution values}
+    \label{tab:217.tab.2}
+\end{table}
+
+\begin{figure}[h]
+     \centering
+	\includegraphics[width=\columnwidth]{ncert-physics/12/7/11/figs/Vin.png}
+     \caption{Input voltage}
+     \label{217.fig.5}
+\end{figure}
+
+\begin{figure}[h]
+     \centering
+     \includegraphics[width=\columnwidth]{ncert-physics/12/7/11/figs/LCvoltage.png}
+     \caption{Voltage across LC combination}
+     \label{217.fig.4}
+\end{figure}

@@ -1,0 +1,12 @@
+* Series RLC Circuit Transient Analysis Netlist
+V1 N1 0 SIN(0 325.26 50)   ; Sinusoidal voltage source (230*sqrt(2)V, 50Hz)
+R1 N1 N2 40                 ; Resistor R = 40 Ohms
+L1 N2 N3 5m                 ; Inductor L = 5 mH
+C1 N3 0 80u                 ; Capacitor C = 80 uF
+.tran 0.02ms 20ms
+.control
+run
+plot v(1) v(2)
+.endc
+.end
+
