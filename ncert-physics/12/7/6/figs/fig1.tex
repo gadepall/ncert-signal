@@ -1,0 +1,17 @@
+
+\begin{circuitikz}
+    \draw(0, 0) -- (1, 0);
+    \draw(1, 0) to [L, l = $2.0\text{H}$](2, 0);
+    \draw(2, 0) -- (3, 0);
+    \draw(3, 0) to [C, l = $32\, \mu\text{F}$](4, 0);
+    \draw(4, 0) -- (5, 0);
+    \draw(5, 0) to [R, l = $10\Omega$](6, 0);
+    \draw(0, 0) -- (0, -2);
+    \draw[->] (0, -1) node[left] {$I(t)$} -- (0, -1);
+    \draw(6, 0) -- (7, 0);
+    \draw(7, 0) -- (7, -2);
+    \draw(0, -2) -- (3, -2);
+    \draw(7, -2) -- (7, -2);
+    \draw(3, -2) to [sV, l = $V(t)$](4, -2);
+    \draw(4, -2) -- (7, -2);
+\end{circuitikz}
